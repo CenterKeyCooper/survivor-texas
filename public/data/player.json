@@ -1,0 +1,136 @@
+{
+    "samanthadelaunay": {
+      "id": "samanthadelaunay",
+      "name": "Samantha Delaunay",
+      "seasons": [1],
+      "tribes": ["rio"],
+      "placement": 12,
+      "stats": {},
+      "bio": "",
+      "image": "samanthadelaunay.jpg",
+      "memorableMoments": []
+    },
+    "makenzielong": {
+      "id": "makenzielong",
+      "name": "Makenzie Long",
+      "seasons": [1],
+      "tribes": ["brazos"],
+      "placement": 11,
+      "stats": {},
+      "bio": "",
+      "image": "makenzielong.jpg",
+      "memorableMoments": []
+    },
+    "grantnorsworthy": {
+      "id": "grantnorsworthy",
+      "name": "Grant Norsworthy",
+      "seasons": [1],
+      "tribes": ["brazos"],
+      "placement": 10,
+      "stats": {},
+      "bio": "",
+      "image": "grantnorsworthy.jpg",
+      "memorableMoments": []
+    },
+    "mayaadams": {
+      "id": "mayaadams",
+      "name": "Maya Adams",
+      "seasons": [1],
+      "tribes": ["brazos"],
+      "placement": 9,
+      "stats": {},
+      "bio": "",
+      "image": "mayaadams.jpg",
+      "memorableMoments": []
+    },
+    "ameliabarnard": {
+      "id": "ameliabarnard",
+      "name": "Amelia Barnard",
+      "seasons": [1],
+      "tribes": ["brazos"],
+      "placement": 8,
+      "stats": {},
+      "bio": "",
+      "image": "ameliabarnard.jpg",
+      "memorableMoments": []
+    },
+    "miagarza": {
+      "id": "miagarza",
+      "name": "Mia Garza",
+      "seasons": [1],
+      "tribes": ["brazos"],
+      "placement": 7,
+      "stats": {},
+      "bio": "",
+      "image": "miagarza.jpg",
+      "memorableMoments": []
+    },
+    "davidproctor": {
+        "id": "davidproctor",
+        "name": "David Proctor",
+        "seasons": [1],
+        "tribes": ["rio"],
+        "placement": 6,
+        "stats": {},
+        "bio": "",
+        "image": "david.jpg",
+        "memorableMoments": ["Found both idols his season", "Best round in Survivor Texas was his 3-2-1"]
+    },
+    "tyreelewis": {
+      "id": "tyreelewis",
+      "name": "Tyree Lewis",
+      "seasons": [1],
+      "tribes": ["brazos"],
+      "placement": 5,
+      "stats": {},
+      "bio": "",
+      "image": "tyreelewis.jpg",
+      "memorableMoments": []
+    },
+    "marlacantu": {
+      "id": "marlacantu",
+      "name": "Marla Cantu",
+      "seasons": [1],
+      "tribes": ["rio"],
+      "placement": 4,
+      "stats": {},
+      "bio": "",
+      "image": "marlacantu.jpg",
+      "memorableMoments": []
+    },
+    "kyliejoharris": {
+      "id": "kyliejoharris",
+      "name": "Kylie Jo Harris",
+      "seasons": [1],
+      "tribes": ["rio"],
+      "placement": 3,
+      "stats": {},
+      "bio": "",
+      "image": "kyliejoharris.jpg",
+      "memorableMoments": []
+    },
+    "julianajohnson": {
+      "id": "julianajohnson",
+      "name": "Juliana Johnson",
+      "seasons": [1],
+      "tribes": ["rio"],
+      "placement": 2,
+      "stats": {},
+      "bio": "",
+      "image": "julianajohnson.jpg",
+      "memorableMoments": []
+    },
+    "tylerearwood": {
+      "id": "tylerearwood",
+      "name": "Tyler Earwood",
+      "seasons": [1],
+      "tribes": ["rio"],
+      "placement": 1,
+      "stats": {},
+      "bio": "",
+      "image": "tylerearwood.jpg",
+      "memorableMoments": []
+    }
+  }
+
+

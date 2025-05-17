@@ -1,0 +1,61 @@
+.crewCard {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-align: center;
+  }
+  
+  .crewCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .crewImage {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 3px solid var(--accent-orange);
+  }
+  
+  .crewContent {
+    padding: 1.5rem;
+  }
+  
+  .crewCard h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .role {
+    color: var(--accent-orange);
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--accent-orange);
+    color: var(--bg-dark);
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: var(--accent-orange-dark);
+    color: var(--text-lighter);
+    transform: translateY(-2px);
+  }
+  
+  .small {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }

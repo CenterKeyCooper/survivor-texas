@@ -1,0 +1,77 @@
+[
+    {
+        "seasonNumber": 1,
+        "title": "Survivor Texas",
+        "location": "UT Austin Campus",
+        "semesterFilmed": "Spring 2023",
+        "description": "The inaugural season that started it all. Watch as 12 students battle for the first Survivor Texas title.",
+        "winner": "tylerearwood",
+        "logo": "s1_logo.png",
+        "banner": "rio_c4.jpg",
+        "players": [
+            "ameliabarnard", "marlacantu", "julianajohnson", "miagarza", "mayaadams",
+            "samanthadelaunay", "makenzielong", "kyliejoharris", "grantnorsworthy", "davidproctor",
+            "tyreelewis", "tylerearwood"
+        ]        
+    },
+    {
+        "seasonNumber": 2,
+        "title": "Wild West",
+        "location": "UT Austin Campus",
+        "semesterFilmed": "Fall 2023",
+        "description": "Returning players get a second chance at victory in this intense season with new twists.",
+        "winner": "cooperbrown",
+        "logo": "",
+        "banner": "merge.jpg",
+        "players": [
+            "cooperbrown", "orenederi", "chinonsoobiefule", "abhinavraotalluri", "danielwolfe", 
+            "justinokougbodu", "skysulaiman", "diyabhattacharya", "ishachhabra", "analadaniuski", 
+            "maryancamacho", "katarinacuellar"
+        ]
+    },
+    {
+        "seasonNumber": 3,
+        "title": "Blossoms and Thorns",
+        "location": "UT Austin Campus",
+        "semesterFilmed": "Spring 2024",
+        "description": "Pairs of friends and roommates compete together in this relationship-testing season.",
+        "winnerName": "Taylor Rodriguez",
+        "logo": "",
+        "banner": "pp_maze.jpg",
+        "players": [
+            "trinityhawkins", "sarahsheriff", "alexiscrowl", "eunicebodunrinde", "katherinenix",
+            "krystalcortez", "jeffreyramirez", "catalinarodriguezkretz", "saylorblack", "royroyall",
+            "andrespineda", "octaviustyler", "michaelizzard", "jacksonluikens"
+        ]
+    },
+    {
+        "seasonNumber": 4,
+        "title": "Walk the Plank",
+        "location": "UT Austin Campus",
+        "semesterFilmed": "Fall 2024",
+        "description": "The best of the best return for the most competitive season yet.",
+        "winnerName": "Jordan Lee",
+        "logo": "",
+        "banner": "c2.jpg",
+        "players": [
+            "benchristie", "alemhadzic", "cephasedet", "benjaminkofron", "presleymcgurl",
+            "masonscivally", "armandomartinez", "calebmorrow", "caroleensaba", "ebonygarlington",
+            "audreyreue", "lanningwelsch", "avagreer", "maliawilliams", "amirahbutler", "aliciacook"
+        ]
+    },
+    {
+        "seasonNumber": 5,
+        "title": "Mount Olympus",
+        "location": "UT Austin Campus",
+        "semesterFilmed": "Spring 2025",
+        "description": "The first three tribe season and the most blindsides in Survivor Texas history. Watch to see which of Brain, Brawn, or Beauty will emerge victorious",
+        "winner": "Eli Small",
+        "logo": "s5_logo.png",
+        "banner": "sam+mathew.jpg",
+        "players": [
+            "mathewnguyen", "gracielove", "ifeoluwaoluwole", "sapphirenunn", "elismall",
+            "myangonzales", "christianwilson", "anjaligururaj", "nickmoore", "erinspiek",
+            "torstenweber", "emmamclendon", "sambizzell", "emmaroco", "mayamusallam"
+        ]
+    }
+]

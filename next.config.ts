@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  // Optional: If you want to use src directory
+  experimental: {
+    appDir: false,
+  },
+  images: {
+    domains: ['images.unsplash.com'],
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

@@ -1,0 +1,22 @@
+{
+    "rio": {
+      "id": "rio",
+      "name": "Rio",
+      "color": "#FBFCF8",
+      "members": [
+        "marlacantu", "julianajohnson", "samanthadelaunay", "kyliejoharris", "davidproctor", "tylerearwood"
+    ]    ,
+      "stats": {}
+    },
+    "brazos": {
+        "id": "brazos",
+        "name": "Brazos",
+        "color": "#FBFCF8",
+        "members": [
+          "ameliabarnard", "miagarza", "mayaadams", "grantnorsworthy", "tyreelewis", "makenzielong"
+        ],
+        "stats": {}
+      }
+
+
+}

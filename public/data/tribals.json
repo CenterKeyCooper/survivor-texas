@@ -1,0 +1,22 @@
+{
+    "s1f12" : {
+        "season" : 1,
+        "round" : "f12",
+        "type" : "tribal", 
+        "tribes" : ["rio"],
+        "tally" : [6, 0],
+        "eliminated" : "samanthadelaunay",
+        "votes" : {
+            "davidproctor" : "samanthadelaunay",
+            "marlacantu" : "samanthadelaunay", 
+            "julianajohnson" : "samanthadelaunay", 
+            "samanthadelaunay" : "samanthadelaunay", 
+            "kyliejoharris" : "samanthadelaunay", 
+            "tylerearwood" : "samanthadelaunay"
+
+        },
+        "revoteTally" : [],
+        "revotes" : {},
+        "advantages" : {}
+    }
+}
