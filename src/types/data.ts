@@ -32,6 +32,7 @@ export interface CrewMember {
     winner: string;
     logo: string;
     banner: string;
+    cover: string;
     players: string[];
   }
   

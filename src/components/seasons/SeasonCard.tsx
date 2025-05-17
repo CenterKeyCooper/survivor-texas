@@ -37,7 +37,7 @@ export default function SeasonCard({ season, isFeatured = false }: SeasonCardPro
     <div className={styles.gridItem}>
       <div 
         className={styles.gridItemImage}
-        style={{ backgroundImage: `url(/images//seasons/${season.seasonNumber}/${season.banner || 'placeholder-banner.jpg'})` }}
+        style={{ backgroundImage: `url(/images//seasons/${season.seasonNumber}/${season.cover || 'placeholder-banner.jpg'})` }}
       />
       <div className={styles.gridItemContent}>
         <h3>Season {season.seasonNumber}</h3>

@@ -8,6 +8,7 @@
         "winner": "tylerearwood",
         "logo": "s1_logo.png",
         "banner": "rio_c4.jpg",
+        "cover": "rio_c4.jpg",
         "players": [
             "ameliabarnard", "marlacantu", "julianajohnson", "miagarza", "mayaadams",
             "samanthadelaunay", "makenzielong", "kyliejoharris", "grantnorsworthy", "davidproctor",
@@ -23,6 +24,7 @@
         "winner": "cooperbrown",
         "logo": "",
         "banner": "merge.jpg",
+        "cover": "merge.jpg",
         "players": [
             "cooperbrown", "orenederi", "chinonsoobiefule", "abhinavraotalluri", "danielwolfe", 
             "justinokougbodu", "skysulaiman", "diyabhattacharya", "ishachhabra", "analadaniuski", 
@@ -38,6 +40,7 @@
         "winnerName": "Taylor Rodriguez",
         "logo": "",
         "banner": "pp_maze.jpg",
+        "cover": "pp_maze.jpg",
         "players": [
             "trinityhawkins", "sarahsheriff", "alexiscrowl", "eunicebodunrinde", "katherinenix",
             "krystalcortez", "jeffreyramirez", "catalinarodriguezkretz", "saylorblack", "royroyall",
@@ -53,6 +56,7 @@
         "winnerName": "Jordan Lee",
         "logo": "",
         "banner": "c2.jpg",
+        "cover": "c2.jpg",
         "players": [
             "benchristie", "alemhadzic", "cephasedet", "benjaminkofron", "presleymcgurl",
             "masonscivally", "armandomartinez", "calebmorrow", "caroleensaba", "ebonygarlington",
@@ -67,7 +71,8 @@
         "description": "The first three tribe season and the most blindsides in Survivor Texas history. Watch to see which of Brain, Brawn, or Beauty will emerge victorious",
         "winner": "Eli Small",
         "logo": "s5_logo.png",
-        "banner": "sam+mathew.jpg",
+        "banner": "c2.jpg",
+        "cover": "sam+mathew.jpg",
         "players": [
             "mathewnguyen", "gracielove", "ifeoluwaoluwole", "sapphirenunn", "elismall",
             "myangonzales", "christianwilson", "anjaligururaj", "nickmoore", "erinspiek",
