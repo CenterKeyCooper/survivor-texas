@@ -12,7 +12,7 @@ export default function Hero() {
             height: 80vh;
             min-height: 500px;
             background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                        url('/images/banners/placeholder-banner.jpg') center/cover no-repeat;
+                        url('/images/blurred_campus.png') center/cover no-repeat;
             display: flex;
             align-items: center;
             text-align: center;

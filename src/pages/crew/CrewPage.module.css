@@ -1,0 +1,53 @@
+.crewPage {
+    padding: 2rem 0;
+    background-color: var(--bg-dark);
+  }
+  
+  .crewPage h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: var(--accent-orange);
+  }
+  
+  .subtitle {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+  .crewGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .loading {
+    color: var(--accent-orange);
+  }
+  
+  .error {
+    color: #ff6b6b;
+  }
+  
+  .noResults {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.1rem;
+    color: var(--text-light);
+    opacity: 0.7;
+  }
+  
+  @media (max-width: 768px) {
+    .crewGrid {
+      grid-template-columns: 1fr;
+    }
+  }

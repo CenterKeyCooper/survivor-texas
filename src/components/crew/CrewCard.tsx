@@ -17,8 +17,12 @@ export default function CrewCard({ member }: CrewCardProps) {
         <h3>{member.name}</h3>
         <p className={styles.role}>{member.roles?.join(', ') || 'Crew Member'}</p>
         <p>Seasons: {member.seasons?.join(', ') || 'N/A'}</p>
-        <Link href={`/crew/${member.id}`} className={`${styles.btn} ${styles.small}`}>
-          View Profile
+        <Link 
+          href={`/crew/${member.id}`} 
+          className={`${styles.btn} ${styles.small}`}
+          legacyBehavior
+        >
+          <a className={`${styles.btn} ${styles.small}`}>View Profile</a>
         </Link>
       </div>
     </div>
