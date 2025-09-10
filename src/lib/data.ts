@@ -11,7 +11,7 @@ export async function fetchCrew(): Promise<CrewMember[]> {
 }
 
 export async function fetchPlayers(): Promise<Record<string, Player>> {
-  const res = await fetch('/data/players.json');
+  const res = await fetch('/data/player.json');
   return res.json();
 }
 
@@ -44,4 +44,28 @@ export function getPlayerChallengeWins(playerId: string, challenges: Challenge[]
   return challenges.filter(challenge => 
     challenge.winners.includes(playerId)
   ).length;
+}
+
+export function getPlayersBySeason(players: Record<string, Player>, season: number): Player[] {
+  return Object.values(players).filter(player => 
+    player.seasons.includes(season)
+  );
+}
+
+export function getPlayersByTribe(players: Record<string, Player>, tribe: string): Player[] {
+  return Object.values(players).filter(player => 
+    player.tribes.includes(tribe)
+  );
+}
+
+export function getWinners(players: Record<string, Player>): Player[] {
+  return Object.values(players).filter(player => player.placement === 1);
+}
+
+export function getFinalists(players: Record<string, Player>): Player[] {
+  return Object.values(players).filter(player => player.placement <= 3);
+}
+
+export function getPlayersSortedByPlacement(players: Record<string, Player>): Player[] {
+  return Object.values(players).sort((a, b) => a.placement - b.placement);
 }
