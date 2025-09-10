@@ -11,9 +11,18 @@
     "brazos": {
         "id": "brazos",
         "name": "Brazos",
-        "color": "#FBFCF8",
+        "color": "#e56a1a",
         "members": [
           "ameliabarnard", "miagarza", "mayaadams", "grantnorsworthy", "tyreelewis", "makenzielong"
+        ],
+        "stats": {}
+      },
+      "dustdevil": {
+        "id": "dustdevil",
+        "name": "Dust Devil",
+        "color": "#8f1f32",
+        "members": [
+          "orenediri", "miagarza", "mayaadams", "grantnorsworthy", "tyreelewis", "makenzielong"
         ],
         "stats": {}
       }

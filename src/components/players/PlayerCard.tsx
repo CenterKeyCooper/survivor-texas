@@ -1,12 +1,14 @@
 import Link from 'next/link';
-import { Player } from '@/types/data';
+import { Player, Tribe } from '@/types/data';
+import { getTribeColor } from '@/lib/data';
 import styles from './PlayerCard.module.css';
 
 interface PlayerCardProps {
   player: Player;
+  tribes?: Record<string, Tribe>;
 }
 
-export default function PlayerCard({ player }: PlayerCardProps) {
+export default function PlayerCard({ player, tribes }: PlayerCardProps) {
   const getPlacementText = (placement: number) => {
     if (placement === 1) return 'Winner';
     if (placement === 2) return 'Runner-up';
@@ -20,6 +22,16 @@ export default function PlayerCard({ player }: PlayerCardProps) {
     return styles.placement;
   };
 
+  const getPlayerTribeColor = () => {
+    if (!tribes || player.tribes.length === 0) return '#FFFFFF';
+    return getTribeColor(tribes, player.tribes[0]);
+  };
+
+  const getTribeNameColor = (tribeId: string) => {
+    if (!tribes) return '#FFFFFF';
+    return getTribeColor(tribes, tribeId);
+  };
+
   return (
     <div className={styles.playerCard}>
       <div 
@@ -27,12 +39,18 @@ export default function PlayerCard({ player }: PlayerCardProps) {
         style={{ backgroundImage: `url(/images/players/${player.image || 'placeholder.png'})` }}
       />
       <div className={styles.playerContent}>
-        <h3>{player.name}</h3>
+        <h3 style={{ color: getPlayerTribeColor() }}>{player.name}</h3>
         <p className={`${styles.placement} ${getPlacementClass(player.placement)}`}>
           {getPlacementText(player.placement)}
         </p>
         <p className={styles.seasons}>Season {player.seasons.join(', ')}</p>
-        <p className={styles.tribes}>Tribes: {player.tribes.join(', ')}</p>
+        <p className={styles.tribes}>
+          Tribes: {player.tribes.map((tribe, index) => (
+            <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
+              {tribe}{index < player.tribes.length - 1 ? ', ' : ''}
+            </span>
+          ))}
+        </p>
         {player.memorableMoments.length > 0 && (
           <div className={styles.moments}>
             <p className={styles.momentsLabel}>Memorable Moments:</p>

@@ -20,10 +20,6 @@ export async function fetchChallenges(): Promise<Challenge[]> {
   return res.json();
 }
 
-export async function fetchTribes(): Promise<Tribe[]> {
-  const res = await fetch('/data/tribes.json');
-  return res.json();
-}
 
 // Data processing utilities
 export function getFeaturedSeason(seasons: Season[]): Season {
@@ -68,4 +64,19 @@ export function getFinalists(players: Record<string, Player>): Player[] {
 
 export function getPlayersSortedByPlacement(players: Record<string, Player>): Player[] {
   return Object.values(players).sort((a, b) => a.placement - b.placement);
+}
+
+export async function fetchTribes(): Promise<Record<string, Tribe>> {
+  const res = await fetch('/data/tribes.json');
+  return res.json();
+}
+
+export function getTribeColor(tribes: Record<string, Tribe>, tribeId: string): string {
+  return tribes[tribeId]?.color || '#FFFFFF';
+}
+
+export function getPlayerTribeColor(tribes: Record<string, Tribe>, player: Player): string {
+  // Get the first tribe color (most players are on one tribe)
+  const firstTribe = player.tribes[0];
+  return getTribeColor(tribes, firstTribe);
 }

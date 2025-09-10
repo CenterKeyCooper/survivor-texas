@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { Player } from '@/types/data';
-import { fetchPlayers } from '@/lib/data';
+import { Player, Tribe } from '@/types/data';
+import { fetchPlayers, fetchTribes, getTribeColor } from '@/lib/data';
 import styles from './PlayerDetailPage.module.css';
 
 export default function PlayerDetailPage() {
   const router = useRouter();
   const { id } = router.query;
   const [player, setPlayer] = useState<Player | null>(null);
+  const [tribes, setTribes] = useState<Record<string, Tribe>>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -16,7 +17,11 @@ export default function PlayerDetailPage() {
       if (!id || typeof id !== 'string') return;
       
       try {
-        const playersData = await fetchPlayers();
+        const [playersData, tribesData] = await Promise.all([
+          fetchPlayers(),
+          fetchTribes()
+        ]);
+        
         const foundPlayer = playersData[id];
         
         if (foundPlayer) {
@@ -24,6 +29,7 @@ export default function PlayerDetailPage() {
         } else {
           setError('Player not found');
         }
+        setTribes(tribesData);
         setLoading(false);
       } catch (err) {
         setError('Failed to load player data');
@@ -46,6 +52,16 @@ export default function PlayerDetailPage() {
     return styles.placement;
   };
 
+  const getPlayerTribeColor = () => {
+    if (!player || !tribes || player.tribes.length === 0) return '#FFFFFF';
+    return getTribeColor(tribes, player.tribes[0]);
+  };
+
+  const getTribeNameColor = (tribeId: string) => {
+    if (!tribes) return '#FFFFFF';
+    return getTribeColor(tribes, tribeId);
+  };
+
   if (loading) return <div className={styles.loading}>Loading player...</div>;
   if (error) return <div className={styles.error}>{error}</div>;
   if (!player) return <div className={styles.error}>Player not found</div>;
@@ -58,13 +74,17 @@ export default function PlayerDetailPage() {
           style={{ backgroundImage: `url(/images/players/${player.image || 'placeholder.jpg'})` }}
         />
         <div className={styles.playerInfo}>
-          <h1>{player.name}</h1>
+          <h1 style={{ color: getPlayerTribeColor() }}>{player.name}</h1>
           <p className={`${styles.placement} ${getPlacementClass(player.placement)}`}>
             {getPlacementText(player.placement)}
           </p>
           <div className={styles.details}>
             <p><strong>Season:</strong> {player.seasons.join(', ')}</p>
-            <p><strong>Tribes:</strong> {player.tribes.join(', ')}</p>
+            <p><strong>Tribes:</strong> {player.tribes.map((tribe, index) => (
+              <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
+                {tribe}{index < player.tribes.length - 1 ? ', ' : ''}
+              </span>
+            ))}</p>
           </div>
         </div>
       </div>

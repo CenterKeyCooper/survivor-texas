@@ -130,5 +130,16 @@
     "bio": "Tyler is extremely social, probably the most social person you’ll ever meet. He’s on the longhorn powerlifting team and you can tell. This well built individual is an active (sober) member of Kappa Sigma, Texas Wake, Longhorn Outdoor Club, Texas Fishing club, and more that won’t fit. He’s also a self proclaimed enjoyer of the Spanish Language. Has never seen an episode of Survivor, but loves Total Drama Island.",
     "image": "tylerearwood.jpg",
     "memorableMoments": ["Tyler almost dislocated Grant's shoulder in the first ever Survivor Texas challenge", "Tyler told us after WINNING season 1 that he understands how it works now and he'd do a lot better if he got to try again"]
+  },
+  "orenediri": {
+    "id": "orenediri",
+    "name": "Oren Ediri",
+    "seasons": [2],
+    "tribes": ["dustdevil"],
+    "placement": 10,
+    "stats": {},
+    "bio": "Oren is extremely social, probably the most social person you’ll ever meet. He’s on the longhorn powerlifting team and you can tell. This well built individual is an active (sober) member of Kappa Sigma, Texas Wake, Longhorn Outdoor Club, Texas Fishing club, and more that won’t fit. He’s also a self proclaimed enjoyer of the Spanish Language. Has never seen an episode of Survivor, but loves Total Drama Island.",
+    "image": "tylerearwood.jpg",
+    "memorableMoments": []
   }
 }
