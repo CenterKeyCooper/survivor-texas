@@ -33,6 +33,8 @@ export interface CrewMember {
     logo: string;
     banner: string;
     cover: string;
+    images: string[];
+    episodesPlaylistId?: string;
     players: string[];
   }
   

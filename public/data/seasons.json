@@ -9,6 +9,12 @@
         "logo": "s1_logo.png",
         "banner": "rio_c4.jpg",
         "cover": "rio_c4.jpg",
+        "episodesPlaylistId": "PLM6vF8NnFMfJBhn-IK32gkvDv2M5c4B0J",
+        "images": [
+            "brazos_c4.jpg",
+            "first_tribal.jpg", 
+            "rio_c4.jpg"
+        ],
         "players": [
             "ameliabarnard", "marlacantu", "julianajohnson", "miagarza", "mayaadams",
             "samanthadelaunay", "makenzielong", "kyliejoharris", "grantnorsworthy", "davidproctor",
@@ -22,11 +28,15 @@
         "semesterFilmed": "Fall 2023",
         "description": "Returning players get a second chance at victory in this intense season with new twists.",
         "winner": "cooperbrown",
-        "logo": "",
+        "logo": "s2_logo.png",
         "banner": "merge.jpg",
         "cover": "merge.jpg",
+        "images": [
+            "merge.jpg",
+            "t1.jpg"
+        ],
         "players": [
-            "cooperbrown", "orenederi", "chinonsoobiefule", "abhinavraotalluri", "danielwolfe", 
+            "cooperbrown", "orenediri", "chinonsoobiefule", "abhinavraotalluri", "danielwolfe", 
             "justinokougbodu", "skysulaiman", "diyabhattacharya", "ishachhabra", "analadaniuski", 
             "maryancamacho", "katarinacuellar"
         ]
@@ -37,10 +47,13 @@
         "location": "UT Austin Campus",
         "semesterFilmed": "Spring 2024",
         "description": "Pairs of friends and roommates compete together in this relationship-testing season.",
-        "winnerName": "Taylor Rodriguez",
-        "logo": "",
-        "banner": "pp_maze.jpg",
-        "cover": "pp_maze.jpg",
+        "winner": "taylorrodriguez",
+        "logo": "s3_logo.png",
+        "banner": "pp_maze.JPG",
+        "cover": "pp_maze.JPG",
+        "images": [
+            "pp_maze.JPG"
+        ],
         "players": [
             "trinityhawkins", "sarahsheriff", "alexiscrowl", "eunicebodunrinde", "katherinenix",
             "krystalcortez", "jeffreyramirez", "catalinarodriguezkretz", "saylorblack", "royroyall",
@@ -53,10 +66,13 @@
         "location": "UT Austin Campus",
         "semesterFilmed": "Fall 2024",
         "description": "The best of the best return for the most competitive season yet.",
-        "winnerName": "Jordan Lee",
-        "logo": "",
+        "winner": "jordanlee",
+        "logo": "s4_logo.png",
         "banner": "c2.jpg",
         "cover": "c2.jpg",
+        "images": [
+            "c2.jpg"
+        ],
         "players": [
             "benchristie", "alemhadzic", "cephasedet", "benjaminkofron", "presleymcgurl",
             "masonscivally", "armandomartinez", "calebmorrow", "caroleensaba", "ebonygarlington",
@@ -69,10 +85,17 @@
         "location": "UT Austin Campus",
         "semesterFilmed": "Spring 2025",
         "description": "The first three tribe season and the most blindsides in Survivor Texas history. Watch to see which of Brain, Brawn, or Beauty will emerge victorious",
-        "winner": "Eli Small",
+        "winner": "elismall",
         "logo": "s5_logo.png",
         "banner": "c2.jpg",
-        "cover": "sam+mathew.jpg",
+        "cover": "sam+mathew.JPG",
+        "images": [
+            "best4.jpg",
+            "c2.jpg",
+            "emma+erin.jpg",
+            "mathew.JPG",
+            "sam+mathew.JPG"
+        ],
         "players": [
             "mathewnguyen", "gracielove", "ifeoluwaoluwole", "sapphirenunn", "elismall",
             "myangonzales", "christianwilson", "anjaligururaj", "nickmoore", "erinspiek",

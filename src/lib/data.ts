@@ -1,22 +1,34 @@
 import { CrewMember, Player, Season, Challenge, Tribe } from '@/types/data';
 
 export async function fetchSeasons(): Promise<Season[]> {
-  const res = await fetch('/data/seasons.json');
+  const baseUrl = typeof window === 'undefined' 
+    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+    : '';
+  const res = await fetch(`${baseUrl}/data/seasons.json`);
   return res.json();
 }
 
 export async function fetchCrew(): Promise<CrewMember[]> {
-  const res = await fetch('/data/crew.json');
+  const baseUrl = typeof window === 'undefined' 
+    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+    : '';
+  const res = await fetch(`${baseUrl}/data/crew.json`);
   return res.json();
 }
 
 export async function fetchPlayers(): Promise<Record<string, Player>> {
-  const res = await fetch('/data/player.json');
+  const baseUrl = typeof window === 'undefined' 
+    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+    : '';
+  const res = await fetch(`${baseUrl}/data/player.json`);
   return res.json();
 }
 
 export async function fetchChallenges(): Promise<Challenge[]> {
-  const res = await fetch('/data/challenges.json');
+  const baseUrl = typeof window === 'undefined' 
+    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+    : '';
+  const res = await fetch(`${baseUrl}/data/challenges.json`);
   return res.json();
 }
 
@@ -67,7 +79,10 @@ export function getPlayersSortedByPlacement(players: Record<string, Player>): Pl
 }
 
 export async function fetchTribes(): Promise<Record<string, Tribe>> {
-  const res = await fetch('/data/tribes.json');
+  const baseUrl = typeof window === 'undefined' 
+    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
+    : '';
+  const res = await fetch(`${baseUrl}/data/tribes.json`);
   return res.json();
 }
 

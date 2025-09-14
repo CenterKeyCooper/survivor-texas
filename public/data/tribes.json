@@ -1,31 +1,159 @@
 {
-    "rio": {
-      "id": "rio",
-      "name": "Rio",
-      "color": "#FBFCF8",
-      "members": [
-        "marlacantu", "julianajohnson", "samanthadelaunay", "kyliejoharris", "davidproctor", "tylerearwood"
-    ]    ,
-      "stats": {}
-    },
-    "brazos": {
-        "id": "brazos",
-        "name": "Brazos",
-        "color": "#e56a1a",
-        "members": [
-          "ameliabarnard", "miagarza", "mayaadams", "grantnorsworthy", "tyreelewis", "makenzielong"
-        ],
-        "stats": {}
-      },
-      "dustdevil": {
-        "id": "dustdevil",
-        "name": "Dust Devil",
-        "color": "#8f1f32",
-        "members": [
-          "orenediri", "miagarza", "mayaadams", "grantnorsworthy", "tyreelewis", "makenzielong"
-        ],
-        "stats": {}
-      }
-
-
+  "rio": {
+    "id": "rio",
+    "name": "Rio",
+    "color": "#FBFCF8",
+    "members": [
+      "tylerearwood",
+      "juliana",
+      "kyliejo",
+      "marlacantuesparza",
+      "davidproctor",
+      "samantha"
+    ],
+    "stats": {}
+  },
+  "brazos": {
+    "id": "brazos",
+    "name": "Brazos",
+    "color": "#e56a1a",
+    "members": [
+      "tyreelewis",
+      "mia",
+      "amerliabarnard",
+      "maya",
+      "grant",
+      "makenzie"
+    ],
+    "stats": {}
+  },
+  "tumbleweed": {
+    "id": "tumbleweed",
+    "name": "Tumbleweed",
+    "color": "#8B4513",
+    "members": [
+      "cooperbrown",
+      "maryancamacho",
+      "danielwolfe",
+      "ishachhabra",
+      "skysulaiman",
+      "chinonsoobiefule"
+    ],
+    "stats": {}
+  },
+  "dustdevil": {
+    "id": "dustdevil",
+    "name": "Dust Devil",
+    "color": "#8f1f32",
+    "members": [
+      "katarinacuellar",
+      "analadaniuski",
+      "justinokougbodu",
+      "abhinavraotalluri",
+      "orenederi",
+      "diyabhattacharya"
+    ],
+    "stats": {}
+  },
+  "pricklypear": {
+    "id": "pricklypear",
+    "name": "Prickly Pear",
+    "color": "#228B22",
+    "members": [
+      "michaelizzard",
+      "andrespineda",
+      "saylorblack",
+      "alexiscrowl",
+      "trinityhawkins",
+      "jeffreyramirez",
+      "katherinenix"
+    ],
+    "stats": {}
+  },
+  "bluebonnet": {
+    "id": "bluebonnet",
+    "name": "Bluebonnet",
+    "color": "#4169E1",
+    "members": [
+      "sarahsheriff",
+      "krystalcortez",
+      "royroyall",
+      "jacksonluikens",
+      "catalinarodriguez",
+      "octaviustyler",
+      "eunicebodunrinde"
+    ],
+    "stats": {}
+  },
+  "flyingdutchman": {
+    "id": "flyingdutchman",
+    "name": "Flying Dutchman",
+    "color": "#000080",
+    "members": [
+      "presleymcgurl",
+      "armandomartinez",
+      "benchristie",
+      "caroleensaba",
+      "audreyreue",
+      "amirahbutler",
+      "cephasedet",
+      "avagreer"
+    ],
+    "stats": {}
+  },
+  "kraken": {
+    "id": "kraken",
+    "name": "Kraken",
+    "color": "#2F4F4F",
+    "members": [
+      "masonscivally",
+      "aliciacook",
+      "calebmorrow",
+      "benjaminkofron",
+      "ebonygarlington",
+      "alemhadzic",
+      "maliawilliams",
+      "lanningwelsch"
+    ],
+    "stats": {}
+  },
+  "ares": {
+    "id": "ares",
+    "name": "Ares",
+    "color": "#DC143C",
+    "members": [
+      "elismall",
+      "myangonzales",
+      "torstenweber",
+      "emmamclendon",
+      "mayamusallam"
+    ],
+    "stats": {}
+  },
+  "aphrodite": {
+    "id": "aphrodite",
+    "name": "Aphrodite",
+    "color": "#FF69B4",
+    "members": [
+      "sapphirenunn",
+      "erinspiek",
+      "emmaroco",
+      "nickmoore",
+      "ifeoluwole"
+    ],
+    "stats": {}
+  },
+  "athena": {
+    "id": "athena",
+    "name": "Athena",
+    "color": "#DAA520",
+    "members": [
+      "sambizzell",
+      "anjaliguruaj",
+      "mathewnguyen",
+      "gracielove",
+      "christianwilson"
+    ],
+    "stats": {}
+  }
 }

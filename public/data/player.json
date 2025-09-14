@@ -1,145 +1,1043 @@
 {
-  "samanthadelaunay": {
-    "id": "samanthadelaunay",
-    "name": "Samantha Delaunay",
-    "seasons": [1],
-    "tribes": ["rio"],
-    "placement": 12,
+  "tylerearwood": {
+    "id": "tylerearwood",
+    "name": "Tyler Earwood",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "rio"
+    ],
+    "placement": 1,
+    "stats": {},
+    "bio": "Tyler is extremely social, probably the most social person you\u2019ll ever meet. He\u2019s on the longhorn powerlifting team and you can tell. This well built individual is an active (sober) member of Kappa Sigma, Texas Wake, Longhorn Outdoor Club, Texas Fishing club, and more that won\u2019t fit. He\u2019s also a self proclaimed enjoyer of the Spanish Language. Has never seen an episode of Survivor, but loves Total Drama Island.",
+    "image": "tylerearwood.jpg",
+    "memorableMoments": [
+      "Tyler almost dislocated Grant's shoulder in the first ever Survivor Texas challenge",
+      "Tyler told us after WINNING season 1 that he understands how it works now and he'd do a lot better if he got to try again"
+    ]
+  },
+  "juliana": {
+    "id": "juliana",
+    "name": "Juliana",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "rio"
+    ],
+    "placement": 2,
     "stats": {},
     "bio": "",
-    "image": "samanthadelaunay.jpg",
+    "image": "juliana.jpg",
     "memorableMoments": []
   },
-  "makenzielong": {
-    "id": "makenzielong",
-    "name": "Makenzie Long",
-    "seasons": [1],
-    "tribes": ["brazos"],
-    "placement": 11,
+  "kyliejo": {
+    "id": "kyliejo",
+    "name": "Kylie Jo",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "rio"
+    ],
+    "placement": 3,
     "stats": {},
     "bio": "",
-    "image": "makenzielong.jpg",
+    "image": "kyliejo.jpg",
     "memorableMoments": []
   },
-  "grantnorsworthy": {
-    "id": "grantnorsworthy",
-    "name": "Grant Norsworthy",
-    "seasons": [1],
-    "tribes": ["brazos"],
-    "placement": 10,
+  "marlacantuesparza": {
+    "id": "marlacantuesparza",
+    "name": "Marla Cantu Esparza",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "rio"
+    ],
+    "placement": 4,
     "stats": {},
     "bio": "",
-    "image": "grantnorsworthy.jpg",
+    "image": "marlacantuesparza.jpg",
     "memorableMoments": []
-  },
-  "mayaadams": {
-    "id": "mayaadams",
-    "name": "Maya Adams",
-    "seasons": [1],
-    "tribes": ["brazos"],
-    "placement": 9,
-    "stats": {},
-    "bio": "",
-    "image": "mayaadams.jpg",
-    "memorableMoments": []
-  },
-  "ameliabarnard": {
-    "id": "ameliabarnard",
-    "name": "Amelia Barnard",
-    "seasons": [1],
-    "tribes": ["brazos"],
-    "placement": 8,
-    "stats": {},
-    "bio": "",
-    "image": "ameliabarnard.jpg",
-    "memorableMoments": []
-  },
-  "miagarza": {
-    "id": "miagarza",
-    "name": "Mia Garza",
-    "seasons": [1],
-    "tribes": ["brazos"],
-    "placement": 7,
-    "stats": {},
-    "bio": "",
-    "image": "miagarza.jpg",
-    "memorableMoments": []
-  },
-  "davidproctor": {
-    "id": "davidproctor",
-    "name": "David Proctor",
-    "seasons": [1],
-    "tribes": ["rio"],
-    "placement": 6,
-    "stats": {},
-    "bio": "",
-    "image": "davidproctor.jpg",
-    "memorableMoments": ["Found both idols his season", "Best round in Survivor Texas was his 3-2-1"]
   },
   "tyreelewis": {
     "id": "tyreelewis",
     "name": "Tyree Lewis",
-    "seasons": [1],
-    "tribes": ["brazos"],
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "brazos"
+    ],
     "placement": 5,
     "stats": {},
     "bio": "",
     "image": "tyreelewis.jpg",
     "memorableMoments": []
   },
-  "marlacantu": {
-    "id": "marlacantu",
-    "name": "Marla Cantu",
-    "seasons": [1],
-    "tribes": ["rio"],
-    "placement": 4,
+  "davidproctor": {
+    "id": "davidproctor",
+    "name": "David Proctor",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "rio"
+    ],
+    "placement": 6,
     "stats": {},
     "bio": "",
-    "image": "marlacantu.jpg",
-    "memorableMoments": []
+    "image": "davidproctor.jpg",
+    "memorableMoments": [
+      "Found both idols his season",
+      "Best round in Survivor Texas was his 3-2-1"
+    ]
   },
-  "kyliejoharris": {
-    "id": "kyliejoharris",
-    "name": "Kylie Jo Harris",
-    "seasons": [1],
-    "tribes": ["rio"],
-    "placement": 3,
+  "mia": {
+    "id": "mia",
+    "name": "Mia",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "brazos"
+    ],
+    "placement": 7,
     "stats": {},
     "bio": "",
-    "image": "kyliejoharris.jpg",
+    "image": "mia.jpg",
     "memorableMoments": []
   },
-  "julianajohnson": {
-    "id": "julianajohnson",
-    "name": "Juliana Johnson",
-    "seasons": [1],
-    "tribes": ["rio"],
+  "amerliabarnard": {
+    "id": "amerliabarnard",
+    "name": "Amerlia Barnard",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "brazos"
+    ],
+    "placement": 8,
+    "stats": {},
+    "bio": "",
+    "image": "amerliabarnard.jpg",
+    "memorableMoments": []
+  },
+  "maya": {
+    "id": "maya",
+    "name": "Maya",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "brazos"
+    ],
+    "placement": 9,
+    "stats": {},
+    "bio": "",
+    "image": "maya.jpg",
+    "memorableMoments": []
+  },
+  "grant": {
+    "id": "grant",
+    "name": "Grant",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "brazos"
+    ],
+    "placement": 10,
+    "stats": {},
+    "bio": "",
+    "image": "grant.jpg",
+    "memorableMoments": []
+  },
+  "makenzie": {
+    "id": "makenzie",
+    "name": "Makenzie",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "brazos"
+    ],
+    "placement": 11,
+    "stats": {},
+    "bio": "",
+    "image": "makenzie.jpg",
+    "memorableMoments": []
+  },
+  "samantha": {
+    "id": "samantha",
+    "name": "Samantha",
+    "seasons": [
+      1
+    ],
+    "tribes": [
+      "rio"
+    ],
+    "placement": 12,
+    "stats": {},
+    "bio": "",
+    "image": "samantha.jpg",
+    "memorableMoments": []
+  },
+  "cooperbrown": {
+    "id": "cooperbrown",
+    "name": "Cooper Brown",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "tumbleweed"
+    ],
+    "placement": 1,
+    "stats": {},
+    "bio": "",
+    "image": "cooperbrown.jpg",
+    "memorableMoments": []
+  },
+  "katarinacuellar": {
+    "id": "katarinacuellar",
+    "name": "Katarina Cuellar",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "dustdevil"
+    ],
     "placement": 2,
     "stats": {},
     "bio": "",
-    "image": "julianajohnson.jpg",
+    "image": "katarinacuellar.jpg",
     "memorableMoments": []
   },
-  "tylerearwood": {
-    "id": "tylerearwood",
-    "name": "Tyler Earwood",
-    "seasons": [1],
-    "tribes": ["rio"],
-    "placement": 1,
+  "analadaniuski": {
+    "id": "analadaniuski",
+    "name": "Ana Ladaniuski",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "dustdevil"
+    ],
+    "placement": 3,
     "stats": {},
-    "bio": "Tyler is extremely social, probably the most social person you’ll ever meet. He’s on the longhorn powerlifting team and you can tell. This well built individual is an active (sober) member of Kappa Sigma, Texas Wake, Longhorn Outdoor Club, Texas Fishing club, and more that won’t fit. He’s also a self proclaimed enjoyer of the Spanish Language. Has never seen an episode of Survivor, but loves Total Drama Island.",
-    "image": "tylerearwood.jpg",
-    "memorableMoments": ["Tyler almost dislocated Grant's shoulder in the first ever Survivor Texas challenge", "Tyler told us after WINNING season 1 that he understands how it works now and he'd do a lot better if he got to try again"]
+    "bio": "",
+    "image": "analadaniuski.jpg",
+    "memorableMoments": []
   },
-  "orenediri": {
-    "id": "orenediri",
-    "name": "Oren Ediri",
-    "seasons": [2],
-    "tribes": ["dustdevil"],
+  "maryancamacho": {
+    "id": "maryancamacho",
+    "name": "Maryan Camacho",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "tumbleweed"
+    ],
+    "placement": 4,
+    "stats": {},
+    "bio": "",
+    "image": "maryancamacho.jpg",
+    "memorableMoments": []
+  },
+  "justinokougbodu": {
+    "id": "justinokougbodu",
+    "name": "Justin Okougbodu",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "dustdevil"
+    ],
+    "placement": 5,
+    "stats": {},
+    "bio": "",
+    "image": "justinokougbodu.jpg",
+    "memorableMoments": []
+  },
+  "danielwolfe": {
+    "id": "danielwolfe",
+    "name": "Daniel Wolfe",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "tumbleweed"
+    ],
+    "placement": 6,
+    "stats": {},
+    "bio": "",
+    "image": "danielwolfe.jpg",
+    "memorableMoments": []
+  },
+  "ishachhabra": {
+    "id": "ishachhabra",
+    "name": "Isha Chhabra",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "tumbleweed"
+    ],
+    "placement": 7,
+    "stats": {},
+    "bio": "",
+    "image": "ishachhabra.jpg",
+    "memorableMoments": []
+  },
+  "abhinavraotalluri": {
+    "id": "abhinavraotalluri",
+    "name": "Abhinav Rao Talluri",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "dustdevil"
+    ],
+    "placement": 8,
+    "stats": {},
+    "bio": "",
+    "image": "abhinavraotalluri.jpg",
+    "memorableMoments": []
+  },
+  "skysulaiman": {
+    "id": "skysulaiman",
+    "name": "Sky Sulaiman",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "tumbleweed"
+    ],
+    "placement": 9,
+    "stats": {},
+    "bio": "",
+    "image": "skysulaiman.jpg",
+    "memorableMoments": []
+  },
+  "orenederi": {
+    "id": "orenederi",
+    "name": "Oren Ederi",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "dustdevil"
+    ],
     "placement": 10,
     "stats": {},
-    "bio": "Oren is extremely social, probably the most social person you’ll ever meet. He’s on the longhorn powerlifting team and you can tell. This well built individual is an active (sober) member of Kappa Sigma, Texas Wake, Longhorn Outdoor Club, Texas Fishing club, and more that won’t fit. He’s also a self proclaimed enjoyer of the Spanish Language. Has never seen an episode of Survivor, but loves Total Drama Island.",
-    "image": "tylerearwood.jpg",
+    "bio": "",
+    "image": "orenederi.jpg",
+    "memorableMoments": []
+  },
+  "diyabhattacharya": {
+    "id": "diyabhattacharya",
+    "name": "Diya Bhattacharya",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "dustdevil"
+    ],
+    "placement": 11,
+    "stats": {},
+    "bio": "",
+    "image": "diyabhattacharya.jpg",
+    "memorableMoments": []
+  },
+  "chinonsoobiefule": {
+    "id": "chinonsoobiefule",
+    "name": "Chinonso Obiefule",
+    "seasons": [
+      2
+    ],
+    "tribes": [
+      "tumbleweed"
+    ],
+    "placement": 12,
+    "stats": {},
+    "bio": "",
+    "image": "chinonsoobiefule.jpg",
+    "memorableMoments": []
+  },
+  "michaelizzard": {
+    "id": "michaelizzard",
+    "name": "Michael Izzard",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "pricklypear"
+    ],
+    "placement": 1,
+    "stats": {},
+    "bio": "",
+    "image": "michaelizzard.jpg",
+    "memorableMoments": []
+  },
+  "sarahsheriff": {
+    "id": "sarahsheriff",
+    "name": "Sarah Sheriff",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "bluebonnet"
+    ],
+    "placement": 2,
+    "stats": {},
+    "bio": "",
+    "image": "sarahsheriff.jpg",
+    "memorableMoments": []
+  },
+  "krystalcortez": {
+    "id": "krystalcortez",
+    "name": "Krystal Cortez",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "bluebonnet"
+    ],
+    "placement": 3,
+    "stats": {},
+    "bio": "",
+    "image": "krystalcortez.jpg",
+    "memorableMoments": []
+  },
+  "andrespineda": {
+    "id": "andrespineda",
+    "name": "Andres Pineda",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "pricklypear"
+    ],
+    "placement": 4,
+    "stats": {},
+    "bio": "",
+    "image": "andrespineda.jpg",
+    "memorableMoments": []
+  },
+  "royroyall": {
+    "id": "royroyall",
+    "name": "Roy Royall",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "bluebonnet"
+    ],
+    "placement": 5,
+    "stats": {},
+    "bio": "",
+    "image": "royroyall.jpg",
+    "memorableMoments": []
+  },
+  "saylorblack": {
+    "id": "saylorblack",
+    "name": "Saylor Black",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "pricklypear"
+    ],
+    "placement": 6,
+    "stats": {},
+    "bio": "",
+    "image": "saylorblack.jpg",
+    "memorableMoments": []
+  },
+  "alexiscrowl": {
+    "id": "alexiscrowl",
+    "name": "Alexis Crowl",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "pricklypear"
+    ],
+    "placement": 7,
+    "stats": {},
+    "bio": "",
+    "image": "alexiscrowl.jpg",
+    "memorableMoments": []
+  },
+  "jacksonluikens": {
+    "id": "jacksonluikens",
+    "name": "Jackson Luikens",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "bluebonnet"
+    ],
+    "placement": 8,
+    "stats": {},
+    "bio": "",
+    "image": "jacksonluikens.jpg",
+    "memorableMoments": []
+  },
+  "catalinarodriguez": {
+    "id": "catalinarodriguez",
+    "name": "Catalina Rodriguez",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "bluebonnet"
+    ],
+    "placement": 9,
+    "stats": {},
+    "bio": "",
+    "image": "catalinarodriguez.jpg",
+    "memorableMoments": []
+  },
+  "trinityhawkins": {
+    "id": "trinityhawkins",
+    "name": "Trinity Hawkins",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "pricklypear"
+    ],
+    "placement": 10,
+    "stats": {},
+    "bio": "",
+    "image": "trinityhawkins.jpg",
+    "memorableMoments": []
+  },
+  "octaviustyler": {
+    "id": "octaviustyler",
+    "name": "Octavius Tyler",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "bluebonnet"
+    ],
+    "placement": 11,
+    "stats": {},
+    "bio": "",
+    "image": "octaviustyler.jpg",
+    "memorableMoments": []
+  },
+  "jeffreyramirez": {
+    "id": "jeffreyramirez",
+    "name": "Jeffrey Ramirez",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "pricklypear"
+    ],
+    "placement": 12,
+    "stats": {},
+    "bio": "",
+    "image": "jeffreyramirez.jpg",
+    "memorableMoments": []
+  },
+  "katherinenix": {
+    "id": "katherinenix",
+    "name": "Katherine Nix",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "pricklypear"
+    ],
+    "placement": 13,
+    "stats": {},
+    "bio": "",
+    "image": "katherinenix.jpg",
+    "memorableMoments": []
+  },
+  "eunicebodunrinde": {
+    "id": "eunicebodunrinde",
+    "name": "Eunice Bodunrinde",
+    "seasons": [
+      3
+    ],
+    "tribes": [
+      "bluebonnet"
+    ],
+    "placement": 14,
+    "stats": {},
+    "bio": "",
+    "image": "eunicebodunrinde.jpg",
+    "memorableMoments": []
+  },
+  "presleymcgurl": {
+    "id": "presleymcgurl",
+    "name": "Presley McGurl",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": 1,
+    "stats": {},
+    "bio": "",
+    "image": "presleymcgurl.jpg",
+    "memorableMoments": []
+  },
+  "armandomartinez": {
+    "id": "armandomartinez",
+    "name": "Armando Martinez",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": 2,
+    "stats": {},
+    "bio": "",
+    "image": "armandomartinez.jpg",
+    "memorableMoments": []
+  },
+  "masonscivally": {
+    "id": "masonscivally",
+    "name": "Mason Scivally",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": 3,
+    "stats": {},
+    "bio": "",
+    "image": "masonscivally.jpg",
+    "memorableMoments": []
+  },
+  "benchristie": {
+    "id": "benchristie",
+    "name": "Ben Christie",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": 4,
+    "stats": {},
+    "bio": "",
+    "image": "benchristie.jpg",
+    "memorableMoments": []
+  },
+  "caroleensaba": {
+    "id": "caroleensaba",
+    "name": "Caroleen Saba",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": 5,
+    "stats": {},
+    "bio": "",
+    "image": "caroleensaba.jpg",
+    "memorableMoments": []
+  },
+  "audreyreue": {
+    "id": "audreyreue",
+    "name": "Audrey Reue",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": 6,
+    "stats": {},
+    "bio": "",
+    "image": "audreyreue.jpg",
+    "memorableMoments": []
+  },
+  "aliciacook": {
+    "id": "aliciacook",
+    "name": "Alicia Cook",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": 7,
+    "stats": {},
+    "bio": "",
+    "image": "aliciacook.jpg",
+    "memorableMoments": []
+  },
+  "calebmorrow": {
+    "id": "calebmorrow",
+    "name": "Caleb Morrow",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": 8,
+    "stats": {},
+    "bio": "",
+    "image": "calebmorrow.jpg",
+    "memorableMoments": []
+  },
+  "benjaminkofron": {
+    "id": "benjaminkofron",
+    "name": "Benjamin Kofron",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": 9,
+    "stats": {},
+    "bio": "",
+    "image": "benjaminkofron.jpg",
+    "memorableMoments": []
+  },
+  "ebonygarlington": {
+    "id": "ebonygarlington",
+    "name": "Ebony Garlington",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": 10,
+    "stats": {},
+    "bio": "",
+    "image": "ebonygarlington.jpg",
+    "memorableMoments": []
+  },
+  "alemhadzic": {
+    "id": "alemhadzic",
+    "name": "Alem Hadzic",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": 11,
+    "stats": {},
+    "bio": "",
+    "image": "alemhadzic.jpg",
+    "memorableMoments": []
+  },
+  "amirahbutler": {
+    "id": "amirahbutler",
+    "name": "Amirah Butler",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": 12,
+    "stats": {},
+    "bio": "",
+    "image": "amirahbutler.jpg",
+    "memorableMoments": []
+  },
+  "maliawilliams": {
+    "id": "maliawilliams",
+    "name": "Malia Williams",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": 13,
+    "stats": {},
+    "bio": "",
+    "image": "maliawilliams.jpg",
+    "memorableMoments": []
+  },
+  "cephasedet": {
+    "id": "cephasedet",
+    "name": "Cephas Edet",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": 14,
+    "stats": {},
+    "bio": "",
+    "image": "cephasedet.jpg",
+    "memorableMoments": []
+  },
+  "lanningwelsch": {
+    "id": "lanningwelsch",
+    "name": "Lanning Welsch",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": 15,
+    "stats": {},
+    "bio": "",
+    "image": "lanningwelsch.jpg",
+    "memorableMoments": []
+  },
+  "avagreer": {
+    "id": "avagreer",
+    "name": "Ava Greer",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": 16,
+    "stats": {},
+    "bio": "",
+    "image": "avagreer.jpg",
+    "memorableMoments": []
+  },
+  "elismall": {
+    "id": "elismall",
+    "name": "Eli Small",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": 1,
+    "stats": {},
+    "bio": "",
+    "image": "elismall.jpg",
+    "memorableMoments": []
+  },
+  "myangonzales": {
+    "id": "myangonzales",
+    "name": "Myan Gonzales",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": 2,
+    "stats": {},
+    "bio": "",
+    "image": "myangonzales.jpg",
+    "memorableMoments": []
+  },
+  "sapphirenunn": {
+    "id": "sapphirenunn",
+    "name": "Sapphire Nunn",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": 3,
+    "stats": {},
+    "bio": "",
+    "image": "sapphirenunn.jpg",
+    "memorableMoments": []
+  },
+  "sambizzell": {
+    "id": "sambizzell",
+    "name": "Sam Bizzell",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": 4,
+    "stats": {},
+    "bio": "",
+    "image": "sambizzell.jpg",
+    "memorableMoments": []
+  },
+  "anjaliguruaj": {
+    "id": "anjaliguruaj",
+    "name": "Anjali Guruaj",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": 5,
+    "stats": {},
+    "bio": "",
+    "image": "anjaliguruaj.jpg",
+    "memorableMoments": []
+  },
+  "erinspiek": {
+    "id": "erinspiek",
+    "name": "Erin Spiek",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": 6,
+    "stats": {},
+    "bio": "",
+    "image": "erinspiek.jpg",
+    "memorableMoments": []
+  },
+  "emmaroco": {
+    "id": "emmaroco",
+    "name": "Emma Roco",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": 7,
+    "stats": {},
+    "bio": "",
+    "image": "emmaroco.jpg",
+    "memorableMoments": []
+  },
+  "mathewnguyen": {
+    "id": "mathewnguyen",
+    "name": "Mathew Nguyen",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": 8,
+    "stats": {},
+    "bio": "",
+    "image": "mathewnguyen.jpg",
+    "memorableMoments": []
+  },
+  "torstenweber": {
+    "id": "torstenweber",
+    "name": "Torsten Weber",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": 9,
+    "stats": {},
+    "bio": "",
+    "image": "torstenweber.jpg",
+    "memorableMoments": []
+  },
+  "nickmoore": {
+    "id": "nickmoore",
+    "name": "Nick Moore",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": 10,
+    "stats": {},
+    "bio": "",
+    "image": "nickmoore.jpg",
+    "memorableMoments": []
+  },
+  "gracielove": {
+    "id": "gracielove",
+    "name": "Gracie Love",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": 11,
+    "stats": {},
+    "bio": "",
+    "image": "gracielove.jpg",
+    "memorableMoments": []
+  },
+  "emmamclendon": {
+    "id": "emmamclendon",
+    "name": "Emma McLendon",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": 12,
+    "stats": {},
+    "bio": "",
+    "image": "emmamclendon.jpg",
+    "memorableMoments": []
+  },
+  "christianwilson": {
+    "id": "christianwilson",
+    "name": "Christian Wilson",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": 13,
+    "stats": {},
+    "bio": "",
+    "image": "christianwilson.jpg",
+    "memorableMoments": []
+  },
+  "ifeoluwole": {
+    "id": "ifeoluwole",
+    "name": "Ife Oluwole",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": 14,
+    "stats": {},
+    "bio": "",
+    "image": "ifeoluwole.jpg",
+    "memorableMoments": []
+  },
+  "mayamusallam": {
+    "id": "mayamusallam",
+    "name": "Maya Musallam",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": 15,
+    "stats": {},
+    "bio": "",
+    "image": "mayamusallam.jpg",
     "memorableMoments": []
   }
 }
