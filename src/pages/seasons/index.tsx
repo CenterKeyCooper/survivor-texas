@@ -1,6 +1,5 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
-import Link from 'next/link';
 import { Season } from '@/types/data';
 import { fetchSeasons } from '@/lib/data';
 import SeasonCard from '@/components/seasons/SeasonCard';

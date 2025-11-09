@@ -18,7 +18,7 @@ export default function CrewPage() {
         setCrew(crewData);
         setFilteredCrew(crewData);
         setLoading(false);
-      } catch (err) {
+      } catch {
         setError('Failed to load crew data');
         setLoading(false);
       }

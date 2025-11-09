@@ -28,7 +28,7 @@ export default function PlayersPage() {
         setFilteredPlayers(sortedPlayers);
         setTribes(tribesData);
         setLoading(false);
-      } catch (err) {
+      } catch {
         setError('Failed to load players data');
         setLoading(false);
       }

@@ -68,7 +68,7 @@ export default function Home() {
         <div className="container">
           <h2>About Survivor Texas</h2>
           <div className="about-content">
-            <p>Survivor Texas is a student-run organization at the University of Texas at Austin that brings the excitement of the hit TV show Survivor to campus. Since our first season in 2023, we've created an immersive experience that tests players' physical, mental, and social skills.</p>
+            <p>Survivor Texas is a student-run organization at the University of Texas at Austin that brings the excitement of the hit TV show Survivor to campus. Since our first season in 2023, we&apos;ve created an immersive experience that tests players&apos; physical, mental, and social skills.</p>
             <p>Our mission is to build community, foster strategic thinking, and create unforgettable memories through this unique game experience.</p>
           </div>
         </div>

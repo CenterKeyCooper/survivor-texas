@@ -17,7 +17,7 @@ export interface CrewMember {
     seasons: number[];
     tribes: string[];
     placement: number;
-    stats: Record<string, any>;
+    stats: Record<string, unknown>;
     bio: string;
     image: string;
     memorableMoments: string[];

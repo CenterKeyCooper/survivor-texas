@@ -31,7 +31,7 @@ export default function PlayerDetailPage() {
         }
         setTribes(tribesData);
         setLoading(false);
-      } catch (err) {
+      } catch {
         setError('Failed to load player data');
         setLoading(false);
       }
@@ -114,7 +114,7 @@ export default function PlayerDetailPage() {
             {Object.entries(player.stats).map(([key, value]) => (
               <div key={key} className={styles.statItem}>
                 <span className={styles.statLabel}>{key}:</span>
-                <span className={styles.statValue}>{value}</span>
+                <span className={styles.statValue}>{String(value)}</span>
               </div>
             ))}
           </div>
