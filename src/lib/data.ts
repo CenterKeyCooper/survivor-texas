@@ -2,19 +2,17 @@ import { CrewMember, Player, Season, Challenge, Tribe } from '@/types/data';
 
 // Helper function to read JSON files from filesystem during build, or fetch in browser
 async function readDataFile<T>(filename: string): Promise<T> {
-  // During build/server-side, read from filesystem
   if (typeof window === 'undefined') {
-    // Use dynamic require to avoid bundling fs for client-side
-    const fs = require('fs');
-    const path = require('path');
-    const filePath = path.join(process.cwd(), 'public', 'data', filename);
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    return JSON.parse(fileContents) as T;
+    const { readFileSync } = await import('fs')
+    const path = await import('path')
+    const filePath = path.join(process.cwd(), 'public', 'data', filename)
+    const fileContents = readFileSync(filePath, 'utf8')
+    return JSON.parse(fileContents) as T
   }
-  
-  // In browser, use fetch
-  const res = await fetch(`/data/${filename}`);
-  return res.json();
+
+  // client-side fallback
+  const res = await fetch(`/data/${filename}`)
+  return res.json()
 }
 
 export async function fetchSeasons(): Promise<Season[]> {
