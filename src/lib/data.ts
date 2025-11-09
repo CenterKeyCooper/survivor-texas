@@ -1,11 +1,12 @@
 import { CrewMember, Player, Season, Challenge, Tribe } from '@/types/data';
-import fs from 'fs';
-import path from 'path';
 
 // Helper function to read JSON files from filesystem during build, or fetch in browser
 async function readDataFile<T>(filename: string): Promise<T> {
   // During build/server-side, read from filesystem
   if (typeof window === 'undefined') {
+    // Use dynamic require to avoid bundling fs for client-side
+    const fs = require('fs');
+    const path = require('path');
     const filePath = path.join(process.cwd(), 'public', 'data', filename);
     const fileContents = fs.readFileSync(filePath, 'utf8');
     return JSON.parse(fileContents) as T;
