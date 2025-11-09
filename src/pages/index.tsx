@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Season, CrewMember } from '@/types/data';
 import Head from 'next/head';
 import Hero from '@/components/home/Hero';
 import SeasonCard from '@/components/seasons/SeasonCard';
