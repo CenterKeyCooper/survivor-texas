@@ -24,7 +24,7 @@ export default function CrewMemberPage() {
           setError('Crew member not found');
         }
         setLoading(false);
-      } catch (err) {
+      } catch {
         setError('Failed to load crew data');
         setLoading(false);
       }
