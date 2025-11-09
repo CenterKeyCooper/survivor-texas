@@ -1,35 +1,35 @@
 import { CrewMember, Player, Season, Challenge, Tribe } from '@/types/data';
+import fs from 'fs';
+import path from 'path';
+
+// Helper function to read JSON files from filesystem during build, or fetch in browser
+async function readDataFile<T>(filename: string): Promise<T> {
+  // During build/server-side, read from filesystem
+  if (typeof window === 'undefined') {
+    const filePath = path.join(process.cwd(), 'public', 'data', filename);
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    return JSON.parse(fileContents) as T;
+  }
+  
+  // In browser, use fetch
+  const res = await fetch(`/data/${filename}`);
+  return res.json();
+}
 
 export async function fetchSeasons(): Promise<Season[]> {
-  const baseUrl = typeof window === 'undefined' 
-    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
-    : '';
-  const res = await fetch(`${baseUrl}/data/seasons.json`);
-  return res.json();
+  return readDataFile<Season[]>('seasons.json');
 }
 
 export async function fetchCrew(): Promise<CrewMember[]> {
-  const baseUrl = typeof window === 'undefined' 
-    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
-    : '';
-  const res = await fetch(`${baseUrl}/data/crew.json`);
-  return res.json();
+  return readDataFile<CrewMember[]>('crew.json');
 }
 
 export async function fetchPlayers(): Promise<Record<string, Player>> {
-  const baseUrl = typeof window === 'undefined' 
-    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
-    : '';
-  const res = await fetch(`${baseUrl}/data/player.json`);
-  return res.json();
+  return readDataFile<Record<string, Player>>('player.json');
 }
 
 export async function fetchChallenges(): Promise<Challenge[]> {
-  const baseUrl = typeof window === 'undefined' 
-    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
-    : '';
-  const res = await fetch(`${baseUrl}/data/challenges.json`);
-  return res.json();
+  return readDataFile<Challenge[]>('challenges.json');
 }
 
 
@@ -79,11 +79,7 @@ export function getPlayersSortedByPlacement(players: Record<string, Player>): Pl
 }
 
 export async function fetchTribes(): Promise<Record<string, Tribe>> {
-  const baseUrl = typeof window === 'undefined' 
-    ? process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'
-    : '';
-  const res = await fetch(`${baseUrl}/data/tribes.json`);
-  return res.json();
+  return readDataFile<Record<string, Tribe>>('tribes.json');
 }
 
 export function getTribeColor(tribes: Record<string, Tribe>, tribeId: string): string {
