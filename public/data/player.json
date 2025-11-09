@@ -17,9 +17,9 @@
       "Tyler told us after WINNING season 1 that he understands how it works now and he'd do a lot better if he got to try again"
     ]
   },
-  "juliana": {
-    "id": "juliana",
-    "name": "Juliana",
+  "julianajohnson": {
+    "id": "julianajohnson",
+    "name": "Juliana Johnson",
     "seasons": [
       1
     ],
@@ -29,12 +29,12 @@
     "placement": 2,
     "stats": {},
     "bio": "",
-    "image": "juliana.jpg",
+    "image": "julianajohnson.jpg",
     "memorableMoments": []
   },
-  "kyliejo": {
-    "id": "kyliejo",
-    "name": "Kylie Jo",
+  "kyliejoharris": {
+    "id": "kyliejoharris",
+    "name": "Kylie Jo Harris",
     "seasons": [
       1
     ],
@@ -44,7 +44,7 @@
     "placement": 3,
     "stats": {},
     "bio": "",
-    "image": "kyliejo.jpg",
+    "image": "kyliejoharris.jpg",
     "memorableMoments": []
   },
   "marlacantuesparza": {
@@ -74,7 +74,7 @@
     "placement": 5,
     "stats": {},
     "bio": "",
-    "image": "tyreelewis.jpg",
+    "image": "tyreelewis.jpeg",
     "memorableMoments": []
   },
   "davidproctor": {
@@ -95,9 +95,9 @@
       "Best round in Survivor Texas was his 3-2-1"
     ]
   },
-  "mia": {
-    "id": "mia",
-    "name": "Mia",
+  "miagarza": {
+    "id": "miagarza",
+    "name": "Mia Garza",
     "seasons": [
       1
     ],
@@ -107,12 +107,12 @@
     "placement": 7,
     "stats": {},
     "bio": "",
-    "image": "mia.jpg",
+    "image": "miagarza.png",
     "memorableMoments": []
   },
-  "amerliabarnard": {
-    "id": "amerliabarnard",
-    "name": "Amerlia Barnard",
+  "ameliabarnard": {
+    "id": "ameliabarnard",
+    "name": "Amelia Barnard",
     "seasons": [
       1
     ],
@@ -122,12 +122,12 @@
     "placement": 8,
     "stats": {},
     "bio": "",
-    "image": "amerliabarnard.jpg",
+    "image": "ameliabarnard.png",
     "memorableMoments": []
   },
-  "maya": {
-    "id": "maya",
-    "name": "Maya",
+  "mayaadams": {
+    "id": "mayaadams",
+    "name": "Maya Adams",
     "seasons": [
       1
     ],
@@ -137,12 +137,12 @@
     "placement": 9,
     "stats": {},
     "bio": "",
-    "image": "maya.jpg",
+    "image": "mayaadams.png",
     "memorableMoments": []
   },
-  "grant": {
-    "id": "grant",
-    "name": "Grant",
+  "grantnorsworthy": {
+    "id": "grantnorsworthy",
+    "name": "Grant Norsworthy",
     "seasons": [
       1
     ],
@@ -152,12 +152,12 @@
     "placement": 10,
     "stats": {},
     "bio": "",
-    "image": "grant.jpg",
+    "image": "grantnorsworthy.png",
     "memorableMoments": []
   },
-  "makenzie": {
-    "id": "makenzie",
-    "name": "Makenzie",
+  "makenzielong": {
+    "id": "makenzielong",
+    "name": "Makenzie Long",
     "seasons": [
       1
     ],
@@ -167,12 +167,12 @@
     "placement": 11,
     "stats": {},
     "bio": "",
-    "image": "makenzie.jpg",
+    "image": "makenzielong.png",
     "memorableMoments": []
   },
-  "samantha": {
-    "id": "samantha",
-    "name": "Samantha",
+  "samanthadelaunay": {
+    "id": "samanthadelaunay",
+    "name": "Samantha Delaunay?",
     "seasons": [
       1
     ],
@@ -182,7 +182,7 @@
     "placement": 12,
     "stats": {},
     "bio": "",
-    "image": "samantha.jpg",
+    "image": "samanthadelaunay.jpg",
     "memorableMoments": []
   },
   "cooperbrown": {
@@ -422,7 +422,7 @@
     "placement": 4,
     "stats": {},
     "bio": "",
-    "image": "andrespineda.jpg",
+    "image": "andrespineda.png",
     "memorableMoments": []
   },
   "royroyall": {
@@ -512,7 +512,7 @@
     "placement": 10,
     "stats": {},
     "bio": "",
-    "image": "trinityhawkins.jpg",
+    "image": "trinityhawkins.png",
     "memorableMoments": []
   },
   "octaviustyler": {

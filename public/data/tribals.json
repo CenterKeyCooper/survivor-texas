@@ -1,11 +1,12 @@
 {
     "s1f12" : {
         "season" : 1,
+        "playersLeft": 12,
         "round" : "f12",
         "type" : "tribal", 
         "tribes" : ["rio"],
-        "tally" : [6, 0],
         "eliminated" : "samanthadelaunay",
+        "tally" : [6, 0],
         "votes" : {
             "davidproctor" : "samanthadelaunay",
             "marlacantu" : "samanthadelaunay", 
@@ -17,6 +18,655 @@
         },
         "revoteTally" : [],
         "revotes" : {},
-        "advantages" : {}
-    }
+        "advantages" : {},
+        "idolsPlayed": [],
+        "rocks": false
+    }, 
+    "s1f11" : {
+        "season" : 1,
+        "playersLeft": 11,
+        "round" : "f11",
+        "type" : "tribal", 
+        "tribes" : ["brazos"],
+        "eliminated" : "makenzielong",
+        "tally" : [5, 1],
+        "votes" : {
+            "tyreelewis" : "makenzielong",
+            "miagarza" : "makenzielong", 
+            "ameliabarnard" : "makenzielong", 
+            "mayaadams" : "makenzielong", 
+            "grantnorsworthy" : "makenzielong", 
+            "makenzielong" : "tyreelewis"
+
+        },
+        "revoteTally" : [],
+        "revotes" : {},
+        "advantages" : {},
+        "idolsPlayed": [],
+        "rocks": false
+    }, 
+    "s1f10" : {
+        "season" : 1,
+        "playersLeft": 10,
+        "round" : "f10",
+        "type" : "tribal", 
+        "tribes" : ["brazos"],
+        "eliminated" : "grantnorsworthy",
+        "tally" : [4, 1],
+        "votes" : {
+            "tyreelewis" : "grantnorsworthy",
+            "miagarza" : "grantnorsworthy", 
+            "ameliabarnard" : "grantnorsworthy", 
+            "mayaadams" : "grantnorsworthy", 
+            "grantnorsworthy" : "mayaadams", 
+
+        },
+        "revoteTally" : [],
+        "revotes" : {},
+        "advantages" : {},
+        "idolsPlayed": [],
+        "rocks": false
+    }, 
+    "s1f9" : {
+        "season" : 1,
+        "playersLeft": 9,
+        "round" : "f9",
+        "type" : "tribal", 
+        "tribes" : ["brazos"],
+        "eliminated" : "mayaadams",
+        "tally" : [3, 1],
+        "votes" : {
+            "tyreelewis" : "mayaadams",
+            "miagarza" : "mayaadams", 
+            "ameliabarnard" : "mayaadams", 
+            "mayaadams" : "tyreelewis", 
+
+        },
+        "revoteTally" : [],
+        "revotes" : {},
+        "advantages" : {},
+        "idolsPlayed": [],
+        "rocks": false
+    }, 
+    "s1f8" : {
+        "season" : 1,
+        "playersLeft": 8,
+        "round" : "f8",
+        "type" : "merged", 
+        "tribes" : ["guadalupe"],
+        "eliminated" : "ameliabarnard",
+        "tally" : [5, 4],
+        "votes" : {
+            "tylerearwood" : "ameliabarnard",           
+            "julianajohnson" : "ameliabarnard", 
+            "kyliejoharris" : "ameliabarnard", 
+            "marlacantu" : "tylerearwood", 
+            "tyreelewis" : "tylerearwood",
+            "davidproctor" : "ameliabarnard",
+            "miagarza" : "tylerearwood", 
+            "ameliabarnard" : "tylerearwood", 
+
+        },
+        "revoteTally" : [],
+        "revotes" : {},
+        "advantages" : {
+            "kyliejoharris": {
+                "type": "extraVote",
+                "target": "ameliabarnard"
+            }
+        },
+        "idolsPlayed": [],
+        "rocks": false
+    }, 
+    "s1f7" : {
+        "season" : 1,
+        "playersLeft": 7,
+        "round" : "f7",
+        "type" : "merged", 
+        "tribes" : ["guadalupe"],
+        "eliminated" : "miagarza",
+        "tally" : [4, 2, 1, 1],
+        "votes" : {
+            "tylerearwood" : "miagarza",           
+            "julianajohnson" : "miagarza", 
+            "kyliejoharris" : "miagarza", 
+            "marlacantu" : "kyliejoharris", 
+            "tyreelewis" : "davidproctor",
+            "davidproctor" : "miagarza",
+            "miagarza" : "marlacantu", 
+
+        },
+        "revoteTally" : [],
+        "revotes" : {},
+        "advantages" : {
+            "marlacantu": {
+                "type": "extraVote",
+                "target": "kyliejoharris"
+            }
+        },
+        "idolsPlayed": ["davidproctor"],
+        "rocks": false
+    }, 
+    "s1f6" : {
+        "season" : 1,
+        "playersLeft": 6,
+        "round" : "f6",
+        "type" : "merged", 
+        "tribes" : ["guadalupe"],
+        "eliminated" : "davidproctor",
+        "tally" : [3, 2, 1],
+        "votes" : {
+            "tylerearwood" : "davidproctor",           
+            "julianajohnson" : "davidproctor", 
+            "kyliejoharris" : "marlacantu", 
+            "marlacantu" : "tyreelewis", 
+            "tyreelewis" : "davidproctor",
+            "davidproctor" : "marlacantu",
+        },
+        "revoteTally" : [],
+        "revotes" : {},
+        "advantages" : {},
+        "idolsPlayed": [],
+        "rocks": false
+    },
+    "s1f5" : {
+        "season" : 1,
+        "playersLeft": 5,
+        "round" : "f5",
+        "type" : "merged", 
+        "tribes" : ["guadalupe"],
+        "eliminated" : "tyreelewis",
+        "tally" : [3, 2],
+        "votes" : {
+            "tylerearwood" : "tyreelewis",           
+            "julianajohnson" : "tyreelewis", 
+            "kyliejoharris" : "tyreelewis", 
+            "marlacantu" : "julianajohnson", 
+            "tyreelewis" : "julianajohnson",
+        },
+        "revoteTally" : [],
+        "revotes" : {},
+        "advantages" : {},
+        "idolsPlayed": [],
+        "rocks": false
+    }, 
+    "s1f4" : {
+        "season" : 1,
+        "playersLeft": 4,
+        "round" : "f4",
+        "type" : "merged", 
+        "tribes" : ["guadalupe"],
+        "eliminated" : "marlacantu",
+        "tally" : [3, 1],
+        "votes" : {
+            "tylerearwood" : "kyliejoharris",           
+            "julianajohnson" : "marlacantu", 
+            "kyliejoharris" : "marlacantu", 
+            "marlacantu" : "julianajohnson", 
+        },
+        "revoteTally" : [],
+        "revotes" : {},
+        "advantages" : {},
+        "idolsPlayed": [],
+        "rocks": false
+    }, 
+  "s2f12": {
+    "season": 2,
+    "playersLeft": 12,
+    "round": "f12",
+    "type": "tribal",
+    "tribes": ["tumbleweed"],
+    "eliminated": "chinonsoobiefule",
+    "tally": [5, 1],
+    "votes": {
+      "cooperbrown": "chinonsoobiefule",
+      "danielworlfe": "chinonsoobiefule",
+      "maryancamacho": "chinonsoobiefule",
+      "skysulaiman": "chinonsoobiefule",
+      "ishachhabra": "chinonsoobiefule",
+      "chinonsoobiefule": "maryancamacho"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s2f11": {
+    "season": 2,
+    "playersLeft": 11,
+    "round": "f11",
+    "type": "tribal",
+    "tribes": ["dustdevil"],
+    "eliminated": "diyabhattacharya",
+    "tally": [4, 3],
+    "votes": {
+      "analadaniuski": "diyabhattacharya",
+      "justinokougbodu": "diyabhattacharya",
+      "katarinacuellar": "diyabhattacharya",
+      "orenederi": "analadaniuski",
+      "abhinavraotalluri" : "analadaniuski",
+      "diyabhattacharya": "analadaniuski"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {
+      "analadaniuski": {
+        "type": "extraVote",
+        "target": "diyabhattacharya"
+      }
+    },
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s2f10": {
+    "season": 2,
+    "playersLeft": 10,
+    "round": "f10",
+    "type": "tribal",
+    "tribes": ["tumbleweed"],
+    "eliminated": "orenederi",
+    "tally": [4, 1],
+    "votes": {
+      "cooperbrown": "orenederi",
+      "danielworlfe": "orenederi",
+      "maryancamacho": "orenederi",
+      "skysulaiman": "orenederi",
+      "orenederi": "skysulaiman",
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s2f9": {
+    "season": 2,
+    "playersLeft": 9,
+    "round": "f9",
+    "type": "tribal",
+    "tribes": ["tumbleweed"],
+    "eliminated": "skysulaiman",
+    "tally": [3, 1],
+    "votes": {
+      "maryancamacho": "skysulaiman",
+      "danielwolfe": "skysulaiman",
+      "cooperbrown": "skysulaiman",
+      "skysulaiman": "maryancamacho"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s2f8": {
+    "season": 2,
+    "playersLeft": 8,
+    "round": "f8",
+    "type": "merged",
+    "tribes": ["bandit"],
+    "eliminated": "abhinavraotalluri",
+    "tally": [5, 3],
+    "votes": {
+      "analadaniuski": "katarinacuellar",
+      "katarinacuellar": "abhinavraotalluri",
+      "justinokougbodu": "abhinavraotalluri",
+      "maryancamacho": "katarinacuellar",
+      "cooperbrown": "abhinavraotalluri",
+      "abhinavraotalluri": "katarinacuellar",
+      "ishachhabra": "abhinavraotalluri",
+      "danielwolfe": "abhinavraotalluri"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": ["katarinacuellar"],
+    "rocks": false
+  },
+  "s2f7": {
+    "season": 2,
+    "playersLeft": 7,
+    "round": "f7",
+    "type": "merged",
+    "tribes": ["bandit"],
+    "eliminated": "ishachhabra",
+    "tally": [4, 3],
+    "votes": {
+      "maryancamacho": "ishachhabra",
+      "cooperbrown": "danielwolfe",
+      "justinokougbodu": "ishachhabra",
+      "analadaniuski": "danielwolfe",
+      "ishachhabra": "danielwolfe",
+      "danielwolfe": "ishachhabra",
+      "katarinacuellar": "ishachhabra"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s2f6": {
+    "season": 2,
+    "playersLeft": 6,
+    "round": "f6",
+    "type": "merged",
+    "tribes": ["bandit"],
+    "eliminated": "danielwolfe",
+    "tally": [5, 2],
+    "votes": {
+      "maryancamacho": "danielwolfe",
+      "justinokougbodu": "danielwolfe",
+      "analadaniuski": "danielwolfe",
+      "cooperbrown": "danielwolfe",
+      "katarinacuellar": "danielwolfe",
+      "danielwolfe": "justinokougbodu",
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {
+        "cooperbrown": {
+            "type": "extraVote",
+            "target": "justinokougbodu"
+        }
+    },
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s2f5": {
+    "season": 2,
+    "playersLeft": 5,
+    "round": "f5",
+    "type": "merged",
+    "tribes": ["bandit"],
+    "eliminated": "justinokougbodu",
+    "tally": [4, 1],
+    "votes": {
+      "analadaniuski": "justinokougbodu",
+      "maryancamacho": "justinokougbodu",
+      "katarinacuellar": "justinokougbodu",
+      "cooperbrown": "justinokougbodu",
+      "justinokougbodu": "maryancamacho"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s2f4": {
+    "season": 2,
+    "playersLeft": 4,
+    "round": "f4",
+    "type": "merged",
+    "tribes": ["bandit"],
+    "eliminated": "maryancamacho",
+    "tally": [3, 1],
+    "votes": {
+      "analadaniuski": "maryancamacho",
+      "katarinacuellar": "maryancamacho",
+      "cooperbrown": "maryancamacho",
+      "maryancamacho": "analadaniuski"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f14": {
+    "season": 3,
+    "playersLeft": 14,
+    "round": "f14",
+    "type": "tribal",
+    "tribes": ["bluebonnet"],
+    "eliminated": "eunicebodunrinde",
+    "tally": [5, 2],
+    "votes": {
+      "sarahsheriff": "eunicebodunrinde",
+      "royroyall": "eunicebodunrinde",
+      "krystalcortez": "eunicebodunrinde",
+      "catalinarodriguez": "octaviustyler",
+      "jacksonluikens": "eunicebodunrinde",
+      "eunicebodunrinde": "octaviustyler",
+      "octaviustyler": "eunicebodunrinde"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f13": {
+    "season": 3,
+    "playersLeft": 13,
+    "round": "f13",
+    "type": "tribal",
+    "tribes": ["pricklypear"],
+    "eliminated": "katherinenix",
+    "tally": [5, 2],
+    "votes": {
+        "michaelizzard": "katherinenix",
+        "andrespineda": "katherinenix",
+        "saylorblack": "katherinenix",
+        "alexiscrowl": "katherinenix",
+        "jeffreyramirez": "saylorblack",
+        "trinityhawkins": "katherinenix",
+        "katherinenix": "saylorblack"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f12": {
+    "season": 3,
+    "playersLeft": 12,
+    "round": "f12",
+    "type": "tribal",
+    "tribes": ["pricklypear"],
+    "eliminated": "jeffreyramirez",
+    "tally": [4, 2],
+    "votes": {
+      "michaelizzard": "jeffreyramirez",
+      "andrespineda": "jeffreyramirez",
+      "saylorblack": "jeffreyramirez",
+      "alexiscrowl": "saylorblack",
+      "jeffreyramirez": "saylorblack",
+      "trinityhawkins": "jeffreyramirez"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f11": {
+    "season": 3,
+    "playersLeft": 11,
+    "round": "f11",
+    "type": "tribal",
+    "tribes": ["bluebonnet"],
+    "eliminated": "octaviustyler",
+    "tally": [5, 1],
+    "votes": {
+      "sarahsheriff": "octaviustyler",
+      "royroyall": "octaviustyler",
+      "krystalcortez": "octaviustyler",
+      "jacksonluikens": "octaviustyler",
+      "catalinarodriguez": "octaviustyler",
+      "octaviustyler": "krystalcortez"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f10": {
+    "season": 3,
+    "playersLeft": 10,
+    "round": "f10",
+    "type": "tribal",
+    "tribes": ["newpricklypear"],
+    "eliminated": "trinityhawkins",
+    "tally": [3, 2],
+    "votes": {
+      "sarahsheriff": "trinityhawkins",
+      "royroyall": "trinityhawkins",
+      "krystalcortez": "trinityhawkins",
+      "trinityhawkins": "sarahsheriff",
+      "alexiscrowl": "sarahsheriff"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f9": {
+    "season": 3,
+    "playersLeft": 9,
+    "round": "f9",
+    "type": "tribal",
+    "tribes": ["newbluebonnet"],
+    "eliminated": "catalinarodriguez",
+    "tally": [2, 2, 1, 1],
+    "votes": {
+      "catalinarodriguez": "michaelizzard",
+      "michaelizzard": "catalinarodriguez",
+      "andrespineda": "catalinarodriguez",
+      "saylorblack": "jacksonluikens",
+      "jacksonluikens": "saylorblack"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {
+        "alexiscrowl": {
+            "type": "mailAVote",
+            "target": "jacksonluikens"
+        }
+    },
+    "idolsPlayed": ["jacksonluikens"],
+    "rocks": false
+  },
+  "s3f8": {
+    "season": 3,
+    "playersLeft": 8,
+    "round": "f8",
+    "type": "merged",
+    "tribes": ["cherryblossom"],
+    "eliminated": "jacksonluikens",
+    "tally": [6, 2],
+    "votes": {
+      "sarahsheriff": "jacksonluikens",
+      "krystalcortez": "royroyall",
+      "royroyall": "jacksonluikens",
+      "andrespineda": "jacksonluikens",
+      "michaelizzard": "jacksonluikens",
+      "saylorblack": "jacksonluikens",
+      "jacksonluikens": "royroyall",
+      "alexiscrowl": "jacksonluikens"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f7": {
+    "season": 3,
+    "playersLeft": 7,
+    "round": "f7",
+    "type": "merged",
+    "tribes": ["cherryblossom"],
+    "eliminated": "alexiscrowl",
+    "tally": [4, 2, 1],
+    "votes": {
+      "sarahsheriff": "alexiscrowl",
+      "krystalcortez": "alexiscrowl",
+      "royroyall": "krystalcortez",
+      "andrespineda": "alexiscrowl",
+      "michaelizzard": "saylorblack",
+      "saylorblack": "alexiscrowl",
+      "alexiscrowl": "krystalcortez"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f6": {
+    "season": 3,
+    "playersLeft": 6,
+    "round": "f6",
+    "type": "merged",
+    "tribes": ["cherryblossom"],
+    "eliminated": "saylorblack",
+    "tally": [2, 2, 2],
+    "votes": {
+      "sarahsheriff": "royroyall",
+      "krystalcortez": "saylorblack",
+      "royroyall": "saylorblack",
+      "andrespineda": "sarahsheriff",
+      "michaelizzard": "sarahsheriff",
+      "saylorblack": "royroyall",
+    },
+    "revoteTally": [3,0],
+    "revotes": {
+        "krystalcortez": "saylorblack",
+        "andrespineda": "saylorblack",
+        "michaelizzard": "saylorblack",
+    },
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f5": {
+    "season": 3,
+    "playersLeft": 5,
+    "round": "f5",
+    "type": "merged",
+    "tribes": ["cherryblossom"],
+    "eliminated": "royroyall",
+    "tally": [3, 2],
+    "votes": {
+      "sarahsheriff": "royroyall",
+      "krystalcortez": "royroyall",
+      "royroyall": "sarahsheriff",
+      "andrespineda": "royroyall",
+      "michaelizzard": "sarahsheriff"
+    },
+    "revoteTally": [],
+    "revotes": {},
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
+  "s3f4": {
+    "season": 3,
+    "playersLeft": 4,
+    "round": "f4",
+    "type": "merged",
+    "tribes": ["cherryblossom"],
+    "eliminated": "andrespineda",
+    "tally": [2, 2],
+    "votes": {
+      "sarahsheriff": "andrespineda",
+      "krystalcortez": "sarahsheriff",
+      "andrespineda": "sarahsheriff",
+      "michaelizzard": "andrespineda"
+    },
+    "revoteTally": [2, 0],
+    "revotes": {
+        "krystalcortez": "andrespineda",
+        "michaelizzard": "andrespineda"
+    },
+    "advantages": {},
+    "idolsPlayed": [],
+    "rocks": false
+  },
 }

@@ -5,11 +5,11 @@
     "color": "#FBFCF8",
     "members": [
       "tylerearwood",
-      "juliana",
-      "kyliejo",
+      "julianajohnson",
+      "kyliejoharris",
       "marlacantuesparza",
       "davidproctor",
-      "samantha"
+      "samanthadelaunay"
     ],
     "stats": {}
   },
@@ -19,18 +19,18 @@
     "color": "#e56a1a",
     "members": [
       "tyreelewis",
-      "mia",
+      "miagarza",
       "amerliabarnard",
-      "maya",
-      "grant",
-      "makenzie"
+      "mayaadams",
+      "grantnorsworthy",
+      "makenzielong"
     ],
     "stats": {}
   },
   "tumbleweed": {
     "id": "tumbleweed",
     "name": "Tumbleweed",
-    "color": "#8B4513",
+    "color": "#d19d77",
     "members": [
       "cooperbrown",
       "maryancamacho",
@@ -58,7 +58,7 @@
   "pricklypear": {
     "id": "pricklypear",
     "name": "Prickly Pear",
-    "color": "#228B22",
+    "color": "#A6A909",
     "members": [
       "michaelizzard",
       "andrespineda",
@@ -73,7 +73,7 @@
   "bluebonnet": {
     "id": "bluebonnet",
     "name": "Bluebonnet",
-    "color": "#4169E1",
+    "color": "#ACA8FF",
     "members": [
       "sarahsheriff",
       "krystalcortez",
@@ -88,7 +88,7 @@
   "flyingdutchman": {
     "id": "flyingdutchman",
     "name": "Flying Dutchman",
-    "color": "#000080",
+    "color": "#EB3F5F",
     "members": [
       "presleymcgurl",
       "armandomartinez",
@@ -104,7 +104,7 @@
   "kraken": {
     "id": "kraken",
     "name": "Kraken",
-    "color": "#2F4F4F",
+    "color": "#B24CED",
     "members": [
       "masonscivally",
       "aliciacook",
@@ -120,7 +120,7 @@
   "ares": {
     "id": "ares",
     "name": "Ares",
-    "color": "#DC143C",
+    "color": "#EDE7E1",
     "members": [
       "elismall",
       "myangonzales",
@@ -133,7 +133,7 @@
   "aphrodite": {
     "id": "aphrodite",
     "name": "Aphrodite",
-    "color": "#FF69B4",
+    "color": "#EAC655",
     "members": [
       "sapphirenunn",
       "erinspiek",
@@ -146,7 +146,7 @@
   "athena": {
     "id": "athena",
     "name": "Athena",
-    "color": "#DAA520",
+    "color": "#687D5D",
     "members": [
       "sambizzell",
       "anjaliguruaj",
