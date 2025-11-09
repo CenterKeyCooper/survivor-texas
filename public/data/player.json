@@ -11,7 +11,7 @@
     "placement": 1,
     "stats": {},
     "bio": "Tyler is extremely social, probably the most social person you\u2019ll ever meet. He\u2019s on the longhorn powerlifting team and you can tell. This well built individual is an active (sober) member of Kappa Sigma, Texas Wake, Longhorn Outdoor Club, Texas Fishing club, and more that won\u2019t fit. He\u2019s also a self proclaimed enjoyer of the Spanish Language. Has never seen an episode of Survivor, but loves Total Drama Island.",
-    "image": "tylerearwood.jpg",
+    "image": "tylerearwood.JPG",
     "memorableMoments": [
       "Tyler almost dislocated Grant's shoulder in the first ever Survivor Texas challenge",
       "Tyler told us after WINNING season 1 that he understands how it works now and he'd do a lot better if he got to try again"
@@ -29,8 +29,8 @@
     "placement": 2,
     "stats": {},
     "bio": "",
-    "image": "julianajohnson.jpg",
-    "memorableMoments": []
+    "image": "julianajohnson.JPG",
+    "memorableMoments": ["Orchastrated the best blindside in Survivor Texas season one and one of the best moves in Survivor Texas history with David's 3-2-1 idol blindside"]
   },
   "kyliejoharris": {
     "id": "kyliejoharris",
@@ -44,8 +44,8 @@
     "placement": 3,
     "stats": {},
     "bio": "",
-    "image": "kyliejoharris.jpg",
-    "memorableMoments": []
+    "image": "kyliejoharris.JPG",
+    "memorableMoments": ["The first final tribal choke in Survivor Texas history", "Did amazing at the final 6 challenge because of her marching band experience, got within 2 seconds of the goal"]
   },
   "marlacantuesparza": {
     "id": "marlacantuesparza",
@@ -59,7 +59,7 @@
     "placement": 4,
     "stats": {},
     "bio": "",
-    "image": "marlacantuesparza.jpg",
+    "image": "marlacantuesparza.JPG",
     "memorableMoments": []
   },
   "tyreelewis": {
@@ -75,7 +75,7 @@
     "stats": {},
     "bio": "",
     "image": "tyreelewis.jpeg",
-    "memorableMoments": []
+    "memorableMoments": ["Was way too nice for the final 6 challenge, let Speedway strangers talk to him and lost track time by A LOT"]
   },
   "davidproctor": {
     "id": "davidproctor",
@@ -89,9 +89,9 @@
     "placement": 6,
     "stats": {},
     "bio": "",
-    "image": "davidproctor.jpg",
+    "image": "davidproctor.JPG",
     "memorableMoments": [
-      "Found both idols his season",
+      "Found BOTH idols his season",
       "Best round in Survivor Texas was his 3-2-1"
     ]
   },
@@ -108,7 +108,7 @@
     "stats": {},
     "bio": "",
     "image": "miagarza.png",
-    "memorableMoments": []
+    "memorableMoments": ["Brought her dog Lucy to challenges", "Used wrestling prowess to dominate the first challenge"]
   },
   "ameliabarnard": {
     "id": "ameliabarnard",
@@ -123,7 +123,7 @@
     "stats": {},
     "bio": "",
     "image": "ameliabarnard.png",
-    "memorableMoments": []
+    "memorableMoments": ["Underrated one of the best players in Season One", "Lost the game when Marla made her idol clue giveaways"]
   },
   "mayaadams": {
     "id": "mayaadams",
@@ -182,7 +182,7 @@
     "placement": 12,
     "stats": {},
     "bio": "",
-    "image": "samanthadelaunay.jpg",
+    "image": "samanthadelaunay.JPG",
     "memorableMoments": []
   },
   "cooperbrown": {
