@@ -16,7 +16,7 @@ export default function CrewMemberPage() {
     async function loadMember() {
       try {
         const crewData = await fetchCrew();
-        const foundMember = crewData.find(m => m.id.toString() === id);
+        const foundMember = crewData.find(m => m.id === id);
         
         if (foundMember) {
           setMember(foundMember);

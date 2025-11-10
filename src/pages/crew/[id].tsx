@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { CrewMember } from '@/types/data';
 import { fetchCrew } from '@/lib/data';
 import Link from 'next/link';
+import CrewNotes from '@/components/crew/CrewNotes';
 import styles from './CrewMemberPage.module.css';
 
 export default function CrewMemberPage() {
@@ -16,7 +17,7 @@ export default function CrewMemberPage() {
     async function loadMember() {
       try {
         const crewData = await fetchCrew();
-        const foundMember = crewData.find(m => m.id.toString() === id);
+        const foundMember = crewData.find(m => m.id === id);
         
         if (foundMember) {
           setMember(foundMember);
@@ -94,6 +95,10 @@ export default function CrewMemberPage() {
           <h2>Note</h2>
           <p>{member.note}</p>
         </div>
+      )}
+
+      {id && typeof id === 'string' && (
+        <CrewNotes crewId={id} />
       )}
     </div>
   );

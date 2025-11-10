@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "cooperwilk",
         "name": "Cooper Wilk",
         "photo": "cooper.png",
         "roles": ["Founder", "President", "Host"],
@@ -12,7 +12,7 @@
         "social": "@cooper.wilk"
     },
     {
-        "id": 2,
+        "id": "joyceqin",
         "name": "Joyce Qin",
         "photo": "joyce.png",
         "roles": ["Founder", "Artist"],
@@ -24,7 +24,7 @@
         "social": ""
     },
     {
-        "id": 3,
+        "id": "jonathanfarner",
         "name": "Jonathan Farner",
         "photo": "jonathan.jpg",
         "roles": ["Founder"],
@@ -36,7 +36,7 @@
         "social": ""
     },
     {
-        "id": 4,
+        "id": "davidproctor",
         "name": "David Proctor",
         "photo": "david.jpg",
         "roles": ["Director"],
@@ -48,7 +48,7 @@
         "social": "Off the grid"
     },
     {
-        "id": 5,
+        "id": "kelvinkast",
         "name": "Kelvin Kast",
         "photo": "kelvin.jpg",
         "roles": ["Core Production"],
@@ -60,7 +60,7 @@
         "social": ""
     },
     {
-        "id": 6,
+        "id": "katiefarner",
         "name": "Katie Farner",
         "photo": "katie.jpg",
         "roles": ["Core Production", "Showrunner"],
@@ -72,7 +72,7 @@
         "social": ""
     },
     {
-        "id": 7,
+        "id": "cooperbrown",
         "name": "Cooper Brown",
         "photo": "brown.png",
         "roles": ["Core Production", "Host"],
@@ -84,7 +84,7 @@
         "social": ""
     },
     {
-        "id": 8,
+        "id": "andrespineda",
         "name": "Andres Pineda",
         "photo": "andres.png",
         "roles": ["Challenge Lead"],
@@ -96,7 +96,7 @@
         "social": "@janesurvivor"
     },
     {
-        "id": 9,
+        "id": "trinityhawkins",
         "name": "Trinity Hawkins",
         "photo": "trinity.png",
         "roles": ["Core Production"],
@@ -108,7 +108,7 @@
         "social": ""
     },
     {
-        "id": 10,
+        "id": "justintodd",
         "name": "Justin Todd",
         "photo": "jt.png",
         "roles": ["Core Production", "Director"],
@@ -120,7 +120,7 @@
         "social": ""
     },
     {
-        "id": 11,
+        "id": "maryancamacho",
         "name": "Maryan Camacho",
         "photo": "maryan.png",
         "roles": ["Vote Maker"],
@@ -132,7 +132,7 @@
         "social": ""
     },
     {
-        "id": 12,
+        "id": "jeffreymurray",
         "name": "Jeffrey Murray",
         "photo": "jeffrey.png",
         "roles": ["Social Coordinator"],
@@ -144,7 +144,7 @@
         "social": ""
     },
     {
-        "id": 13,
+        "id": "caroleensaba",
         "name": "Caroleen Saba",
         "photo": "caroleen.png",
         "roles": ["Production"],

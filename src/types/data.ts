@@ -1,5 +1,5 @@
 export interface CrewMember {
-    id: number;
+    id: string;
     name: string;
     photo: string;
     roles: string[];
@@ -56,4 +56,13 @@ export interface CrewMember {
     color: string;
     members: string[];
     // INCOMPLETE
+  }
+
+  export interface CrewNote {
+    id: string;
+    crewId: string;
+    content: string;
+    author: string;
+    createdAt: string;
+    password?: string; // Not exposed to frontend, only used for filtering
   }
