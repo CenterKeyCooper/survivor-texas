@@ -23,7 +23,7 @@ export default async function handler(
       // Only fetch notes where password is 'joyce'
       const records = await table
         .select({
-          filterByFormula: `AND({Crew ID} = "${crewId}", {Password} = "joyce")`,
+          filterByFormula: `AND({Crew ID} = "${crewId}", {password} = "joyce")`,
           sort: [{ field: 'Created', direction: 'desc' }],
         })
         .all();
