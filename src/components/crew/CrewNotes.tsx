@@ -75,7 +75,7 @@ export default function CrewNotes({ crewId }: CrewNotesProps) {
         throw new Error(errorData.error || 'Failed to create note');
       }
 
-      const data = await response.json();
+    //   const data = await response.json();
       // Reload notes to ensure we only show notes with password 'joyce'
       // (filtered server-side)
       setFormData({ content: '', author: '', password: '' });
