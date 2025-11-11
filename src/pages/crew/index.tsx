@@ -3,7 +3,6 @@ import { CrewMember } from '@/types/data';
 import { fetchCrew } from '@/lib/data';
 import CrewCard from '@/components/crew/CrewCard';
 import SearchBar from '@/components/common/SearchBar';
-import styles from './CrewPage.module.css';
 
 export default function CrewPage() {
   const [crew, setCrew] = useState<CrewMember[]>([]);
@@ -34,23 +33,23 @@ export default function CrewPage() {
     setFilteredCrew(filtered);
   };
 
-  if (loading) return <div className={styles.loading}>Loading crew members...</div>;
-  if (error) return <div className={styles.error}>{error}</div>;
+  if (loading) return <div className="loading">Loading crew members...</div>;
+  if (error) return <div className="error">{error}</div>;
 
   return (
-    <div className={styles.crewPage}>
-      <h1>Survivor Texas Crew</h1>
-      <p className={styles.subtitle}>Meet the crew</p>
+    <div className="page">
+      <h1 className="title">Meet the Crew</h1>
+      <p className="subtitle">The (mostly) unseen heroes that design, produce, and edit the seasons</p>
       
       <SearchBar onSearch={handleSearch} placeholder="Search crew by name or role..." />
-      
-      <div className={styles.crewGrid}>
+
+      <div className="grid vertical-padding">
         {filteredCrew.length > 0 ? (
           filteredCrew.map(member => (
             <CrewCard key={member.id} member={member} />
           ))
         ) : (
-          <div className={styles.noResults}>No crew members found matching your search</div>
+          <div className="noResults">No crew members found matching your search</div>
         )}
       </div>
     </div>

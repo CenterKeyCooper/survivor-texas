@@ -39,7 +39,7 @@ export default function CrewMemberPage() {
   if (!member) return <div className={styles.error}>Crew member not found</div>;
 
   return (
-    <div className={styles.crewMemberPage}>
+    <div className="page">
       <Link href="/crew" className={styles.backLink}>
         ← Back to All Crew
       </Link>

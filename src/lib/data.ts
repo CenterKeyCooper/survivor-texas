@@ -40,7 +40,7 @@ export function getFeaturedSeason(seasons: Season[]): Season {
 export function getRecentSeasons(seasons: Season[], count = 5): Season[] {
   return [...seasons]
     .sort((a, b) => b.seasonNumber - a.seasonNumber)
-    .slice(0, count);
+    .slice(1, count);
 }
 
 export function getRandomCrewMembers(crew: CrewMember[], count = 4): CrewMember[] {

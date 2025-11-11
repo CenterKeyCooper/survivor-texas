@@ -67,34 +67,34 @@ export default function PlayerDetailPage() {
   if (!player) return <div className={styles.error}>Player not found</div>;
 
   return (
-    <div className={styles.playerDetailPage}>
+    <div className="page">
       <div className={styles.playerHeader}>
-        <div 
-          className={styles.playerImage}
-          style={{ backgroundImage: `url(/images/players/${player.image || 'placeholder.jpg'})` }}
-        />
-        <div className={styles.playerInfo}>
-          <h1 style={{ color: getPlayerTribeColor() }}>{player.name}</h1>
-          <p className={`${styles.placement} ${getPlacementClass(player.placement)}`}>
-            {getPlacementText(player.placement)}
-          </p>
-          <div className={styles.details}>
-            <p><strong>Season:</strong> {player.seasons.join(', ')}</p>
-            <p><strong>Tribes:</strong> {player.tribes.map((tribe, index) => (
-              <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
-                {tribe}{index < player.tribes.length - 1 ? ', ' : ''}
-              </span>
-            ))}</p>
+        <div className="horizontal-flex">
+          <div 
+            className={styles.playerImage}
+            style={{ backgroundImage: `url(/images/players/${player.image || 'placeholder.jpg'})` }}
+          />
+          <div className="vertical-flex">
+            <div>
+              <h1 style={{ color: getPlayerTribeColor() }}>{player.name}</h1>
+              <p className={`${styles.placement} ${getPlacementClass(player.placement)}`}>
+                {getPlacementText(player.placement)}
+              </p>
+              <div className={`horizontal-flex ${styles.details}`}>
+                <p><strong>Season:</strong> {player.seasons.join(', ')}</p>
+                <p><strong>Tribes:</strong> {player.tribes.map((tribe, index) => (
+                  <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
+                    {tribe}{index < player.tribes.length - 1 ? ', ' : ''}
+                  </span>
+                ))}</p>
+              </div>
+            </div>
+            {player.bio && (
+                <p>{player.bio}</p>
+              )}
           </div>
         </div>
       </div>
-
-      {player.bio && (
-        <div className={styles.bioSection}>
-          <h2>Biography</h2>
-          <p>{player.bio}</p>
-        </div>
-      )}
 
       {player.memorableMoments.length > 0 && (
         <div className={styles.momentsSection}>

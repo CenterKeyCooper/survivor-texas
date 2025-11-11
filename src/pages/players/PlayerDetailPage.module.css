@@ -1,12 +1,6 @@
-.playerDetailPage {
-  padding: 2rem 0;
-  background-color: var(--bg-dark);
-  min-height: 100vh;
-}
-
 .playerHeader {
   display: flex;
-  gap: 2rem;
+  gap: 32px;
   margin-bottom: 3rem;
   align-items: center;
 }
@@ -35,7 +29,6 @@
 .placement {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -60,7 +53,6 @@
 }
 
 .details p {
-  margin-bottom: 0.5rem;
   color: var(--text-light);
 }
 

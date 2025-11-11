@@ -25,7 +25,7 @@ export default function SeasonDetailPage({ season, players }: SeasonDetailPagePr
         <meta name="description" content={season.description} />
       </Head>
 
-      <div className={styles.container}>
+      <div className="container">
         {/* Hero Section */}
         <div className={styles.hero}>
           <div 

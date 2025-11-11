@@ -14,6 +14,7 @@
     font-size: 1rem;
     outline: none;
     transition: all 0.3s ease;
+    font-family: "Survivant";
   }
   
   .searchInput:focus {

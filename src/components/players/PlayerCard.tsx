@@ -51,22 +51,11 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
             </span>
           ))}
         </p>
-        {player.memorableMoments.length > 0 && (
-          <div className={styles.moments}>
-            <p className={styles.momentsLabel}>Memorable Moments:</p>
-            <ul>
-              {player.memorableMoments.slice(0, 2).map((moment, index) => (
-                <li key={index}>{moment}</li>
-              ))}
-            </ul>
-          </div>
-        )}
         <Link 
           href={`/players/${player.id}`} 
-          className={`${styles.btn} ${styles.small}`}
-          legacyBehavior
+          className={`btn ${styles.small}`}
         >
-          <a className={`${styles.btn} ${styles.small}`}>View Profile</a>
+          View Profile
         </Link>
       </div>
     </div>

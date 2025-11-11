@@ -23,7 +23,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -33,16 +32,79 @@ body {
   line-height: 1.6;
 }
 
+.horizontal-flex {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  column-gap: 32px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center {
+  align-items: center;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: 0 64px;
+  padding: 16px;
+}
+
+.page {
+  background-color: var(--bg-dark);
+  margin: 0 64px;
+  padding: 64px 16px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 32px;
+}
+
+.vertical-padding {
+  padding-block: 32px;
+}
+
+.section-dark {
+  padding: 32px 0;
+  background-color: var(--bg-dark);
+}
+
+.section-darker {
+  padding: 32px 0;
+  background-color: var(--bg-darker);
+}
+
+.title {
+  text-align: center;
+  color: var(--accent-orange);
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 1.2rem;
+  opacity: 0.8;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
   color: var(--text-lighter);
 }
 
@@ -52,10 +114,12 @@ h1 {
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
+  text-align: center;
+  color: var(--accent-orange);
   position: relative;
   display: inline-block;
-  margin-bottom: 2rem;
+  margin-bottom: 32px;
 }
 
 h2::after {
@@ -70,7 +134,7 @@ h2::after {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 a {
@@ -85,7 +149,7 @@ a:hover {
 
 .btn {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 16px 32px;
   background-color: var(--accent-orange);
   color: var(--bg-dark);
   border-radius: 4px;
@@ -103,6 +167,29 @@ a:hover {
   transform: translateY(-2px);
 }
 
+.loading, .error {
+  text-align: center;
+  padding: 32px;
+  font-size: 1.2rem;
+}
+
+.loading {
+  color: var(--accent-orange);
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.noResults {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 32px;
+  font-size: 1.1rem;
+  color: var(--text-light);
+  opacity: 0.7;
+}
+
 /* Animations */
 @keyframes fadeInUp {
   from {
@@ -115,13 +202,6 @@ a:hover {
   }
 }
 
-.loading {
-  text-align: center;
-  padding: 2rem;
-  color: var(--accent-orange);
-  font-style: italic;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero h1 {
@@ -130,5 +210,9 @@ a:hover {
 
   .hero p {
       font-size: 1.2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
