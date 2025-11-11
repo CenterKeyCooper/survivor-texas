@@ -19,10 +19,9 @@ export default function CrewCard({ member }: CrewCardProps) {
         <p>Seasons: {member.seasons?.join(', ') || 'N/A'}</p>
         <Link 
           href={`/crew/${member.id}`} 
-          className={`${styles.btn} ${styles.small}`}
-          legacyBehavior
+          className={`btn ${styles.small}`}
         >
-          <a className={`${styles.btn} ${styles.small}`}>View Profile</a>
+          View Profile
         </Link>
       </div>
     </div>

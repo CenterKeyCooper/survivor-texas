@@ -7,17 +7,15 @@ interface SeasonGridProps {
   title?: string;
 }
 
-export default function SeasonGrid({ seasons, title = 'Previous Seasons' }: SeasonGridProps) {
+export default function SeasonGrid({ seasons, title }: SeasonGridProps) {
   return (
-    <section className={styles.seasonGrid}>
-      <div className="container">
-        <h2>{title}</h2>
-        <div className={styles.grid}>
-          {seasons.map(season => (
-            <SeasonCard key={season.seasonNumber} season={season} />
-          ))}
-        </div>
+    <div>
+      {title && <h2>{title}</h2>}
+      <div className="grid">
+        {seasons.map(season => (
+          <SeasonCard key={season.seasonNumber} season={season} />
+        ))}
       </div>
-    </section>
+    </div>
   );
 }

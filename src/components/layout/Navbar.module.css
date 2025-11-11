@@ -1,28 +1,15 @@
 .navbar {
     background-color: var(--bg-darker);
-    padding: 1rem 0;
     position: sticky;
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-    background-image: var(--wood-texture);
-    background-blend-mode: overlay;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   
   .logoContainer {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     text-decoration: none;
   }
   
@@ -32,7 +19,7 @@
   }
   
   .logoText {
-    font-size: 1.8rem;
+    font-size: 36px;
     font-weight: bold;
     color: var(--accent-orange);
     text-transform: uppercase;
@@ -41,7 +28,7 @@
   
   .navLinks {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
   }
   
   .navLinks a {

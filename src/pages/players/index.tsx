@@ -3,7 +3,6 @@ import { Player, Tribe } from '@/types/data';
 import { fetchPlayers, fetchTribes } from '@/lib/data';
 import PlayerCard from '@/components/players/PlayerCard';
 import SearchBar from '@/components/common/SearchBar';
-import styles from './PlayersPage.module.css';
 
 export default function PlayersPage() {
   const [players, setPlayers] = useState<Player[]>([]);
@@ -22,8 +21,16 @@ export default function PlayersPage() {
         
         // Convert the object to an array
         const playersArray = Object.values(playersData);
-        // Sort by placement (winners first, then by placement)
-        const sortedPlayers = playersArray.sort((a, b) => a.placement - b.placement);
+        // Sort by seasons and placement (newest to oldest)
+        const sortPlayers = (a: Player, b: Player) => {
+          let mostRecentSeasonA = a.seasons.sort().at(a.seasons.length - 1) ?? -1
+          let mostRecentSeasonB = b.seasons.sort().at(b.seasons.length - 1) ?? -1
+          if (mostRecentSeasonA == mostRecentSeasonB) {
+            return a.placement - b.placement
+          }
+          return mostRecentSeasonB - mostRecentSeasonA
+        }
+        const sortedPlayers = playersArray.sort(sortPlayers);
         setPlayers(sortedPlayers);
         setFilteredPlayers(sortedPlayers);
         setTribes(tribesData);
@@ -45,23 +52,23 @@ export default function PlayersPage() {
     setFilteredPlayers(filtered);
   };
 
-  if (loading) return <div className={styles.loading}>Loading players...</div>;
-  if (error) return <div className={styles.error}>{error}</div>;
+  if (loading) return <div className="loading">Loading players...</div>;
+  if (error) return <div className="error">{error}</div>;
 
   return (
-    <div className={styles.playersPage}>
-      <h1>Survivor Texas Players</h1>
-      <p className={styles.subtitle}>Meet the contestants who competed for the title of Sole Survivor</p>
+    <div className="page">
+      <h1 className="title">Meet the Players</h1>
+      <p className="subtitle">The contestants who competed for the title of Sole Survivor</p>
       
       <SearchBar onSearch={handleSearch} placeholder="Search players by name, tribe, or season..." />
-      
-      <div className={styles.playersGrid}>
+
+      <div className="grid vertical-padding">
         {filteredPlayers.length > 0 ? (
           filteredPlayers.map(player => (
             <PlayerCard key={player.id} player={player} tribes={tribes} />
           ))
         ) : (
-          <div className={styles.noResults}>No players found matching your search</div>
+          <div className="noResults">No players found matching your search</div>
         )}
       </div>
     </div>

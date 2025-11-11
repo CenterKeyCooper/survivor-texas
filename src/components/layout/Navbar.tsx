@@ -14,10 +14,10 @@ export default function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.container}>
+      <div className="horizontal-flex center space-between container">
         <Link href="/" className={styles.logoContainer}>
           <Image 
-            src="/images/logos/lined_orange.png" 
+            src="/images/favicons/favicon.png" 
             alt="Survivor Texas Logo"
             width={100} 
             height={100}

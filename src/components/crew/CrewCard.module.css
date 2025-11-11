@@ -40,27 +40,6 @@
     margin-bottom: 1rem;
   }
   
-  .btn {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: var(--accent-orange);
-    color: var(--bg-dark);
-    border-radius: 4px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    background-color: var(--accent-orange-dark);
-    color: var(--text-lighter);
-    transform: translateY(-2px);
-  }
-  
   .small {
     padding: 8px 16px;
     font-size: 0.9rem;

@@ -49,63 +49,38 @@ export default function Home() {
       </Head>
       
       <Hero />
-      
-      {/* Featured Season */}
-      <section className="featured-season">
-        <div className="container">
-          <h2>Featured Season</h2>
-          {featuredSeason && <SeasonCard season={featuredSeason} isFeatured />}
-        </div>
-      </section>
 
-      {/* Recent Seasons */}
-      <SeasonGrid seasons={recentSeasons} />
-
-      {/* Crew Spotlight */}
-      <CrewSpotlight crew={spotlightCrew} />
-
-      {/* About Section */}
-      <section className="about">
-        <div className="container">
-          <h2>About Survivor Texas</h2>
-          <div className="about-content">
-            <p>Survivor Texas is a student-run organization at the University of Texas at Austin that brings the excitement of the hit TV show Survivor to campus. Since our first season in 2023, we&apos;ve created an immersive experience that tests players&apos; physical, mental, and social skills.</p>
-            <p>Our mission is to build community, foster strategic thinking, and create unforgettable memories through this unique game experience.</p>
+        {/* Featured Season */}
+        <section className="section-dark">
+          <div className="container">
+            <h2>Featured Season</h2>
+            {featuredSeason && <SeasonCard season={featuredSeason} isFeatured />}
           </div>
-        </div>
-      </section>
+        </section>
 
-      <style jsx>{`
-        .featured-season {
-          padding: 4rem 0;
-          background-color: var(--bg-darker);
-        }
-        
-        .about {
-          padding: 4rem 0;
-          background-color: var(--bg-dark);
-        }
-        
-        .about-content {
-          max-width: 800px;
-          margin: 0 auto;
-          text-align: center;
-        }
-        
-        .loading {
-          text-align: center;
-          padding: 2rem;
-          color: var(--accent-orange);
-          font-style: italic;
-        }
-        
-        .error {
-          text-align: center;
-          padding: 2rem;
-          color: #ff6b6b;
-          font-weight: bold;
-        }
-      `}</style>
+        {/* Recent Seasons */}
+        <section className="section-darker">
+          <div className="container">
+            <SeasonGrid seasons={recentSeasons} title="Previous seasons" />
+          </div>
+        </section>
+
+        {/* Crew Spotlight */}
+        <section className="section-dark">
+          <CrewSpotlight crew={spotlightCrew} />
+        </section>
+
+        {/* About Section */}
+        <section className="section-darker">
+          <div className="container">
+            <h2>About Survivor Texas</h2>
+            <div className="about-content">
+              <p>Survivor Texas is a student-run organization at the University of Texas at Austin that brings the excitement of the hit TV show Survivor to campus. Since our first season in 2023, we&apos;ve created an immersive experience that tests players&apos; physical, mental, and social skills.</p>
+              <p>Our mission is to build community, foster strategic thinking, and create unforgettable memories through this unique game experience.</p>
+            </div>
+          </div>
+        </section>
+      
     </>
   );
 }
