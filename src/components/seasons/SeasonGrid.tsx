@@ -1,6 +1,5 @@
 import { Season } from '@/types/data';
 import SeasonCard from './SeasonCard';
-import styles from './SeasonGrid.module.css';
 
 interface SeasonGridProps {
   seasons: Season[];

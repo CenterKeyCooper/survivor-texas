@@ -23,8 +23,8 @@ export default function PlayersPage() {
         const playersArray = Object.values(playersData);
         // Sort by seasons and placement (newest to oldest)
         const sortPlayers = (a: Player, b: Player) => {
-          let mostRecentSeasonA = a.seasons.sort().at(a.seasons.length - 1) ?? -1
-          let mostRecentSeasonB = b.seasons.sort().at(b.seasons.length - 1) ?? -1
+          const mostRecentSeasonA = a.seasons.sort().at(a.seasons.length - 1) ?? -1
+          const mostRecentSeasonB = b.seasons.sort().at(b.seasons.length - 1) ?? -1
           if (mostRecentSeasonA == mostRecentSeasonB) {
             return a.placement - b.placement
           }
