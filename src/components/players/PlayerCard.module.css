@@ -33,8 +33,3 @@
   position: absolute;
   left: 0;
 }
-
-/* Spotlight-specific styling */
-.spotlightCard .playerContent {
-  padding: 1rem;
-}

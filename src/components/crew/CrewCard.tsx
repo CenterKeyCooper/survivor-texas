@@ -1,29 +1,30 @@
 import Link from 'next/link';
 import { CrewMember } from '@/types/data';
-import styles from './CrewCard.module.css';
+import Card from '../common/Card'
+import crewStyles from '../../styles/crew.module.css';
 
 interface CrewCardProps {
   member: CrewMember;
 }
 
 export default function CrewCard({ member }: CrewCardProps) {
+  const cardContent = (
+    <>
+      <p className={crewStyles.role}>{member.roles?.join(', ') || 'Crew Member'}</p>
+      <p>Seasons: {member.seasons?.join(', ') || 'N/A'}</p>
+      <Link 
+        href={`/crew/${member.id}`} 
+        className="small-btn"
+      >
+        View Profile
+      </Link>
+    </>
+  )
   return (
-    <div className="card">
-      <div 
-        className={`cardImage ${styles.crewImage}`}
-        style={{ backgroundImage: `url(/images/crew/${member.photo || 'placeholder.jpg'})` }}
-      />
-      <div className={`cardContent ${styles.crewContent}`}>
-        <h3>{member.name}</h3>
-        <p className="role">{member.roles?.join(', ') || 'Crew Member'}</p>
-        <p>Seasons: {member.seasons?.join(', ') || 'N/A'}</p>
-        <Link 
-          href={`/crew/${member.id}`} 
-          className="small-btn"
-        >
-          View Profile
-        </Link>
-      </div>
-    </div>
+    <Card
+      imageURL={`/images/crew/${member.photo}`}
+      title={member.name}
+      content={cardContent}
+    />
   );
 }

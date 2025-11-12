@@ -201,12 +201,6 @@ a:hover {
   text-align: center;
 }
 
-.role {
-  color: var(--color-text-accent);
-  font-weight: bold;
-  margin-bottom: var(--margin-bottom-sm);
-}
-
 .btn {
   padding: 16px 32px;
 }
@@ -237,57 +231,6 @@ a:hover {
 
 .align-center {
   align-items: center;
-}
-
-.placement {
-  font-weight: bold;
-  margin-bottom: var(--margin-bottom-sm);
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.winner {
-  color: var(--color-text-winner);
-  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-}
-
-.finalist {
-  color: var(--color-text-finalist);
-  text-shadow: 0 0 5px rgba(192, 192, 192, 0.3);
-}
-
-.placement:not(.winner):not(.finalist) {
-  color: var(--color-text-accent);
-}
-
-/* Card Base Styles */
-.card {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-}
-
-.cardImage {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.cardContent {
-  padding: 1.5rem;
-}
-
-.cardContent h3 {
-  font-size: var(--font-size-h4);
-  margin-bottom: var(--margin-bottom-sm);
-  color: var(--color-text-primary);
 }
 
 /* Section Base Styles */

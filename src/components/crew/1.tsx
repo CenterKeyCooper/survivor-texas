@@ -4,6 +4,7 @@ import { CrewMember } from '@/types/data';
 import { fetchCrew } from '@/lib/data';
 import Link from 'next/link';
 import styles from './CrewMemberPage.module.css';
+import crewStyles from '../../styles/crew.module.css';
 
 export default function CrewMemberPage() {
   const router = useRouter();
@@ -53,7 +54,7 @@ export default function CrewMemberPage() {
         </div>
         <div className={styles.profileInfo}>
           <h1>{member.name}</h1>
-          <p className="role">{member.roles.join(', ')}</p>
+          <p className={crewStyles.role}>{member.roles.join(', ')}</p>
           <p className={styles.seasons}>Seasons: {member.seasons.join(', ')}</p>
           {member.social && (
             <a href={member.social.startsWith('http') ? member.social : `https://${member.social}`} 

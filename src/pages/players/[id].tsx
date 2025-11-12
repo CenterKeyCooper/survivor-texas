@@ -4,6 +4,7 @@ import { Player, Tribe } from '@/types/data';
 import { fetchPlayers, fetchTribes, getTribeColor } from '@/lib/data';
 import { useMediaQuery } from 'react-responsive';
 import styles from './PlayerDetailPage.module.css';
+import playerStyles from '../../styles/players.module.css';
 
 export default function PlayerDetailPage() {
   const router = useRouter();
@@ -48,9 +49,9 @@ export default function PlayerDetailPage() {
   };
 
   const getPlacementClass = (placement: number) => {
-    if (placement === 1) return "winner";
-    if (placement <= 3) return "finalist";
-    return "placement";
+    if (placement === 1) return playerStyles.winner;
+    if (placement <= 3) return playerStyles.finalist;
+    return playerStyles.placement;
   };
 
   const getPlayerTribeColor = () => {
@@ -80,7 +81,7 @@ export default function PlayerDetailPage() {
           <div className="vertical-flex">
             <div>
               <h1 style={{ color: getPlayerTribeColor() }}>{player.name}</h1>
-              <p className={`placement ${getPlacementClass(player.placement)}`}>
+              <p className={`${getPlacementClass(player.placement)}`}>
                 {getPlacementText(player.placement)}
               </p>
               <div className={`horizontal-flex ${styles.details}`}>
@@ -105,7 +106,7 @@ export default function PlayerDetailPage() {
           />
               <h1 style={{ color: getPlayerTribeColor() }}>{player.name}</h1>
               <div className={`horizontal-flex ${styles.details}`}>
-              <p className={`placement ${getPlacementClass(player.placement)}`}>
+              <p className={`${getPlacementClass(player.placement)}`}>
                 {getPlacementText(player.placement)}
               </p>
                 <p><strong>Season:</strong> {player.seasons.join(', ')}</p>
