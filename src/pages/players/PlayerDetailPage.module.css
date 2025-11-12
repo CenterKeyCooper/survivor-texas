@@ -1,7 +1,7 @@
 .playerHeader {
   display: flex;
-  gap: 32px;
-  margin-bottom: 3rem;
+  gap: var(--gap);
+  margin-bottom: var(--margin-bottom-xxxl);
   align-items: center;
 }
 
@@ -20,68 +20,12 @@
   flex: 1;
 }
 
-.playerInfo h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: var(--accent-orange);
-}
-
-.placement {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.winner {
-  color: #ffd700;
-  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-}
-
-.finalist {
-  color: #c0c0c0;
-  text-shadow: 0 0 5px rgba(192, 192, 192, 0.3);
-}
-
-.placement:not(.winner):not(.finalist) {
-  color: var(--accent-orange);
-}
-
-.details {
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
-.details p {
-  color: var(--text-light);
-}
-
-.details strong {
-  color: var(--accent-orange);
-}
-
 .bioSection,
 .momentsSection,
 .statsSection {
-  margin-bottom: 3rem;
+  margin-bottom: var(--margin-bottom-xxxl);
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  border-left: 4px solid var(--accent-orange);
-}
-
-.bioSection h2,
-.momentsSection h2,
-.statsSection h2 {
-  color: var(--accent-orange);
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-}
-
-.bioSection p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: var(--text-light);
+  /* Base section styles are in globals.css .sectionWithBorder */
 }
 
 .momentsSection ul {
@@ -90,21 +34,9 @@
 }
 
 .momentsSection li {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: var(--text-light);
-  margin-bottom: 1rem;
+  margin-bottom: var(--margin-bottom-md);
   padding-left: 2rem;
-  position: relative;
-}
-
-.momentsSection li::before {
-  content: '•';
-  color: var(--accent-orange);
-  position: absolute;
-  left: 0;
-  font-size: 1.5rem;
-  line-height: 1;
+  /* Base list item bullet styles are in globals.css .listItemWithBullet */
 }
 
 .statsGrid {
@@ -122,42 +54,13 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.statLabel {
-  color: var(--accent-orange);
-  font-weight: bold;
-}
 
-.statValue {
-  color: var(--text-light);
-}
-
-.loading, .error {
-  text-align: center;
-  padding: 2rem;
-  font-size: 1.2rem;
-}
-
-.loading {
-  color: var(--accent-orange);
-}
-
-.error {
-  color: #ff6b6b;
-}
+/* Loading and error styles are in globals.css */
 
 @media (max-width: 768px) {
-  .playerHeader {
-    flex-direction: column;
-    text-align: center;
-  }
-  
   .playerImage {
-    width: 250px;
-    height: 300px;
-  }
-  
-  .playerInfo h1 {
-    font-size: 2rem;
+    width: 100%;
+    margin-bottom: var(--margin-bottom-md);
   }
   
   .statsGrid {

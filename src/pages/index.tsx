@@ -51,33 +51,27 @@ export default function Home() {
       <Hero />
 
         {/* Featured Season */}
-        <section className="section-dark">
-          <div className="container">
-            <h2>Featured Season</h2>
-            {featuredSeason && <SeasonCard season={featuredSeason} isFeatured />}
-          </div>
+        <section className="section-dark section-no-margins">
+          <h2>Featured Season</h2>
+          {featuredSeason && <SeasonCard season={featuredSeason} isFeatured />}
         </section>
 
         {/* Recent Seasons */}
-        <section className="section-darker">
-          <div className="container">
-            <SeasonGrid seasons={recentSeasons} title="Previous seasons" />
-          </div>
+        <section className="section-darker section-no-margins">
+          <SeasonGrid seasons={recentSeasons} title="Previous seasons" />
         </section>
 
         {/* Crew Spotlight */}
-        <section className="section-dark">
+        <section className="section-dark section-no-margins">
           <CrewSpotlight crew={spotlightCrew} />
         </section>
 
         {/* About Section */}
-        <section className="section-darker">
-          <div className="container">
-            <h2>About Survivor Texas</h2>
-            <div className="about-content">
-              <p>Survivor Texas is a student-run organization at the University of Texas at Austin that brings the excitement of the hit TV show Survivor to campus. Since our first season in 2023, we&apos;ve created an immersive experience that tests players&apos; physical, mental, and social skills.</p>
-              <p>Our mission is to build community, foster strategic thinking, and create unforgettable memories through this unique game experience.</p>
-            </div>
+        <section className="section-darker section-no-margins">
+          <h2>About Survivor Texas</h2>
+          <div className="about-content">
+            <p>Survivor Texas is a student-run organization at the University of Texas at Austin that brings the excitement of the hit TV show Survivor to campus. Since our first season in 2023, we&apos;ve created an immersive experience that tests players&apos; physical, mental, and social skills.</p>
+            <p>Our mission is to build community, foster strategic thinking, and create unforgettable memories through this unique game experience.</p>
           </div>
         </section>
       

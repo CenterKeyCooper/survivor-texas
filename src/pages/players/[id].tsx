@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { Player, Tribe } from '@/types/data';
 import { fetchPlayers, fetchTribes, getTribeColor } from '@/lib/data';
+import { useMediaQuery } from 'react-responsive';
 import styles from './PlayerDetailPage.module.css';
+import playerStyles from '../../styles/players.module.css';
 
 export default function PlayerDetailPage() {
   const router = useRouter();
@@ -47,9 +49,9 @@ export default function PlayerDetailPage() {
   };
 
   const getPlacementClass = (placement: number) => {
-    if (placement === 1) return styles.winner;
-    if (placement <= 3) return styles.finalist;
-    return styles.placement;
+    if (placement === 1) return playerStyles.winner;
+    if (placement <= 3) return playerStyles.finalist;
+    return playerStyles.placement;
   };
 
   const getPlayerTribeColor = () => {
@@ -62,13 +64,15 @@ export default function PlayerDetailPage() {
     return getTribeColor(tribes, tribeId);
   };
 
-  if (loading) return <div className={styles.loading}>Loading player...</div>;
-  if (error) return <div className={styles.error}>{error}</div>;
-  if (!player) return <div className={styles.error}>Player not found</div>;
+  const isMobile = useMediaQuery({ query: `(max-width: 768px)` })
+  if (loading) return <div className="loading">Loading player...</div>;
+  if (error) return <div className="error">{error}</div>;
+  if (!player) return <div className="error">Player not found</div>;
 
   return (
     <div className="page">
       <div className={styles.playerHeader}>
+      {!isMobile ? 
         <div className="horizontal-flex">
           <div 
             className={styles.playerImage}
@@ -77,7 +81,7 @@ export default function PlayerDetailPage() {
           <div className="vertical-flex">
             <div>
               <h1 style={{ color: getPlayerTribeColor() }}>{player.name}</h1>
-              <p className={`${styles.placement} ${getPlacementClass(player.placement)}`}>
+              <p className={`${getPlacementClass(player.placement)}`}>
                 {getPlacementText(player.placement)}
               </p>
               <div className={`horizontal-flex ${styles.details}`}>
@@ -94,27 +98,51 @@ export default function PlayerDetailPage() {
               )}
           </div>
         </div>
+       :
+       <div className="vertical-flex align-center">
+        <div 
+            className={styles.playerImage}
+            style={{ backgroundImage: `url(/images/players/${player.image || 'placeholder.jpg'})` }}
+          />
+              <h1 style={{ color: getPlayerTribeColor() }}>{player.name}</h1>
+              <div className={`horizontal-flex ${styles.details}`}>
+              <p className={`${getPlacementClass(player.placement)}`}>
+                {getPlacementText(player.placement)}
+              </p>
+                <p><strong>Season:</strong> {player.seasons.join(', ')}</p>
+                <p><strong>Tribes:</strong> {player.tribes.map((tribe, index) => (
+                  <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
+                    {tribe}{index < player.tribes.length - 1 ? ', ' : ''}
+                  </span>
+                ))}</p>
+              </div>
+            {player.bio && (
+              <div className="text-center">
+                <p>{player.bio}</p>
+                </div>
+              )}
+        </div>}
       </div>
 
       {player.memorableMoments.length > 0 && (
-        <div className={styles.momentsSection}>
+        <div className={`sectionWithBorder ${styles.momentsSection}`}>
           <h2>Memorable Moments</h2>
           <ul>
             {player.memorableMoments.map((moment, index) => (
-              <li key={index}>{moment}</li>
+              <li key={index} className="listItemWithBullet">{moment}</li>
             ))}
           </ul>
         </div>
       )}
 
       {Object.keys(player.stats).length > 0 && (
-        <div className={styles.statsSection}>
+        <div className={`sectionWithBorder ${styles.statsSection}`}>
           <h2>Statistics</h2>
           <div className={styles.statsGrid}>
             {Object.entries(player.stats).map(([key, value]) => (
               <div key={key} className={styles.statItem}>
-                <span className={styles.statLabel}>{key}:</span>
-                <span className={styles.statValue}>{String(value)}</span>
+                <span className={`statLabel ${styles.statLabel}`}>{key}:</span>
+                <span className={`statValue ${styles.statValue}`}>{String(value)}</span>
               </div>
             ))}
           </div>

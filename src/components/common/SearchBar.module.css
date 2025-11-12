@@ -1,31 +1,36 @@
 .searchContainer {
-    position: relative;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 600px;
+  padding: 12px 20px 12px 40px;
+  border-radius: 25px;
+  border: 2px solid var(--accent-orange);
+  background-color: var(--bg-darker);
+  outline: none;
+  transition: all 0.3s ease;
+  font-family: "Survivant";
+  color: var(--color-text-primary)
+}
+
+.searchInput:focus {
+  border-color: var(--text-lighter);
+  box-shadow: 0 0 0 2px rgba(255, 123, 37, 0.3);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent-orange);
+}
+
+@media (max-width: 768px) {
   .searchInput {
     width: 100%;
-    padding: 12px 20px 12px 40px;
-    border-radius: 25px;
-    border: 2px solid var(--accent-orange);
-    background-color: var(--bg-darker);
-    color: var(--text-light);
-    font-size: 1rem;
-    outline: none;
-    transition: all 0.3s ease;
-    font-family: "Survivant";
   }
-  
-  .searchInput:focus {
-    border-color: var(--text-lighter);
-    box-shadow: 0 0 0 2px rgba(255, 123, 37, 0.3);
-  }
-  
-  .searchIcon {
-    position: absolute;
-    left: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--accent-orange);
-  }
+
+}

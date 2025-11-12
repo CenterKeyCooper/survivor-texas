@@ -1,24 +1,21 @@
 .notesSection {
-  margin-bottom: 2.5rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: var(--margin-bottom-xxl);
   padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  /* Base section styles are in globals.css .section */
 }
 
 .notesHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--margin-bottom-lg);
   flex-wrap: wrap;
   gap: 1rem;
 }
 
 .notesSection h2 {
-  color: var(--accent-orange);
   margin: 0;
-  font-size: 1.5rem;
+  /* Text styling is in globals.css */
 }
 
 .leaveNoteButton {
@@ -27,10 +24,9 @@
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
-  font-size: 1rem;
-  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
+  /* Text styling is in globals.css */
 }
 
 .leaveNoteButton:hover {
@@ -39,20 +35,19 @@
 }
 
 .noteForm {
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
+  margin-bottom: var(--margin-bottom-xl);
+  padding-bottom: var(--margin-bottom-xl);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .formGroup {
-  margin-bottom: 1rem;
+  margin-bottom: var(--margin-bottom-md);
 }
 
 .formGroup label {
   display: block;
-  margin-bottom: 0.5rem;
-  color: var(--text-lighter);
-  font-weight: 500;
+  margin-bottom: var(--margin-bottom-sm);
+  /* Text styling is in globals.css */
 }
 
 .formGroup input,
@@ -62,10 +57,9 @@
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
-  color: var(--text-lighter);
   font-family: inherit;
-  font-size: 1rem;
   transition: border-color 0.2s ease, background-color 0.2s ease;
+  /* Text styling is in globals.css */
 }
 
 .formGroup input:focus,
@@ -81,10 +75,9 @@
 }
 
 .passwordHint {
-  margin-top: 0.5rem;
-  font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.6);
+  margin-top: var(--margin-bottom-sm);
   font-style: italic;
+  /* Text styling is in globals.css */
 }
 
 .formActions {
@@ -99,11 +92,10 @@
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
-  font-size: 1rem;
-  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.2s ease, transform 0.1s ease;
   flex: 1;
+  /* Text styling is in globals.css */
 }
 
 .submitButton:hover:not(:disabled) {
@@ -118,15 +110,13 @@
 
 .cancelButton {
   background-color: transparent;
-  color: var(--text-lighter);
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
-  font-size: 1rem;
-  font-weight: 500;
   cursor: pointer;
   transition: border-color 0.2s ease, background-color 0.2s ease;
   flex: 1;
+  /* Text styling is in globals.css */
 }
 
 .cancelButton:hover:not(:disabled) {
@@ -156,43 +146,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--margin-bottom-sm);
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.noteAuthor {
-  font-weight: bold;
-  color: var(--accent-orange);
-  font-size: 1rem;
-}
-
-.noteDate {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 0.875rem;
-}
 
 .noteContent {
-  color: var(--text-lighter);
   line-height: 1.6;
   white-space: pre-wrap;
+  /* Text styling is in globals.css */
 }
 
 .loading,
 .noNotes {
-  text-align: center;
   padding: 2rem;
-  color: rgba(255, 255, 255, 0.6);
   font-style: italic;
+  /* Text styling is in globals.css */
 }
 
 .errorMessage {
   background-color: rgba(255, 107, 107, 0.2);
-  border: 1px solid #ff6b6b;
-  color: #ff6b6b;
+  border: 1px solid var(--color-text-error);
   padding: 0.75rem;
   border-radius: 4px;
-  margin-bottom: 1rem;
+  margin-bottom: var(--margin-bottom-md);
+  /* Text styling is in globals.css */
 }
 
 @media (max-width: 768px) {
