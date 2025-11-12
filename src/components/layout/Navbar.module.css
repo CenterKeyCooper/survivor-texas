@@ -109,3 +109,10 @@
       transform: rotate(-45deg) translate(7px, -6px);
     }
   }
+
+@media (max-width: 450px) {
+  .logoText {
+    font-size: x-large;
+  }
+
+}
