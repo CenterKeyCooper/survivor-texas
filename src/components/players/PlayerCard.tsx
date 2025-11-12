@@ -40,7 +40,7 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
         {getPlacementText(player.placement)}
       </p>
       <p className={styles.seasons}>Season {player.seasons.join(', ')}</p>
-      <p className={styles.tribes}>
+      <p>
         Tribes: {player.tribes.map((tribe, index) => (
           <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
             {tribe}{index < player.tribes.length - 1 ? ', ' : ''}
@@ -59,7 +59,6 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
     <Card
       imageURL={`/images/players/${player.image}`}
       title={player.name}
-      titleStyle={{ color: getPlayerTribeColor() }}
       content={cardContent}
     />
   );

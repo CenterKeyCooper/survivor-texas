@@ -5,11 +5,10 @@ interface CardProps {
   imageURL?: string;
   imageStyle?: React.CSSProperties;
   title: string;
-  titleStyle?: React.CSSProperties;
   content: ReactNode;
 }
 
-export default function Card({ imageURL, imageStyle, title, titleStyle, content }: CardProps) {
+export default function Card({ imageURL, imageStyle, title, content }: CardProps) {
   return (
     <div className={styles.card}>
       <div 
@@ -17,7 +16,7 @@ export default function Card({ imageURL, imageStyle, title, titleStyle, content 
         style={{ ...imageStyle, backgroundImage: `url(${imageURL || '/images/placeholder.jpg'})` }}
       />
       <div className={styles.cardContent}>
-        <h3 style={titleStyle}>{title}</h3>
+        <h3>{title}</h3>
         {content}
       </div>
     </div>

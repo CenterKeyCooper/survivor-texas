@@ -28,7 +28,7 @@ export default function SeasonCard({ season, isFeatured = false }: SeasonCardPro
     return (
       <Card
         imageURL={`/images/seasons/${season.seasonNumber}/${season.banner}`}
-        imageStyle={{ height: `250px`, backgroundPosition: `unset` }}
+        imageStyle={{ height: `250px` }}
         title={`Season ${season.seasonNumber}: ${season.title}`}
         content={cardContent}
       />

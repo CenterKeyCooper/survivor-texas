@@ -2,8 +2,8 @@ import { GetStaticProps, GetStaticPaths } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Season, Player } from '@/types/data';
-import { fetchSeasons, fetchPlayers, getPlayersBySeason } from '@/lib/data';
+import { Season, Player, Tribe } from '@/types/data';
+import { fetchSeasons, fetchPlayers, getPlayersBySeason, fetchTribes } from '@/lib/data';
 import PlayerCard from '@/components/players/PlayerCard';
 import styles from './SeasonDetailPage.module.css';
 import SeasonHero from '@/components/seasons/SeasonHero';
@@ -11,10 +11,10 @@ import SeasonHero from '@/components/seasons/SeasonHero';
 interface SeasonDetailPageProps {
   season: Season;
   players: Player[];
+  tribes: Record<string, Tribe>;
 }
 
-export default function SeasonDetailPage({ season, players }: SeasonDetailPageProps) {
-  const winner = players.find(player => player.id === season.winner);
+export default function SeasonDetailPage({ season, players, tribes }: SeasonDetailPageProps) {
   const finalists = players.filter(player => player.placement <= 3).sort((a, b) => a.placement - b.placement);
   const otherPlayers = players.filter(player => player.placement > 3).sort((a, b) => a.placement - b.placement);
   const isVerticalEpisodes = season.seasonNumber <= 2;
@@ -37,23 +37,13 @@ export default function SeasonDetailPage({ season, players }: SeasonDetailPagePr
         </div>
       </section>
 
-      {/* Winner Section */}
-      {winner && (
-        <section className={`section-no-margins ${styles.paddedSection}`}>
-          <h3>Winner</h3>
-          <div className={styles.winnerCard}>
-            <PlayerCard player={winner} />
-          </div>
-        </section>
-      )}
-
       {/* Finalists Section */}
       {finalists.length > 0 && (
         <section className={`section-no-margins translucent-background ${styles.paddedSection}`}>
           <h3>Finalists</h3>
           <div className={styles.playersGrid}>
             {finalists.map(player => (
-              <PlayerCard key={player.id} player={player} />
+              <PlayerCard key={player.id} player={player} tribes={tribes} />
             ))}
           </div>
         </section>
@@ -104,7 +94,7 @@ export default function SeasonDetailPage({ season, players }: SeasonDetailPagePr
         <h3>All Players</h3>
         <div className="grid">
           {[...finalists, ...otherPlayers].map(player => (
-            <PlayerCard key={player.id} player={player} />
+            <PlayerCard key={player.id} player={player} tribes={tribes} />
           ))}
         </div>
       </section>
@@ -134,6 +124,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const seasons = await fetchSeasons();
   const players = await fetchPlayers();
+  const tribes = await fetchTribes();
   
   const season = seasons.find(s => s.seasonNumber.toString() === params?.id);
   const seasonPlayers = getPlayersBySeason(players, season?.seasonNumber || 0);
@@ -148,6 +139,7 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       season,
       players: seasonPlayers,
+      tribes: tribes,
     },
   };
 };
