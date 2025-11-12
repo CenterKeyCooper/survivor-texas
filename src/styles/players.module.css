@@ -1,0 +1,20 @@
+.placement {
+    font-weight: bold;
+    margin-bottom: var(--margin-bottom-sm);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.winner {
+    color: var(--color-text-winner);
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.finalist {
+    color: var(--color-text-finalist);
+    text-shadow: 0 0 5px rgba(192, 192, 192, 0.3);
+}
+
+.placement:not(.winner):not(.finalist) {
+    color: var(--color-text-accent);
+}

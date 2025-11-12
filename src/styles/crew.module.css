@@ -1,0 +1,5 @@
+.role {
+    color: var(--color-text-accent);
+    font-weight: bold;
+    margin-bottom: var(--margin-bottom-sm);
+}
