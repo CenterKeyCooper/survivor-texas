@@ -53,7 +53,7 @@ export default function CrewMemberPage() {
         </div>
         <div className={styles.profileInfo}>
           <h1>{member.name}</h1>
-          <p className={styles.role}>{member.roles.join(', ')}</p>
+          <p className="role">{member.roles.join(', ')}</p>
           <p className={styles.seasons}>Seasons: {member.seasons.join(', ')}</p>
           {member.social && (
             <a href={member.social.startsWith('http') ? member.social : `https://${member.social}`} 

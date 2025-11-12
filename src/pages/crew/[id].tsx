@@ -34,13 +34,13 @@ export default function CrewMemberPage() {
     if (id) loadMember();
   }, [id]);
 
-  if (loading) return <div className={styles.loading}>Loading crew member...</div>;
-  if (error) return <div className={styles.error}>{error}</div>;
-  if (!member) return <div className={styles.error}>Crew member not found</div>;
+  if (loading) return <div className="loading">Loading crew member...</div>;
+  if (error) return <div className="error">{error}</div>;
+  if (!member) return <div className="error">Crew member not found</div>;
 
   return (
     <div className="page">
-      <Link href="/crew" className={styles.backLink}>
+      <Link href="/crew" className="backLink">
         ← Back to All Crew
       </Link>
       
@@ -54,7 +54,7 @@ export default function CrewMemberPage() {
         </div>
         <div className={styles.profileInfo}>
           <h1>{member.name}</h1>
-          <p className={styles.role}>{member.roles.join(', ')}</p>
+          <p className="role">{member.roles.join(', ')}</p>
           <p className={styles.seasons}>Seasons: {member.seasons.join(', ')}</p>
           {member.social && (
             <a href={member.social.startsWith('http') ? member.social : `https://${member.social}`} 
@@ -67,31 +67,31 @@ export default function CrewMemberPage() {
         </div>
       </div>
 
-      <div className={styles.detailsSection}>
+      <div className={`section ${styles.detailsSection}`}>
         <h2>Contributions</h2>
         <ul className={styles.contributions}>
           {member.contributions.map((contribution, index) => (
-            <li key={index}>{contribution}</li>
+            <li key={index} className="listItemWithBullet">{contribution}</li>
           ))}
         </ul>
       </div>
 
       {member.memories && (
-        <div className={styles.detailsSection}>
+        <div className={`section ${styles.detailsSection}`}>
           <h2>Memorable Moments</h2>
           <p>{member.memories}</p>
         </div>
       )}
 
       {member.fun_fact && (
-        <div className={styles.detailsSection}>
+        <div className={`section ${styles.detailsSection}`}>
           <h2>Fun Fact</h2>
           <p>{member.fun_fact}</p>
         </div>
       )}
 
       {member.note && (
-        <div className={styles.detailsSection}>
+        <div className={`section ${styles.detailsSection}`}>
           <h2>Note</h2>
           <p>{member.note}</p>
         </div>

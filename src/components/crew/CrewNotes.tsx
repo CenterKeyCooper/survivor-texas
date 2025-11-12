@@ -105,7 +105,7 @@ export default function CrewNotes({ crewId }: CrewNotesProps) {
   }
 
   return (
-    <div className={styles.notesSection}>
+    <div className={`section ${styles.notesSection}`}>
       <div className={styles.notesHeader}>
         <h2>Notes</h2>
         {!showForm && (

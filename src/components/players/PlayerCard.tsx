@@ -17,9 +17,9 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
   };
 
   const getPlacementClass = (placement: number) => {
-    if (placement === 1) return styles.winner;
-    if (placement <= 3) return styles.finalist;
-    return styles.placement;
+    if (placement === 1) return "winner";
+    if (placement <= 3) return "finalist";
+    return "placement";
   };
 
   const getPlayerTribeColor = () => {
@@ -33,14 +33,14 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
   };
 
   return (
-    <div className={styles.playerCard}>
+    <div className="card">
       <div 
-        className={styles.playerImage}
+        className={`cardImage ${styles.playerImage}`}
         style={{ backgroundImage: `url(/images/players/${player.image || 'placeholder.png'})` }}
       />
-      <div className={styles.playerContent}>
+      <div className={`cardContent ${styles.playerContent}`}>
         <h3 style={{ color: getPlayerTribeColor() }}>{player.name}</h3>
-        <p className={`${styles.placement} ${getPlacementClass(player.placement)}`}>
+        <p className={`placement ${getPlacementClass(player.placement)}`}>
           {getPlacementText(player.placement)}
         </p>
         <p className={styles.seasons}>Season {player.seasons.join(', ')}</p>
@@ -53,7 +53,7 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
         </p>
         <Link 
           href={`/players/${player.id}`} 
-          className={`btn ${styles.small}`}
+          className="small-btn"
         >
           View Profile
         </Link>

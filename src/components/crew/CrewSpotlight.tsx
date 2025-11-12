@@ -10,18 +10,18 @@ interface CrewSpotlightProps {
 
 export default function CrewSpotlight({ crew, title = 'Crew Spotlight' }: CrewSpotlightProps) {
   return (
-    <div className="container">
+    <>
       <h2>{title}</h2>
       <div className={styles.crewGrid}>
         {crew.map(member => (
           <CrewCard key={member.id} member={member} />
         ))}
       </div>
-      <div className={styles.textCenter}>
+      <div className="text-center">
         <Link href="/crew" className="btn">
           View All Crew
         </Link>
       </div>
-    </div>
+    </>
   );
 }

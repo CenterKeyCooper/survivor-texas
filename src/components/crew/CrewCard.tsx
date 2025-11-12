@@ -8,18 +8,18 @@ interface CrewCardProps {
 
 export default function CrewCard({ member }: CrewCardProps) {
   return (
-    <div className={styles.crewCard}>
+    <div className="card">
       <div 
-        className={styles.crewImage}
+        className={`cardImage ${styles.crewImage}`}
         style={{ backgroundImage: `url(/images/crew/${member.photo || 'placeholder.jpg'})` }}
       />
-      <div className={styles.crewContent}>
+      <div className={`cardContent ${styles.crewContent}`}>
         <h3>{member.name}</h3>
-        <p className={styles.role}>{member.roles?.join(', ') || 'Crew Member'}</p>
+        <p className="role">{member.roles?.join(', ') || 'Crew Member'}</p>
         <p>Seasons: {member.seasons?.join(', ') || 'N/A'}</p>
         <Link 
           href={`/crew/${member.id}`} 
-          className={`btn ${styles.small}`}
+          className="small-btn"
         >
           View Profile
         </Link>
