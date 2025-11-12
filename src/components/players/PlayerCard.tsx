@@ -24,11 +24,6 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
     return playerStyles.placement;
   };
 
-  const getPlayerTribeColor = () => {
-    if (!tribes || player.tribes.length === 0) return '#FFFFFF';
-    return getTribeColor(tribes, player.tribes[0]);
-  };
-
   const getTribeNameColor = (tribeId: string) => {
     if (!tribes) return '#FFFFFF';
     return getTribeColor(tribes, tribeId);
