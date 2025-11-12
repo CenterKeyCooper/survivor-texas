@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Season } from '@/types/data';
+import Card from '../common/Card';
 import styles from './SeasonCard.module.css';
 
 interface SeasonCardProps {
@@ -9,39 +10,40 @@ interface SeasonCardProps {
 
 export default function SeasonCard({ season, isFeatured = false }: SeasonCardProps) {
   if (isFeatured) {
-    return (
-      <div className={`card ${styles.seasonCard}`}>
-        <div 
-          className={`cardImage ${styles.seasonCardImage}`}
-          style={{ backgroundImage: `url(/images/seasons/${season.seasonNumber}/${season.banner || 'placeholder-banner.jpg'})` }}
-        />
-        <div className={styles.seasonCardContent}>
-          <h3>Season {season.seasonNumber}: {season.title}</h3>
-          <div className={`seasonMeta ${styles.seasonMeta}`}>
-            <span>{season.location}</span>
-            <span>{season.players.length} Players</span>
-            <span>Winner: {season.winner || 'TBD'}</span>
-          </div>
-          <p className={styles.seasonDesc}>
-            {season.description || 'An epic season of Survivor Texas with intense challenges and strategic gameplay.'}
-          </p>
-          <Link href={`/seasons/${season.seasonNumber}`} className="btn">
-            View Season
-          </Link>
+    const cardContent = (
+      <>
+        <div className={styles.seasonMeta}>
+          <span>{season.location}</span>
+          <span>{season.players.length} Players</span>
+          <span>Winner: {season.winner || 'TBD'}</span>
         </div>
-      </div>
+        <p className={styles.seasonDesc}>
+          {season.description || 'An epic season of Survivor Texas with intense challenges and strategic gameplay.'}
+        </p>
+        <Link href={`/seasons/${season.seasonNumber}`} className={styles.btn}>
+          View Season
+        </Link>
+      </>
+    )
+    return (
+      <Card
+        imageURL={`/images/seasons/${season.seasonNumber}/${season.banner}`}
+        imageStyle={{ height: `250px`, backgroundPosition: `unset` }}
+        title={`Season ${season.seasonNumber}: ${season.title}`}
+        content={cardContent}
+      />
     );
   }
 
   return (
-    <div className="card">
+    <div className={styles.gridItem}>
       <div 
-        className={`cardImage ${styles.gridItemImage}`}
+        className={styles.gridItemImage}
         style={{ backgroundImage: `url(/images/seasons/${season.seasonNumber}/${season.cover || 'placeholder-banner.jpg'})` }}
       />
-      <div className="cardContent">
+      <div className={styles.gridItemContent}>
         <h3>Season {season.seasonNumber}</h3>
-        <p className={`meta ${styles.meta}`}>{season.title}</p>
+        <p className={styles.meta}>{season.title}</p>
         <p>{season.location} • {season.players.length} Players</p>
         <Link href={`/seasons/${season.seasonNumber}`} className="small-btn">
           View Season

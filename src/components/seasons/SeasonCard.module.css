@@ -1,40 +1,47 @@
-.seasonCard {
-  /* Base card styles are in globals.css .card */
-  display: flex;
-  flex-direction: column;
-}
-
-.seasonCard:hover {
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-}
-
-.seasonCardImage {
-  /* Base image styles are in globals.css .cardImage */
-  height: 250px;
-  position: relative;
-}
-
-.seasonCardContent {
-  padding: 2rem;
-  flex-grow: 1;
-}
-
-  
   .seasonMeta {
     display: flex;
     gap: 1rem;
-    margin-bottom: var(--margin-bottom-md);
+    margin-bottom: 1rem;
+    color: var(--accent-orange);
+    font-weight: bold;
   }
   
   .seasonDesc {
-    margin-bottom: var(--margin-bottom-lg);
+    margin-bottom: 1.5rem;
   }
   
-.gridItemImage {
-  height: 180px;
-}
+  .gridItem {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .gridItem:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .gridItemImage {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .gridItemContent {
+    padding: 1.5rem;
+  }
+  
+  .gridItem h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-text-primary);
+  }
   
   .meta {
-    margin-bottom: var(--margin-bottom-sm);
-    color: var(--color-text-accent);
+    color: var(--accent-orange);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
   }
