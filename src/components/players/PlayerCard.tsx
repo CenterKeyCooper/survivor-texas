@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import { Player, Tribe } from '@/types/data';
 import { getTribeColor } from '@/lib/data';
+import Card from '../common/Card'
 import styles from './PlayerCard.module.css';
+import playerStyles from '../../styles/players.module.css';
 
 interface PlayerCardProps {
   player: Player;
@@ -17,9 +19,9 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
   };
 
   const getPlacementClass = (placement: number) => {
-    if (placement === 1) return styles.winner;
-    if (placement <= 3) return styles.finalist;
-    return styles.placement;
+    if (placement === 1) return playerStyles.winner;
+    if (placement <= 3) return playerStyles.finalist;
+    return playerStyles.placement;
   };
 
   const getPlayerTribeColor = () => {
@@ -32,32 +34,33 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
     return getTribeColor(tribes, tribeId);
   };
 
+  const cardContent = (
+    <>
+      <p className={`${getPlacementClass(player.placement)}`}>
+        {getPlacementText(player.placement)}
+      </p>
+      <p className={styles.seasons}>Season {player.seasons.join(', ')}</p>
+      <p className={styles.tribes}>
+        Tribes: {player.tribes.map((tribe, index) => (
+          <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
+            {tribe}{index < player.tribes.length - 1 ? ', ' : ''}
+          </span>
+        ))}
+      </p>
+      <Link 
+        href={`/players/${player.id}`} 
+        className="small-btn"
+      >
+        View Profile
+      </Link>
+    </>
+  )
   return (
-    <div className={styles.playerCard}>
-      <div 
-        className={styles.playerImage}
-        style={{ backgroundImage: `url(/images/players/${player.image || 'placeholder.png'})` }}
-      />
-      <div className={styles.playerContent}>
-        <h3 style={{ color: getPlayerTribeColor() }}>{player.name}</h3>
-        <p className={`${styles.placement} ${getPlacementClass(player.placement)}`}>
-          {getPlacementText(player.placement)}
-        </p>
-        <p className={styles.seasons}>Season {player.seasons.join(', ')}</p>
-        <p className={styles.tribes}>
-          Tribes: {player.tribes.map((tribe, index) => (
-            <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
-              {tribe}{index < player.tribes.length - 1 ? ', ' : ''}
-            </span>
-          ))}
-        </p>
-        <Link 
-          href={`/players/${player.id}`} 
-          className={`btn ${styles.small}`}
-        >
-          View Profile
-        </Link>
-      </div>
-    </div>
+    <Card
+      imageURL={`/images/players/${player.image}`}
+      title={player.name}
+      titleStyle={{ color: getPlayerTribeColor() }}
+      content={cardContent}
+    />
   );
 }

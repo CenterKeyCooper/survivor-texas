@@ -1,0 +1,30 @@
+.card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+  
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+  
+.cardImage {
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-bottom: 3px solid var(--accent-orange);
+}
+  
+.cardContent {
+    padding: 1.5rem;
+}
+  
+.cardContent h3 {
+    font-size: var(--font-size-h4);
+    margin-bottom: var(--margin-bottom-sm);
+    color: var(--color-text-primary);
+}

@@ -39,7 +39,7 @@
 }
 
 .seasonLogo {
-  margin-bottom: 2rem;
+  margin-bottom: var(--margin-bottom-xl);
 }
 
 .logoImage {
@@ -48,24 +48,22 @@
 }
 
 .heroContent h1 {
-  font-size: 3.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--margin-bottom-sm);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  /* Text styling is in globals.css */
 }
 
 .heroContent h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1.5rem;
-  color: var(--accent-orange);
+  margin-bottom: var(--margin-bottom-lg);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  /* Text styling is in globals.css */
 }
 
 .seasonMeta {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  font-size: 1.2rem;
-  font-weight: bold;
+  /* Text styling is in globals.css */
 }
 
 .seasonMeta span {
@@ -76,9 +74,9 @@
 }
 
 /* Description Section */
-.descriptionSection {
-  padding: 4rem 2rem;
-  background: rgba(255, 255, 255, 0.02);
+.paddedSection {
+  padding-block: 4rem;
+  text-align: center;
 }
 
 .description {
@@ -88,27 +86,24 @@
 }
 
 .description h3 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: var(--accent-orange);
+  margin-bottom: var(--margin-bottom-lg);
+  /* Text styling is in globals.css */
 }
 
 .description p {
-  font-size: 1.2rem;
   line-height: 1.6;
-  color: var(--text-light);
+  /* Text styling is in globals.css */
 }
 
 /* Winner Section */
 .winnerSection {
   padding: 4rem 2rem;
-  text-align: center;
+  /* Text styling is in globals.css */
 }
 
 .winnerSection h3 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: var(--accent-orange);
+  margin-bottom: var(--margin-bottom-xl);
+  /* Text styling is in globals.css */
 }
 
 .winnerCard {
@@ -123,10 +118,8 @@
 }
 
 .finalistsSection h3 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  color: var(--accent-orange);
+  margin-bottom: var(--margin-bottom-xl);
+  /* Text styling is in globals.css */
 }
 
 /* Episodes Section */
@@ -146,12 +139,10 @@
 .episodesSummary {
   cursor: pointer;
   padding: 0.75rem 1.25rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: var(--accent-orange);
   list-style: none;
   display: flex;
   align-items: center;
+  /* Text styling is in globals.css */
 }
 
 .episodesSummary::-webkit-details-marker {
@@ -205,10 +196,8 @@
 }
 
 .gallerySection h3 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  color: var(--accent-orange);
+  margin-bottom: var(--margin-bottom-xl);
+  /* Text styling is in globals.css */
 }
 
 .gallery {
@@ -243,10 +232,8 @@
 }
 
 .allPlayersSection h3 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  color: var(--accent-orange);
+  margin-bottom: var(--margin-bottom-xl);
+  /* Text styling is in globals.css */
 }
 
 .playersGrid {
@@ -270,21 +257,9 @@
     min-height: 300px;
   }
   
-  .heroContent h1 {
-    font-size: 2.5rem;
-  }
-  
-  .heroContent h2 {
-    font-size: 1.8rem;
-  }
-  
   .seasonMeta {
     flex-direction: column;
     gap: 1rem;
-  }
-  
-  .seasonMeta span {
-    font-size: 1rem;
   }
   
   .descriptionSection,

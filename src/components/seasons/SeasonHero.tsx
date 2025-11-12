@@ -31,7 +31,7 @@ export default function SeasonHero({ season, numberOfPlayers, viewMore = false }
             </div>
             <h1>Season {season.seasonNumber}</h1>
             <h2>{season.title}</h2>
-            <div className={styles.seasonMeta}>
+            <div className={`seasonMeta ${styles.seasonMeta}`}>
             <span>{season.location}</span>
             <span>{season.semesterFilmed}</span>
             <span>{numberOfPlayers} Players</span>

@@ -9,7 +9,7 @@ interface SeasonsPageProps {
 }
 
 export default function SeasonsPage({ seasons }: SeasonsPageProps) {
-  const sortedSeasons = seasons.reverse(); // All others, newest first
+  const sortedSeasons = seasons.reverse(); // All seasons, newest first
 
   return (
     <>
