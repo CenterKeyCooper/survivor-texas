@@ -20,7 +20,7 @@ export default function SeasonCard({ season, isFeatured = false }: SeasonCardPro
         <p className={styles.seasonDesc}>
           {season.description || 'An epic season of Survivor Texas with intense challenges and strategic gameplay.'}
         </p>
-        <Link href={`/seasons/${season.seasonNumber}`} className={styles.btn}>
+        <Link href={`/seasons/${season.seasonNumber}`} className="btn">
           View Season
         </Link>
       </>
