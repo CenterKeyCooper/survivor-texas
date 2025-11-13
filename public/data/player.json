@@ -10,7 +10,7 @@
     ],
     "placement": 1,
     "stats": {},
-    "bio": "Tyler is extremely social, probably the most social person you\u2019ll ever meet. He\u2019s on the longhorn powerlifting team and you can tell. This well built individual is an active (sober) member of Kappa Sigma, Texas Wake, Longhorn Outdoor Club, Texas Fishing club, and more that won\u2019t fit. He\u2019s also a self proclaimed enjoyer of the Spanish Language. Has never seen an episode of Survivor, but loves Total Drama Island.",
+    "bio": "Tyler is extremely social, probably the most social person you’ll ever meet. He’s on the longhorn powerlifting team and you can tell. This well built individual is an active (sober) member of Kappa Sigma, Texas Wake, Longhorn Outdoor Club, Texas Fishing club, and more that won’t fit. He’s also a self proclaimed enjoyer of the Spanish Language. Has never seen an episode of Survivor, but loves Total Drama Island.",
     "image": "tylerearwood.JPG",
     "memorableMoments": [
       "Almost dislocating Grant's shoulder in the first ever Survivor Texas challenge",
@@ -31,9 +31,10 @@
     "stats": {},
     "bio": "",
     "image": "julianajohnson.JPG",
-    "memorableMoments": ["Orchastrated the best blindside in Survivor Texas season one and one of the best moves in Survivor Texas history with David's 3-2-1 idol blindside",
-    "Took an edible before the final tribal to calm their nerves, ended a little too calm"
-  ]
+    "memorableMoments": [
+      "Orchastrated the best blindside in Survivor Texas season one and one of the best moves in Survivor Texas history with David's 3-2-1 idol blindside",
+      "Took an edible before the final tribal to calm their nerves, ended a little too calm"
+    ]
   },
   "kyliejoharris": {
     "id": "kyliejoharris",
@@ -48,7 +49,10 @@
     "stats": {},
     "bio": "",
     "image": "kyliejoharris.JPG",
-    "memorableMoments": ["The first final tribal choke in Survivor Texas history", "Did amazing at the final 6 challenge because of her marching band experience, got within 2 seconds of the goal"]
+    "memorableMoments": [
+      "The first final tribal choke in Survivor Texas history",
+      "Did amazing at the final 6 challenge because of her marching band experience, got within 2 seconds of the goal"
+    ]
   },
   "marlacantuesparza": {
     "id": "marlacantuesparza",
@@ -86,7 +90,6 @@
       "Was way too nice for the final 6 challenge, let Speedway strangers talk to him and lost track time by A LOT",
       "Only Brazos to ever vote correctly after the merge",
       "Last Brazos standing"
-
     ]
   },
   "davidproctor": {
@@ -123,7 +126,8 @@
     "bio": "",
     "image": "miagarza.png",
     "memorableMoments": [
-      "Brought her dog Lucy to challenges", "Used wrestling prowess to dominate the first challenge",
+      "Brought her dog Lucy to challenges",
+      "Used wrestling prowess to dominate the first challenge",
       "Went to a national wrestling competition mid Season, go UT!"
     ]
   },
@@ -140,7 +144,11 @@
     "stats": {},
     "bio": "",
     "image": "ameliabarnard.png",
-    "memorableMoments": ["Underratedly one of the best players in Season One", "Lost the game when Marla made her idol clue giveaways", "Hilarious confessionals and Dope BeReals"]
+    "memorableMoments": [
+      "Underratedly one of the best players in Season One",
+      "Lost the game when Marla made her idol clue giveaways",
+      "Hilarious confessionals and Dope BeReals"
+    ]
   },
   "mayaadams": {
     "id": "mayaadams",
@@ -177,7 +185,7 @@
       "A great sport about Tyler heaving him during the first challenge",
       "Underratedly strategic on the Brazos tribe",
       "Not nearly as good at dodgeball as we thought he'd be"
-   ]
+    ]
   },
   "makenzielong": {
     "id": "makenzielong",
@@ -494,7 +502,6 @@
       "A really unique and surprisingly intentional strategy",
       "Really good at coming up with slogans for her tribes: 'Who on it? Bluebonnit', 'We're awesome Cherryblosom",
       "Underratedly one of the most challenge screwed players in Survivor Texas: rules technicality for the first challenge and judge miscounting spins for the f5 challenge"
-
     ]
   },
   "krystalcortez": {
@@ -1330,5 +1337,245 @@
       "Unluckily overplayed round 1",
       "The only Survivor Texas player that David has never met"
     ]
+  },
+  "allisonbedwell": {
+    "id": "allisonbedwell",
+    "name": "Allison Bedwell",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": 14,
+    "stats": {},
+    "bio": "",
+    "image": "allisonbedwell.png",
+    "memorableMoments": []
+  },
+  "andrewleal": {
+    "id": "andrewleal",
+    "name": "Andrew Leal",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": 6,
+    "stats": {},
+    "bio": "",
+    "image": "andrewleal.png",
+    "memorableMoments": []
+  },
+  "anthonyanello": {
+    "id": "anthonyanello",
+    "name": "Anthony Anello",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": 13,
+    "stats": {},
+    "bio": "",
+    "image": "anthonyanello.png",
+    "memorableMoments": []
+  },
+  "bellest.john": {
+    "id": "bellest.john",
+    "name": "Belle St. John",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": 1,
+    "stats": {},
+    "bio": "",
+    "image": "bellest.john.png",
+    "memorableMoments": []
+  },
+  "leoleyva": {
+    "id": "leoleyva",
+    "name": "Leo Leyva",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": 16,
+    "stats": {},
+    "bio": "",
+    "image": "leoleyva.png",
+    "memorableMoments": []
+  },
+  "niamachira": {
+    "id": "niamachira",
+    "name": "Nia Machira",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": 4,
+    "stats": {},
+    "bio": "",
+    "image": "niamachira.png",
+    "memorableMoments": []
+  },
+  "noorimran": {
+    "id": "noorimran",
+    "name": "Noor Imran",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": 8,
+    "stats": {},
+    "bio": "",
+    "image": "noorimran.png",
+    "memorableMoments": []
+  },
+  "skylerball": {
+    "id": "skylerball",
+    "name": "Skyler Ball",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": 2,
+    "stats": {},
+    "bio": "",
+    "image": "skylerball.png",
+    "memorableMoments": []
+  },
+  "alannahbruce": {
+    "id": "alannahbruce",
+    "name": "Alannah Bruce",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "jesters"
+    ],
+    "placement": 7,
+    "stats": {},
+    "bio": "",
+    "image": "alannahbruce.png",
+    "memorableMoments": []
+  },
+  "andrewdarby": {
+    "id": "andrewdarby",
+    "name": "Andrew Darby",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "jesters"
+    ],
+    "placement": 15,
+    "stats": {},
+    "bio": "",
+    "image": "andrewdarby.png",
+    "memorableMoments": []
+  },
+  "johnrickert": {
+    "id": "johnrickert",
+    "name": "John Rickert",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "jesters"
+    ],
+    "placement": 9,
+    "stats": {},
+    "bio": "",
+    "image": "johnrickert.png",
+    "memorableMoments": []
+  },
+  "landonchen": {
+    "id": "landonchen",
+    "name": "Landon Chen",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "jesters"
+    ],
+    "placement": 12,
+    "stats": {},
+    "bio": "",
+    "image": "landonchen.png",
+    "memorableMoments": []
+  },
+  "piperbuck": {
+    "id": "piperbuck",
+    "name": "Piper Buck",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "jesters"
+    ],
+    "placement": 3,
+    "stats": {},
+    "bio": "",
+    "image": "piperbuck.png",
+    "memorableMoments": []
+  },
+  "prestonravin": {
+    "id": "prestonravin",
+    "name": "Preston Ravin",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "jesters"
+    ],
+    "placement": 10,
+    "stats": {},
+    "bio": "",
+    "image": "prestonravin.png",
+    "memorableMoments": []
+  },
+  "sofiagomez": {
+    "id": "sofiagomez",
+    "name": "Sofia Gomez",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "jesters"
+    ],
+    "placement": 11,
+    "stats": {},
+    "bio": "",
+    "image": "sofiagomez.png",
+    "memorableMoments": []
+  },
+  "zoëwestbrook": {
+    "id": "zoëwestbrook",
+    "name": "Zoë Westbrook",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "jesters"
+    ],
+    "placement": 5,
+    "stats": {},
+    "bio": "",
+    "image": "zoëwestbrook.png",
+    "memorableMoments": []
   }
 }

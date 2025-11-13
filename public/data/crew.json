@@ -1,1165 +1,1322 @@
 [
-    {
-        "id": "alexvoisin",
-        "name": "Alex Voisin",
-        "photo": "alexvoisin.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "alexiscrowl",
-        "name": "Alexis Crowl",
-        "photo": "alexiscrowl.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            4,
-            2
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "amerliabarnard",
-        "name": "Amerlia Barnard",
-        "photo": "amerliabarnard.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            2
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "amirahbutler",
-        "name": "Amirah Butler",
-        "photo": "amirahbutler.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "analadaniuski",
-        "name": "Ana Ladaniuski",
-        "photo": "analadaniuski.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            3
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "andrespineda",
-        "name": "Andres Pineda",
-        "photo": "andres.png",
-        "roles": [
-            "Challenge Lead"
-        ],
-        "seasons": [
-            4,
-            5
-        ],
-        "contributions": [],
-        "memories": [
-            "Locking in the night before the AHS vs UT mini, after Katie's birthday party"
-        ],
-        "fun_fact": "Met Jeff Probst once at a charity event.",
-        "note": "",
-        "social": "@janesurvivor"
-    },
-    {
-        "id": "andrewleal",
-        "name": "Andrew Leal",
-        "photo": "andrewleal.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5,
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "anh-thubui",
-        "name": "Anh-Thu Bui",
-        "photo": "anh-thubui.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            1
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "armandomartinez",
-        "name": "Armando Martinez",
-        "photo": "armandomartinez.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "ashleyeshelman",
-        "name": "Ashley Eshelman",
-        "photo": "ashleyeshelman.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "audreyreue",
-        "name": "Audrey Reue",
-        "photo": "audreyreue.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "avagreer",
-        "name": "Ava Greer",
-        "photo": "avagreer.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "benchristie",
-        "name": "Ben Christie",
-        "photo": "benchristie.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "benjaminkofron",
-        "name": "Benjamin Kofron",
-        "photo": "benjaminkofron.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "bobbyyoustra",
-        "name": "Bobby Youstra",
-        "photo": "bobbyyoustra.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5,
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "bowenyin",
-        "name": "Bowen Yin",
-        "photo": "bowenyin.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            2,
-            1
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "calebmorrow",
-        "name": "Caleb Morrow",
-        "photo": "calebmorrow.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "calebstanten",
-        "name": "Caleb Stanten",
-        "photo": "calebstanten.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            1
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "carlygaudin",
-        "name": "Carly Gaudin",
-        "photo": "carlygaudin.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "caroleensaba",
-        "name": "Caroleen Saba",
-        "photo": "caroleen.png",
-        "roles": [
-            "Production"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [
-            "Helped make the puzzles for season 5",
-            "Prepared questions for the AHS Mini"
-        ],
-        "memories": "",
-        "fun_fact": "Varsity Tennis Player",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "cephasedet",
-        "name": "Cephas Edet",
-        "photo": "cephasedet.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "cooperanders",
-        "name": "Cooper Anders",
-        "photo": "cooperanders.jpg",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5,
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "cooperbrown",
-        "name": "Cooper Brown",
-        "photo": "brown.png",
-        "roles": [
-            "Core Production",
-            "Host"
-        ],
-        "seasons": [
-            3,
-            4,
-            5
-        ],
-        "contributions": [
-            "Organized all of the pre season for the Battle of the Orgs",
-            "Hosted the Senior Roast"
-        ],
-        "memories": "",
-        "fun_fact": "Will hunt the players down for hours to get them on video",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "cooperwilk",
-        "name": "Cooper Wilk",
-        "photo": "cooper.png",
-        "roles": [
-            "Founder",
-            "President",
-            "Host"
-        ],
-        "seasons": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "contributions": [
-            "Original founder of Survivor Texas. Hosted the first five seasons and established the club's traditions."
-        ],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": "@cooper.wilk"
-    },
-    {
-        "id": "danielwolfe",
-        "name": "Daniel Wolfe",
-        "photo": "danielwolfe.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            3,
-            1
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "davidproctor",
-        "name": "David Proctor",
-        "photo": "davidproctor.png",
-        "roles": [
-            "Director"
-        ],
-        "seasons": [
-            2,
-            3,
-            4,
-            5
-        ],
-        "contributions": [
-            "Directed the vast majority of shoots",
-            "torch transporter",
-            "hosted the finale parties for seasons 2-5"
-        ],
-        "memories": "Part of the sunrise club for the final challenge",
-        "fun_fact": "",
-        "note": "",
-        "social": "Off the grid"
-    },
-    {
-        "id": "diyabhattacharya",
-        "name": "Diya Bhattacharya",
-        "photo": "diyabhattacharya.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            3
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "francescanelle",
-        "name": "Francesca Nelle",
-        "photo": "francescanelle.png",
-        "roles": [
-            "Graphic Designer"
-        ],
-        "seasons": [
-            1
-        ],
-        "contributions": [
-            "Primary artist for the graphics for season one"
-        ],
-        "memories": "Making Survivor Texas season one possible and making it look so good means the world to me, thank you Frenchie",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "gabel",
-        "name": "Gabe L",
-        "photo": "gabel.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            3
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "gagecornett",
-        "name": "Gage Cornett",
-        "photo": "gagecornett.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5,
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "horace",
-        "name": "Horace",
-        "photo": "horace.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            1
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "ishachhabra",
-        "name": "Isha Chhabra",
-        "photo": "ishachhabra.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            3
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "jacksonluikens",
-        "name": "Jackson Luikens",
-        "photo": "jacksonluikens.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "jeffreymurray",
-        "name": "Jeffrey Murray",
-        "photo": "jeffrey.png",
-        "roles": [
-            "Social Coordinator"
-        ],
-        "seasons": [
-            4,
-            5
-        ],
-        "contributions": [
-            "Helped Organize the Battle of the Orgs",
-            "Hosted Jeffrey's drag race twice",
-            "Organized the tarot fund raiser"
-        ],
-        "memories": "",
-        "fun_fact": "Has cooler rocks than you",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "jonathanfarner",
-        "name": "Jonathan Farner",
-        "photo": "jonathan.jpg",
-        "roles": [
-            "Founder"
-        ],
-        "seasons": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "contributions": [
-            "Critical and reliable set of hands"
-        ],
-        "memories": "",
-        "fun_fact": "Ginger",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "joyceqin",
-        "name": "Joyce Qin",
-        "photo": "joyce.png",
-        "roles": [
-            "Founder",
-            "Artist"
-        ],
-        "seasons": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "contributions": [
-            "Designed the logos for the first 5 seeasons, critical perspective"
-        ],
-        "memories": "",
-        "fun_fact": "Natural state is egg",
-        "note": "I love you",
-        "social": ""
-    },
-    {
-        "id": "juliarodriguez",
-        "name": "Julia Rodriguez",
-        "photo": "juliarodriguez.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            4,
-            3
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "justinokougbodu",
-        "name": "Justin Okougbodu",
-        "photo": "justinokougbodu.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            3
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "justintodd",
-        "name": "Justin Todd",
-        "photo": "jt.png",
-        "roles": [
-            "Core Production",
-            "Director"
-        ],
-        "seasons": [
-            3,
-            4,
-            5
-        ],
-        "contributions": [
-            "Organized the Spring Break retreat",
-            "Directed shoots during season 4 and 5"
-        ],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "katarinacuellar",
-        "name": "Katarina Cuellar",
-        "photo": "katarinacuellar.jpg",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5,
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "kathrynteague",
-        "name": "Kathryn Teague",
-        "photo": "kathrynteague.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            4,
-            3,
-            2
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "katiefarner",
-        "name": "Katie Farner",
-        "photo": "katie.jpg",
-        "roles": [
-            "Core Production",
-            "Showrunner"
-        ],
-        "seasons": [
-            2,
-            3,
-            4,
-            5
-        ],
-        "contributions": [
-            ""
-        ],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "kelvinkast",
-        "name": "Kelvin Kast",
-        "photo": "kelvin.jpg",
-        "roles": [
-            "Core Production"
-        ],
-        "seasons": [
-            3,
-            4,
-            5
-        ],
-        "contributions": [
-            "Provided camera stands for the shoots, podium transporter",
-            "Hosted Fiji water day",
-            "Put up funds for BotO prize"
-        ],
-        "memories": "",
-        "fun_fact": "Will hunt the players down for hours to get them on video",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "krystalcortez",
-        "name": "Krystal Cortez",
-        "photo": "krystalcortez.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5,
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "lanemantzey",
-        "name": "Lane Mantzey",
-        "photo": "lanemantzey.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            1
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "libertywigington",
-        "name": "Liberty Wigington",
-        "photo": "libertywigington.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            2
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "maliawilliams",
-        "name": "Malia Williams",
-        "photo": "maliawilliams.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "marlacantuesparza",
-        "name": "Marla Cantu Esparza",
-        "photo": "marlacantuesparza.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            2
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "maryancamacho",
-        "name": "Maryan Camacho",
-        "photo": "maryan.png",
-        "roles": [
-            "Vote Maker"
-        ],
-        "seasons": [
-            3,
-            4,
-            5
-        ],
-        "contributions": [
-            "Bakes the votes for every tribal council"
-        ],
-        "memories": "",
-        "fun_fact": "Will take care of everyone anytime",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "mollykaplow",
-        "name": "Molly Kaplow",
-        "photo": "mollykaplow.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            3
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "morgankuo",
-        "name": "Morgan Kuo",
-        "photo": "morgankuo.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5,
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "nathanramos",
-        "name": "Nathan Ramos",
-        "photo": "nathanramos.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "octaviustyler",
-        "name": "Octavius Tyler",
-        "photo": "octaviustyler.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "presleymcgurl",
-        "name": "Presley McGurl",
-        "photo": "presleymcgurl.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "priyaltalwar",
-        "name": "Priyal Talwar",
-        "photo": "priyaltalwar.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "sarakinney",
-        "name": "Sara Kinney",
-        "photo": "sarakinney.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            3
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "sarahsheriff",
-        "name": "Sarah Sheriff",
-        "photo": "sarahsheriff.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "sarimahmad",
-        "name": "Sarim Ahmad",
-        "photo": "sarimahmad.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5,
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "sejalpatel",
-        "name": "Sejal Patel",
-        "photo": "sejalpatel.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            4
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "simoncox",
-        "name": "Simon Cox",
-        "photo": "simoncox.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "trinityhawkins",
-        "name": "Trinity Hawkins",
-        "photo": "trinity.png",
-        "roles": [
-            "Core Production"
-        ],
-        "seasons": [
-            4,
-            5
-        ],
-        "contributions": [
-            "Reliable set of hands, came up with the f6 challenge of S5"
-        ],
-        "memories": "",
-        "fun_fact": "Will live in a bio hazard",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "tylerearwood",
-        "name": "Tyler Earwood",
-        "photo": "tylerearwood.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            4,
-            3,
-            2
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "tyreelewis",
-        "name": "Tyree Lewis",
-        "photo": "tyreelewis.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            4,
-            3,
-            2
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "williammyren",
-        "name": "William Myren",
-        "photo": "williammyren.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "yukthaseelam",
-        "name": "Yuktha Seelam",
-        "photo": "yukthaseelam.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            5
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "zakrodriguez",
-        "name": "Zak Rodriguez",
-        "photo": "zakrodriguez.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            2,
-            1
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    },
-    {
-        "id": "zoeeldridge",
-        "name": "Zoe Eldridge",
-        "photo": "zoeeldridge.png",
-        "roles": [
-            "Crew Member"
-        ],
-        "seasons": [
-            2
-        ],
-        "contributions": [],
-        "memories": "",
-        "fun_fact": "",
-        "note": "",
-        "social": ""
-    }
+  {
+    "id": "alexvoisin",
+    "name": "Alex Voisin",
+    "photo": "alexvoisin.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "alexiscrowl",
+    "name": "Alexis Crowl",
+    "photo": "alexiscrowl.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      4,
+      2
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "amerliabarnard",
+    "name": "Amerlia Barnard",
+    "photo": "amerliabarnard.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      2
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "amirahbutler",
+    "name": "Amirah Butler",
+    "photo": "amirahbutler.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "analadaniuski",
+    "name": "Ana Ladaniuski",
+    "photo": "analadaniuski.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      3
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "andrespineda",
+    "name": "Andres Pineda",
+    "photo": "andres.png",
+    "roles": [
+      "Challenge Lead"
+    ],
+    "seasons": [
+      4,
+      5
+    ],
+    "contributions": [],
+    "memories": [
+      "Locking in the night before the AHS vs UT mini, after Katie's birthday party"
+    ],
+    "fun_fact": "Met Jeff Probst once at a charity event.",
+    "note": "",
+    "social": "@janesurvivor"
+  },
+  {
+    "id": "andrewleal",
+    "name": "Andrew Leal",
+    "photo": "andrewleal.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5,
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "anh-thubui",
+    "name": "Anh-Thu Bui",
+    "photo": "anh-thubui.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      1
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "armandomartinez",
+    "name": "Armando Martinez",
+    "photo": "armandomartinez.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "ashleyeshelman",
+    "name": "Ashley Eshelman",
+    "photo": "ashleyeshelman.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "audreyreue",
+    "name": "Audrey Reue",
+    "photo": "audreyreue.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "avagreer",
+    "name": "Ava Greer",
+    "photo": "avagreer.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "benchristie",
+    "name": "Ben Christie",
+    "photo": "benchristie.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "benjaminkofron",
+    "name": "Benjamin Kofron",
+    "photo": "benjaminkofron.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "bobbyyoustra",
+    "name": "Bobby Youstra",
+    "photo": "bobbyyoustra.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5,
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "bowenyin",
+    "name": "Bowen Yin",
+    "photo": "bowenyin.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      2,
+      1
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "calebmorrow",
+    "name": "Caleb Morrow",
+    "photo": "calebmorrow.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "calebstanten",
+    "name": "Caleb Stanten",
+    "photo": "calebstanten.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      1
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "carlygaudin",
+    "name": "Carly Gaudin",
+    "photo": "carlygaudin.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "caroleensaba",
+    "name": "Caroleen Saba",
+    "photo": "caroleen.png",
+    "roles": [
+      "Production"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [
+      "Helped make the puzzles for season 5",
+      "Prepared questions for the AHS Mini"
+    ],
+    "memories": "",
+    "fun_fact": "Varsity Tennis Player",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "cephasedet",
+    "name": "Cephas Edet",
+    "photo": "cephasedet.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "cooperanders",
+    "name": "Cooper Anders",
+    "photo": "cooperanders.jpg",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5,
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "cooperbrown",
+    "name": "Cooper Brown",
+    "photo": "brown.png",
+    "roles": [
+      "Core Production",
+      "Host"
+    ],
+    "seasons": [
+      3,
+      4,
+      5
+    ],
+    "contributions": [
+      "Organized all of the pre season for the Battle of the Orgs",
+      "Hosted the Senior Roast"
+    ],
+    "memories": "",
+    "fun_fact": "Will hunt the players down for hours to get them on video",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "cooperwilk",
+    "name": "Cooper Wilk",
+    "photo": "cooper.png",
+    "roles": [
+      "Founder",
+      "President",
+      "Host"
+    ],
+    "seasons": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "contributions": [
+      "Original founder of Survivor Texas. Hosted the first five seasons and established the club's traditions."
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": "@cooper.wilk"
+  },
+  {
+    "id": "danielwolfe",
+    "name": "Daniel Wolfe",
+    "photo": "danielwolfe.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      3,
+      1
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "davidproctor",
+    "name": "David Proctor",
+    "photo": "davidproctor.png",
+    "roles": [
+      "Director"
+    ],
+    "seasons": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "contributions": [
+      "Directed the vast majority of shoots",
+      "torch transporter",
+      "hosted the finale parties for seasons 2-5"
+    ],
+    "memories": "Part of the sunrise club for the final challenge",
+    "fun_fact": "",
+    "note": "",
+    "social": "Off the grid"
+  },
+  {
+    "id": "diyabhattacharya",
+    "name": "Diya Bhattacharya",
+    "photo": "diyabhattacharya.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      3
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "francescanelle",
+    "name": "Francesca Nelle",
+    "photo": "francescanelle.png",
+    "roles": [
+      "Graphic Designer"
+    ],
+    "seasons": [
+      1
+    ],
+    "contributions": [
+      "Primary artist for the graphics for season one"
+    ],
+    "memories": "Making Survivor Texas season one possible and making it look so good means the world to me, thank you Frenchie",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "gabel",
+    "name": "Gabe L",
+    "photo": "gabel.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      3
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "gagecornett",
+    "name": "Gage Cornett",
+    "photo": "gagecornett.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5,
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "horace",
+    "name": "Horace",
+    "photo": "horace.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      1
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "ishachhabra",
+    "name": "Isha Chhabra",
+    "photo": "ishachhabra.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      3
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "jacksonluikens",
+    "name": "Jackson Luikens",
+    "photo": "jacksonluikens.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "jeffreymurray",
+    "name": "Jeffrey Murray",
+    "photo": "jeffrey.png",
+    "roles": [
+      "Social Coordinator"
+    ],
+    "seasons": [
+      4,
+      5
+    ],
+    "contributions": [
+      "Helped Organize the Battle of the Orgs",
+      "Hosted Jeffrey's drag race twice",
+      "Organized the tarot fund raiser"
+    ],
+    "memories": "",
+    "fun_fact": "Has cooler rocks than you",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "jonathanfarner",
+    "name": "Jonathan Farner",
+    "photo": "jonathan.jpg",
+    "roles": [
+      "Founder"
+    ],
+    "seasons": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "contributions": [
+      "Critical and reliable set of hands"
+    ],
+    "memories": "",
+    "fun_fact": "Ginger",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "joyceqin",
+    "name": "Joyce Qin",
+    "photo": "joyce.png",
+    "roles": [
+      "Founder",
+      "Artist"
+    ],
+    "seasons": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "contributions": [
+      "Designed the logos for the first 5 seeasons, critical perspective"
+    ],
+    "memories": "",
+    "fun_fact": "Natural state is egg",
+    "note": "I love you",
+    "social": ""
+  },
+  {
+    "id": "juliarodriguez",
+    "name": "Julia Rodriguez",
+    "photo": "juliarodriguez.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      4,
+      3
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "justinokougbodu",
+    "name": "Justin Okougbodu",
+    "photo": "justinokougbodu.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      3
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "justintodd",
+    "name": "Justin Todd",
+    "photo": "jt.png",
+    "roles": [
+      "Core Production",
+      "Director"
+    ],
+    "seasons": [
+      3,
+      4,
+      5
+    ],
+    "contributions": [
+      "Organized the Spring Break retreat",
+      "Directed shoots during season 4 and 5"
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "katarinacuellar",
+    "name": "Katarina Cuellar",
+    "photo": "katarinacuellar.jpg",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5,
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "kathrynteague",
+    "name": "Kathryn Teague",
+    "photo": "kathrynteague.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      4,
+      3,
+      2
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "katiefarner",
+    "name": "Katie Farner",
+    "photo": "katie.jpg",
+    "roles": [
+      "Core Production",
+      "Showrunner"
+    ],
+    "seasons": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "contributions": [
+      ""
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "kelvinkast",
+    "name": "Kelvin Kast",
+    "photo": "kelvin.jpg",
+    "roles": [
+      "Core Production"
+    ],
+    "seasons": [
+      3,
+      4,
+      5
+    ],
+    "contributions": [
+      "Provided camera stands for the shoots, podium transporter",
+      "Hosted Fiji water day",
+      "Put up funds for BotO prize"
+    ],
+    "memories": "",
+    "fun_fact": "Will hunt the players down for hours to get them on video",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "krystalcortez",
+    "name": "Krystal Cortez",
+    "photo": "krystalcortez.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5,
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "lanemantzey",
+    "name": "Lane Mantzey",
+    "photo": "lanemantzey.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      1
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "libertywigington",
+    "name": "Liberty Wigington",
+    "photo": "libertywigington.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      2
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "maliawilliams",
+    "name": "Malia Williams",
+    "photo": "maliawilliams.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "marlacantuesparza",
+    "name": "Marla Cantu Esparza",
+    "photo": "marlacantuesparza.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      2
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "maryancamacho",
+    "name": "Maryan Camacho",
+    "photo": "maryan.png",
+    "roles": [
+      "Vote Maker"
+    ],
+    "seasons": [
+      3,
+      4,
+      5
+    ],
+    "contributions": [
+      "Bakes the votes for every tribal council"
+    ],
+    "memories": "",
+    "fun_fact": "Will take care of everyone anytime",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "mollykaplow",
+    "name": "Molly Kaplow",
+    "photo": "mollykaplow.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      3
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "morgankuo",
+    "name": "Morgan Kuo",
+    "photo": "morgankuo.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5,
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "nathanramos",
+    "name": "Nathan Ramos",
+    "photo": "nathanramos.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "octaviustyler",
+    "name": "Octavius Tyler",
+    "photo": "octaviustyler.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "presleymcgurl",
+    "name": "Presley McGurl",
+    "photo": "presleymcgurl.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "priyaltalwar",
+    "name": "Priyal Talwar",
+    "photo": "priyaltalwar.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "sarakinney",
+    "name": "Sara Kinney",
+    "photo": "sarakinney.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      3
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "sarahsheriff",
+    "name": "Sarah Sheriff",
+    "photo": "sarahsheriff.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "sarimahmad",
+    "name": "Sarim Ahmad",
+    "photo": "sarimahmad.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5,
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "sejalpatel",
+    "name": "Sejal Patel",
+    "photo": "sejalpatel.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      4
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "simoncox",
+    "name": "Simon Cox",
+    "photo": "simoncox.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "trinityhawkins",
+    "name": "Trinity Hawkins",
+    "photo": "trinity.png",
+    "roles": [
+      "Core Production"
+    ],
+    "seasons": [
+      4,
+      5
+    ],
+    "contributions": [
+      "Reliable set of hands, came up with the f6 challenge of S5"
+    ],
+    "memories": "",
+    "fun_fact": "Will live in a bio hazard",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "tylerearwood",
+    "name": "Tyler Earwood",
+    "photo": "tylerearwood.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      4,
+      3,
+      2
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "tyreelewis",
+    "name": "Tyree Lewis",
+    "photo": "tyreelewis.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      4,
+      3,
+      2
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "williammyren",
+    "name": "William Myren",
+    "photo": "williammyren.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "yukthaseelam",
+    "name": "Yuktha Seelam",
+    "photo": "yukthaseelam.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      5
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "zakrodriguez",
+    "name": "Zak Rodriguez",
+    "photo": "zakrodriguez.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      2,
+      1
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "zoeeldridge",
+    "name": "Zoe Eldridge",
+    "photo": "zoeeldridge.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      2
+    ],
+    "contributions": [],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "sienna",
+    "name": "Sienna",
+    "photo": "sienna.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      6
+    ],
+    "contributions": [
+      "Films a ton",
+      "Active watch party goer (her roommate on s6)"
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "sapphirecrew",
+    "name": "Sapphire",
+    "photo": "sapphirecrew.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      6
+    ],
+    "contributions": [
+      "Makes recap posts on the instagram",
+      "Creates flyers for profit shares and other events",
+      "Is a confessional tracker (reminds ppl to upload)"
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "natasha",
+    "name": "Natasha",
+    "photo": "natasha.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      6
+    ],
+    "contributions": [
+      "Film crew"
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "marie",
+    "name": "Marie",
+    "photo": "marie.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      6
+    ],
+    "contributions": [
+      "Working on s4 graphics",
+      "Made highlight reels for s3"
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "mathewcrew",
+    "name": "Mathew",
+    "photo": "mathewcrew.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      6
+    ],
+    "contributions": [
+      "Photographer",
+      "Took all cast and crew headshots for s6",
+      "Him and I are planning a big brother mini",
+      "Did interviews a bit"
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "emmacrew",
+    "name": "Emma",
+    "photo": "emmacrew.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      6
+    ],
+    "contributions": [
+      "Big part of interviewing and casting",
+      "Directed a shoot this semester",
+      "Played in minis",
+      "Goes to watch parties"
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "georgia",
+    "name": "Georgia",
+    "photo": "georgia.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      6
+    ],
+    "contributions": [
+      "Played in the mini",
+      "Has a friend on s6 (Nia is Georgia's roommate)",
+      "Actively films at shoots"
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  },
+  {
+    "id": "jessica",
+    "name": "Jessica",
+    "photo": "jessica.png",
+    "roles": [
+      "Crew Member"
+    ],
+    "seasons": [
+      6
+    ],
+    "contributions": [
+      "Played in the mini",
+      "Actively films at shoots"
+    ],
+    "memories": "",
+    "fun_fact": "",
+    "note": "",
+    "social": ""
+  }
 ]

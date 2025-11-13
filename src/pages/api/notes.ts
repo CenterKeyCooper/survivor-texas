@@ -103,7 +103,7 @@ export default async function handler(
 
       // Create record with Created field in ISO 8601 format
       const now = new Date();
-      const fieldsToCreate: any = {
+      const fieldsToCreate: Record<string, string> = {
         'Content': content,
         'Author': author,
         'password': password,
@@ -115,6 +115,7 @@ export default async function handler(
         fieldsToCreate[config.idField] = id;
       }
 
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const record = await table.create(fieldsToCreate) as any;
 
       // Handle date field when reading back

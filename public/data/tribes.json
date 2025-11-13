@@ -155,5 +155,37 @@
       "christianwilson"
     ],
     "stats": {}
+  },
+  "cavaliers": {
+    "id": "cavaliers",
+    "name": "Cavaliers",
+    "color": "#FF0000",
+    "members": [
+      "allisonbedwell",
+      "andrewleal",
+      "anthonyanello",
+      "bellest.john",
+      "leoleyva",
+      "niamachira",
+      "noorimran",
+      "skylerball"
+    ],
+    "stats": {}
+  },
+  "jesters": {
+    "id": "jesters",
+    "name": "Jesters",
+    "color": "#0000FF",
+    "members": [
+      "alannahbruce",
+      "andrewdarby",
+      "johnrickert",
+      "landonchen",
+      "piperbuck",
+      "prestonravin",
+      "sofiagomez",
+      "zoëwestbrook"
+    ],
+    "stats": {}
   }
 }
