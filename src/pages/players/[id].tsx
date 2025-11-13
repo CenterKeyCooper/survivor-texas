@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import { Player, Tribe } from '@/types/data';
 import { fetchPlayers, fetchTribes, getTribeColor } from '@/lib/data';
 import { useMediaQuery } from 'react-responsive';
+import Notes from '@/components/common/Notes';
 import styles from './PlayerDetailPage.module.css';
 import playerStyles from '../../styles/players.module.css';
 
@@ -147,6 +148,10 @@ export default function PlayerDetailPage() {
             ))}
           </div>
         </div>
+      )}
+
+      {id && typeof id === 'string' && (
+        <Notes type="player" id={id} />
       )}
     </div>
   );

@@ -35,7 +35,7 @@
   margin: 0;
   text-align: left;
 
-  max-height: calc(1.2em * 8); /* roughly 8 lines total */
+  max-height: calc(1.2em * 5); /* roughly 8 lines total */
   overflow: hidden;
 }
 

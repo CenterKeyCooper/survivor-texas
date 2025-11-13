@@ -55,7 +55,7 @@ export default function Navbar() {
             href="/about" 
             className={router.pathname === '/about' ? styles.active : ''}
           >
-            About
+            Forum
           </Link>
         </div>
         

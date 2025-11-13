@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { CrewMember } from '@/types/data';
 import { fetchCrew } from '@/lib/data';
 import Link from 'next/link';
-import CrewNotes from '@/components/crew/CrewNotes';
+import Notes from '@/components/common/Notes';
 import styles from './CrewMemberPage.module.css';
 import crewStyles from '../../styles/crew.module.css';
 
@@ -99,7 +99,7 @@ export default function CrewMemberPage() {
       )}
 
       {id && typeof id === 'string' && (
-        <CrewNotes crewId={id} />
+        <Notes type="crew" id={id} />
       )}
     </div>
   );

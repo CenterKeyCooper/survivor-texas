@@ -1,8 +1,14 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { getAirtableBase } from '@/lib/airtable';
-import { CrewNote } from '@/types/data';
+import { Note, NoteType } from '@/types/data';
 
-const TABLE_NAME = 'Crew Notes'; // Change this to match your Airtable table name
+// Map note types to their Airtable table names and ID field names
+const TABLE_CONFIG: Record<NoteType, { tableName: string; idField: string }> = {
+  crew: { tableName: 'Crew Notes', idField: 'Crew ID' },
+  player: { tableName: 'Player Notes', idField: 'Player ID' },
+  season: { tableName: 'Season Notes', idField: 'Season ID' },
+  forum: { tableName: 'Forum Notes', idField: '' }, // Forum doesn't need an ID
+};
 
 export default async function handler(
   req: NextApiRequest,
@@ -10,26 +16,39 @@ export default async function handler(
 ) {
   try {
     const base = getAirtableBase();
-    const table = base(TABLE_NAME);
+    const { type } = req.query;
+
+    if (!type || typeof type !== 'string' || !['crew', 'player', 'season', 'forum'].includes(type)) {
+      return res.status(400).json({ error: 'Valid type (crew, player, season, or forum) is required' });
+    }
+
+    const noteType = type as NoteType;
+    const config = TABLE_CONFIG[noteType];
+    const table = base(config.tableName);
 
     if (req.method === 'GET') {
-      // Fetch notes for a specific crew member
-      const { crewId } = req.query;
+      // Fetch notes
+      const { id } = req.query;
 
-      if (!crewId || typeof crewId !== 'string') {
-        return res.status(400).json({ error: 'crewId is required' });
+      // Forum doesn't need an ID, but others do
+      if (noteType !== 'forum' && (!id || typeof id !== 'string')) {
+        return res.status(400).json({ error: `${noteType}Id is required` });
       }
 
-      // Only fetch notes where password is 'joyce'
+      // Build filter formula
+      let filterFormula = '{password} != "a"';
+      if (noteType !== 'forum' && id) {
+        filterFormula = `AND({${config.idField}} = "${id}", ${filterFormula})`;
+      }
+
       const records = await table
         .select({
-          // filterByFormula: `AND({Crew ID} = "${crewId}", {password} = "joyce")`,
-          filterByFormula: `AND({Crew ID} = "${crewId}")`,
+          filterByFormula: filterFormula,
           sort: [{ field: 'Created', direction: 'desc' }],
         })
         .all();
 
-      const notes: CrewNote[] = records.map((record) => {
+      const notes: Note[] = records.map((record) => {
         // Handle date field - Airtable returns dates in various formats
         let createdAt = new Date().toISOString();
         const createdField = record.fields['Created'];
@@ -39,18 +58,27 @@ export default async function handler(
           } else if (createdField instanceof Date) {
             createdAt = createdField.toISOString();
           } else if (typeof createdField === 'object' && 'toString' in createdField) {
-            // Airtable date objects might have a toString method
             createdAt = new Date(createdField.toString()).toISOString();
           }
         }
 
-        return {
+        const note: Note = {
           id: record.id,
-          crewId: (record.fields['Crew ID'] as string) || '',
           content: (record.fields['Content'] as string) || '',
           author: (record.fields['Author'] as string) || '',
           createdAt,
         };
+
+        // Add the appropriate ID field based on type
+        if (noteType === 'crew' && record.fields[config.idField]) {
+          note.crewId = record.fields[config.idField] as string;
+        } else if (noteType === 'player' && record.fields[config.idField]) {
+          note.playerId = record.fields[config.idField] as string;
+        } else if (noteType === 'season' && record.fields[config.idField]) {
+          note.seasonId = record.fields[config.idField] as string;
+        }
+
+        return note;
       });
 
       return res.status(200).json({ notes });
@@ -58,26 +86,36 @@ export default async function handler(
 
     if (req.method === 'POST') {
       // Create a new note
-      const { crewId, content, author, password } = req.body;
+      const { id, content, author, password } = req.body;
 
-      if (!crewId || !content || !author || !password) {
+      if (!content || !author || !password) {
         return res.status(400).json({ 
-          error: 'crewId, content, author, and password are required' 
+          error: 'content, author, and password are required' 
+        });
+      }
+
+      // Forum doesn't need an ID, but others do
+      if (noteType !== 'forum' && !id) {
+        return res.status(400).json({ 
+          error: `${noteType}Id is required` 
         });
       }
 
       // Create record with Created field in ISO 8601 format
-      // Airtable date fields accept ISO 8601 strings
       const now = new Date();
-      const fieldsToCreate = {
-        'Crew ID': crewId,
+      const fieldsToCreate: any = {
         'Content': content,
         'Author': author,
         'password': password,
-        'Created': now.toISOString(), // ISO 8601 format for Airtable date fields
+        'Created': now.toISOString(),
       };
 
-      const record = await table.create(fieldsToCreate);
+      // Add ID field if not forum
+      if (noteType !== 'forum') {
+        fieldsToCreate[config.idField] = id;
+      }
+
+      const record = await table.create(fieldsToCreate) as any;
 
       // Handle date field when reading back
       let createdAt = new Date().toISOString();
@@ -92,13 +130,21 @@ export default async function handler(
         }
       }
 
-      const note: CrewNote = {
+      const note: Note = {
         id: record.id,
-        crewId: (record.fields['Crew ID'] as string) || crewId,
         content: (record.fields['Content'] as string) || content,
         author: (record.fields['Author'] as string) || author,
         createdAt,
       };
+
+      // Add the appropriate ID field based on type
+      if (noteType === 'crew' && record.fields[config.idField]) {
+        note.crewId = record.fields[config.idField] as string;
+      } else if (noteType === 'player' && record.fields[config.idField]) {
+        note.playerId = record.fields[config.idField] as string;
+      } else if (noteType === 'season' && record.fields[config.idField]) {
+        note.seasonId = record.fields[config.idField] as string;
+      }
 
       return res.status(201).json({ note });
     }
@@ -117,7 +163,11 @@ export default async function handler(
       
       // Check for common Airtable errors
       if (error.message.includes('Could not find table')) {
-        errorMessage = `Table "${TABLE_NAME}" not found. Please check that the table name matches exactly.`;
+        const { type } = req.query;
+        const tableName = type && typeof type === 'string' && ['crew', 'player', 'season', 'forum'].includes(type)
+          ? TABLE_CONFIG[type as NoteType].tableName
+          : 'Unknown';
+        errorMessage = `Table "${tableName}" not found. Please check that the table name matches exactly.`;
       } else if (error.message.includes('Could not find what you are looking for')) {
         errorMessage = 'Base or table not found. Please check your AIRTABLE_BASE_ID and table name.';
       } else if (error.message.includes('authentication')) {

@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Season, Player, Tribe } from '@/types/data';
 import { fetchSeasons, fetchPlayers, getPlayersBySeason, fetchTribes } from '@/lib/data';
 import PlayerCard from '@/components/players/PlayerCard';
+import Notes from '@/components/common/Notes';
 import styles from './SeasonDetailPage.module.css';
 import SeasonHero from '@/components/seasons/SeasonHero';
 
@@ -98,6 +99,9 @@ export default function SeasonDetailPage({ season, players, tribes }: SeasonDeta
           ))}
         </div>
       </section>
+
+      {/* Notes Section */}
+      <Notes type="season" id={season.seasonNumber.toString()} />
 
       {/* Navigation */}
       <div className={styles.navigation}>

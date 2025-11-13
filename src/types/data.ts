@@ -66,3 +66,16 @@ export interface CrewMember {
     createdAt: string;
     password?: string; // Not exposed to frontend, only used for filtering
   }
+
+  export type NoteType = 'crew' | 'player' | 'season' | 'forum';
+
+  export interface Note {
+    id: string;
+    content: string;
+    author: string;
+    createdAt: string;
+    // Optional ID fields depending on note type
+    crewId?: string;
+    playerId?: string;
+    seasonId?: string;
+  }
