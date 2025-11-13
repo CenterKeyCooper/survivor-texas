@@ -25,10 +25,14 @@ export default function PlayersPage() {
         const sortPlayers = (a: Player, b: Player) => {
           const mostRecentSeasonA = a.seasons.sort().at(a.seasons.length - 1) ?? -1
           const mostRecentSeasonB = b.seasons.sort().at(b.seasons.length - 1) ?? -1
-          if (mostRecentSeasonA == mostRecentSeasonB) {
-            return a.placement - b.placement
+          // if (mostRecentSeasonA == mostRecentSeasonB) {
+          //   return a.placement - b.placement
+          // }
+          // return mostRecentSeasonB - mostRecentSeasonA
+          if (a.placement == b.placement) {
+            return mostRecentSeasonA - mostRecentSeasonB
           }
-          return mostRecentSeasonB - mostRecentSeasonA
+          return a.placement - b.placement
         }
         const sortedPlayers = playersArray.sort(sortPlayers);
         setPlayers(sortedPlayers);

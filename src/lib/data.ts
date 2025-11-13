@@ -43,8 +43,52 @@ export function getRecentSeasons(seasons: Season[], count = 5): Season[] {
     .slice(1, count);
 }
 
+export function sortCrewBySeasons(crew: CrewMember[]): CrewMember[] {
+  return [...crew].sort((a, b) => {
+    // Pin Founders at the top
+    const aIsFounder = a.roles.includes('Founder');
+    const bIsFounder = b.roles.includes('Founder');
+    if (aIsFounder && !bIsFounder) return -1;
+    if (!aIsFounder && bIsFounder) return 1;
+    
+    // Sort by seasons: most recent first, then next most recent, etc.
+    const aSeasons = [...a.seasons].sort((x, y) => y - x);
+    const bSeasons = [...b.seasons].sort((x, y) => y - x);
+    
+    for (let i = 0; i < Math.max(aSeasons.length, bSeasons.length); i++) {
+      const aSeason = aSeasons[i] ?? 0;
+      const bSeason = bSeasons[i] ?? 0;
+      if (bSeason !== aSeason) {
+        return bSeason - aSeason;
+      }
+    }
+    return 0;
+  });
+}
+
 export function getRandomCrewMembers(crew: CrewMember[], count = 4): CrewMember[] {
-  return [...crew].sort(() => 0.5 - Math.random()).slice(0, count);
+  // Weight crew members by sum of seasons they worked on
+  const weightedCrew: CrewMember[] = [];
+  for (const member of crew) {
+    const weight = member.seasons.reduce((sum, season) => sum + season, 0);
+    for (let i = 0; i < weight; i++) {
+      weightedCrew.push(member);
+    }
+  }
+  
+  // Shuffle and select unique members
+  const shuffled = [...weightedCrew].sort(() => 0.5 - Math.random());
+  const selectedIds = new Set<string>();
+  const selected: CrewMember[] = [];
+  for (const member of shuffled) {
+    if (selected.length >= count) break;
+    if (!selectedIds.has(member.id)) {
+      selectedIds.add(member.id);
+      selected.push(member);
+    }
+  }
+  
+  return selected;
 }
 
 export function getPlayerChallengeWins(playerId: string, challenges: Challenge[]): number {

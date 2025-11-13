@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { CrewMember } from '@/types/data';
-import { fetchCrew } from '@/lib/data';
+import { fetchCrew, sortCrewBySeasons } from '@/lib/data';
 import CrewCard from '@/components/crew/CrewCard';
 import SearchBar from '@/components/common/SearchBar';
 
@@ -14,8 +14,9 @@ export default function CrewPage() {
     async function loadData() {
       try {
         const crewData = await fetchCrew();
-        setCrew(crewData);
-        setFilteredCrew(crewData);
+        const sortedCrew = sortCrewBySeasons(crewData);
+        setCrew(sortedCrew);
+        setFilteredCrew(sortedCrew);
         setLoading(false);
       } catch {
         setError('Failed to load crew data');

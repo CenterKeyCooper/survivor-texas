@@ -31,23 +31,36 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
 
   const cardContent = (
     <>
-      <p className={`${getPlacementClass(player.placement)}`}>
-        {getPlacementText(player.placement)}
+      <p className={`${styles.seasonPlacement} ${getPlacementClass(player.placement)}`}>
+        Season {player.seasons.join(', ')} - {getPlacementText(player.placement)}
       </p>
-      <p className={styles.seasons}>Season {player.seasons.join(', ')}</p>
-      <p>
-        Tribes: {player.tribes.map((tribe, index) => (
+      <p className={styles.tribes}>
+        {player.tribes.map((tribe, index) => (
           <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
             {tribe}{index < player.tribes.length - 1 ? ', ' : ''}
           </span>
         ))}
       </p>
-      <Link 
-        href={`/players/${player.id}`} 
-        className="small-btn"
-      >
-        View Profile
-      </Link>
+      {player.memorableMoments && player.memorableMoments.length > 0 && (
+        <div className={styles.moments}>
+          <h4 className={styles.momentsHeader}>Memorable Moments</h4>
+          <ul>
+            {player.memorableMoments.map((moment, index) => (
+              <li key={index} className={styles.momentItem}>
+                {moment}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+      <div className={styles.buttonWrapper}>
+        <Link 
+          href={`/players/${player.id}`} 
+          className="small-btn"
+        >
+          View Profile
+        </Link>
+      </div>
     </>
   )
   return (

@@ -428,7 +428,7 @@
     {
         "id": "davidproctor",
         "name": "David Proctor",
-        "photo": "david.jpg",
+        "photo": "davidproctor.png",
         "roles": [
             "Director"
         ],
@@ -1085,7 +1085,6 @@
             "Crew Member"
         ],
         "seasons": [
-            5,
             4,
             3,
             2
