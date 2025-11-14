@@ -7,7 +7,7 @@
       "Crew Member"
     ],
     "seasons": [
-      5
+      5,6
     ],
     "contributions": [],
     "memories": "",
@@ -89,7 +89,7 @@
     ],
     "seasons": [
       4,
-      5
+      5,6
     ],
     "contributions": [],
     "memories": [
@@ -156,7 +156,7 @@
       "Crew Member"
     ],
     "seasons": [
-      5
+      5,6
     ],
     "contributions": [],
     "memories": "",
@@ -172,7 +172,7 @@
       "Crew Member"
     ],
     "seasons": [
-      5
+      5,6
     ],
     "contributions": [],
     "memories": "",
@@ -188,7 +188,7 @@
       "Crew Member"
     ],
     "seasons": [
-      5
+      5,6
     ],
     "contributions": [],
     "memories": "",
@@ -204,7 +204,7 @@
       "Crew Member"
     ],
     "seasons": [
-      5
+      5,6
     ],
     "contributions": [],
     "memories": "",
@@ -318,7 +318,7 @@
       "Production"
     ],
     "seasons": [
-      5
+      5,6
     ],
     "contributions": [
       "Helped make the puzzles for season 5",
@@ -373,7 +373,7 @@
     "seasons": [
       3,
       4,
-      5
+      5,6
     ],
     "contributions": [
       "Organized all of the pre season for the Battle of the Orgs",
@@ -456,7 +456,7 @@
       "Crew Member"
     ],
     "seasons": [
-      3
+      3,6
     ],
     "contributions": [],
     "memories": "",
@@ -507,7 +507,7 @@
     ],
     "seasons": [
       5,
-      4
+      4,6
     ],
     "contributions": [],
     "memories": "",
@@ -572,7 +572,7 @@
     ],
     "seasons": [
       4,
-      5
+      5,6
     ],
     "contributions": [
       "Helped Organize the Battle of the Orgs",
@@ -673,7 +673,7 @@
     "seasons": [
       3,
       4,
-      5
+      5,6
     ],
     "contributions": [
       "Organized the Spring Break retreat",
@@ -693,7 +693,7 @@
     ],
     "seasons": [
       5,
-      4
+      4,6
     ],
     "contributions": [],
     "memories": "",
@@ -731,7 +731,7 @@
       2,
       3,
       4,
-      5
+      5,6
     ],
     "contributions": [
       ""
@@ -749,9 +749,10 @@
       "Core Production"
     ],
     "seasons": [
+        2, 
       3,
       4,
-      5
+      5,6
     ],
     "contributions": [
       "Provided camera stands for the shoots, podium transporter",
@@ -772,7 +773,7 @@
     ],
     "seasons": [
       5,
-      4
+      4,6
     ],
     "contributions": [],
     "memories": "",
@@ -820,7 +821,7 @@
       "Crew Member"
     ],
     "seasons": [
-      5
+      5,6
     ],
     "contributions": [],
     "memories": "",
@@ -889,7 +890,7 @@
     ],
     "seasons": [
       5,
-      4
+      4,6
     ],
     "contributions": [],
     "memories": "",
@@ -1051,7 +1052,7 @@
     ],
     "seasons": [
       4,
-      5
+      5,6
     ],
     "contributions": [
       "Reliable set of hands, came up with the f6 challenge of S5"
@@ -1105,7 +1106,7 @@
       "Crew Member"
     ],
     "seasons": [
-      5
+      5,6
     ],
     "contributions": [],
     "memories": "",
@@ -1163,9 +1164,9 @@
     "social": ""
   },
   {
-    "id": "sienna",
-    "name": "Sienna",
-    "photo": "sienna.png",
+    "id": "siena",
+    "name": "Siena Hill",
+    "photo": "siena.png",
     "roles": [
       "Crew Member"
     ],

@@ -1,4 +1,5 @@
 import styles from './Hero.module.css';
+import Link from 'next/link';
 
 export default function Hero() {
     return (
@@ -6,7 +7,7 @@ export default function Hero() {
         <div className={styles['hero-content']}>
           <h1>Outwit. Outplay. Outlast.</h1>
           <p>The college Survivor experience</p>
-          <a href="/seasons" className="btn">Explore Seasons</a>
+          <Link  href="/seasons" className="btn">Explore Seasons</Link>
         </div>
       </header>
     );
