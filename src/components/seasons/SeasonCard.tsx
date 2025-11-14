@@ -15,7 +15,7 @@ export default function SeasonCard({ season, isFeatured = false }: SeasonCardPro
         <div className={styles.seasonMeta}>
           <span>{season.location}</span>
           <span>{season.players.length} Players</span>
-          <span>Winner: {season.winner || 'TBD'}</span>
+          {/* <span>Winner: {season.winner || 'TBD'}</span> */}
         </div>
         <p className={styles.seasonDesc}>
           {season.description || 'An epic season of Survivor Texas with intense challenges and strategic gameplay.'}
