@@ -736,198 +736,20 @@
       "An alternate that came to play!"
     ]
   },
-  "presleymcgurl": {
-    "id": "presleymcgurl",
-    "name": "Presley McGurl",
+  "alannahbruce": {
+    "id": "alannahbruce",
+    "name": "Alannah Bruce",
     "seasons": [
-      4
+      6
     ],
     "tribes": [
-      "flyingdutchman"
+      "jesters"
     ],
-    "placement": 1,
+    "placement": null,
     "stats": {},
     "bio": "",
-    "image": "presleymcgurl.png",
-    "memorableMoments": [
-      "Season 3 alternate that came to play season 4 HARD",
-      "The full body green Wicked Witch costume was beyond iconic",
-      "Best move was keeping Armando alive and close to him all game"
-    ]
-  },
-  "armandomartinez": {
-    "id": "armandomartinez",
-    "name": "Armando Martinez",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "flyingdutchman"
-    ],
-    "placement": 2,
-    "stats": {},
-    "bio": "",
-    "image": "armandomartinez.png",
-    "memorableMoments": [
-      "Turning on the Jets after Touchy Subjects",
-      "Learning about the alliance AT final tribal council"
-    ]
-  },
-  "masonscivally": {
-    "id": "masonscivally",
-    "name": "Mason Scivally",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "kraken"
-    ],
-    "placement": 3,
-    "stats": {},
-    "bio": "",
-    "image": "masonscivally.png",
-    "memorableMoments": [
-      "Underratedly very close to winning and pulling off an amazing comeback",
-      "Ted lasso of the season",
-      "Last Kraken standing and flipped twice in a row!",
-      "Knew the right move on paper but was too nice to Armando to pull it off",
-      "Thanked pluckers trivia for his immunity win",
-      "Great player but too nice for Survivor"
-    ]
-  },
-  "benchristie": {
-    "id": "benchristie",
-    "name": "Ben Christie",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "flyingdutchman"
-    ],
-    "placement": 4,
-    "stats": {},
-    "bio": "",
-    "image": "benchristie.png",
-    "memorableMoments": [
-      "THE most hated by a jury anyone has ever been",
-      "'Go Team'",
-      "Closest to Boston Rob we've had",
-      "Completely controlled the season until the final 5",
-      "Wore a suite to his elimination with his buff as a pocket square",
-      "hosted his own 21 person version of Survivior before this!"
-    ]
-  },
-  "caroleensaba": {
-    "id": "caroleensaba",
-    "name": "Caroleen Saba",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "flyingdutchman"
-    ],
-    "placement": 5,
-    "stats": {},
-    "bio": "",
-    "image": "caroleensaba.png",
-    "memorableMoments": [
-      "Best blindside of the season",
-      "Best blindside face of all time",
-      "Would have likely won the season if Mason didn't re-flip at the F5"
-    ]
-  },
-  "audreyreue": {
-    "id": "audreyreue",
-    "name": "Audrey Reue",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "flyingdutchman"
-    ],
-    "placement": 6,
-    "stats": {},
-    "bio": "",
-    "image": "audreyreue.png",
-    "memorableMoments": [
-      "One of the craziest rounds in the game",
-      "First Dutchman to fall after the merge"
-    ]
-  },
-  "aliciacook": {
-    "id": "aliciacook",
-    "name": "Alicia Cook",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "kraken"
-    ],
-    "placement": 7,
-    "stats": {},
-    "bio": "",
-    "image": "aliciacook.png",
-    "memorableMoments": [
-      "Kept her head down as the threatening Kraken were picked off",
-      "Quietly one of the biggest fans on the season"
-    ]
-  },
-  "calebmorrow": {
-    "id": "calebmorrow",
-    "name": "Caleb Morrow",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "kraken"
-    ],
-    "placement": 8,
-    "stats": {},
-    "bio": "",
-    "image": "calebmorrow.png",
-    "memorableMoments": [
-      "Found BOTH tribe idols in the pre merge",
-      "Thought about mutining just to collect the other tribe's idol"
-    ]
-  },
-  "benjaminkofron": {
-    "id": "benjaminkofron",
-    "name": "Benjamin Kofron",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "kraken"
-    ],
-    "placement": 9,
-    "stats": {},
-    "bio": "",
-    "image": "benjaminkofron.png",
-    "memorableMoments": [
-      "The second in command of the Kraken tribe",
-      "Responsible Mayor of Ponderosa",
-      "Gone too soon as the biggest threat left on Krakens",
-      "Is in support of Forced Firemaking"
-    ]
-  },
-  "ebonygarlington": {
-    "id": "ebonygarlington",
-    "name": "Ebony Garlington",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "kraken"
-    ],
-    "placement": 10,
-    "stats": {},
-    "bio": "",
-    "image": "ebonygarlington.png",
-    "memorableMoments": [
-      "Leader of the Kraken Tribe",
-      "Responsible for the unanimous votes against Alem and Malia",
-      "Powerhouse player idoled out at the merge"
-    ]
+    "image": "alannahbruce.png",
+    "memorableMoments": []
   },
   "alemhadzic": {
     "id": "alemhadzic",
@@ -938,405 +760,26 @@
     "tribes": [
       "kraken"
     ],
-    "placement": 11,
+    "placement": null,
     "stats": {},
     "bio": "",
     "image": "alemhadzic.png",
-    "memorableMoments": [
-      "Flipping off the final 5 when he walked by the challenge",
-      "Very very spotted, he's somehow everywhere",
-      "Going with the numbers agianst Malia while not realizing he was next",
-      "Incredible interview",
-      "Instagram reel famous as a performative male"
-    ]
+    "memorableMoments": []
   },
-  "amirahbutler": {
-    "id": "amirahbutler",
-    "name": "Amirah Butler",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "flyingdutchman"
-    ],
-    "placement": 12,
-    "stats": {},
-    "bio": "",
-    "image": "amirahbutler.png",
-    "memorableMoments": [
-      "Losing her wig during the first challenge and STILL competing",
-      "Taking her immunity back from Armando at the F14 tribal"
-    ]
-  },
-  "maliawilliams": {
-    "id": "maliawilliams",
-    "name": "Malia Williams",
+  "aliciacook": {
+    "id": "aliciacook",
+    "name": "Alicia Cook",
     "seasons": [
       4
     ],
     "tribes": [
       "kraken"
     ],
-    "placement": 13,
+    "placement": null,
     "stats": {},
     "bio": "",
-    "image": "maliawilliams.png",
-    "memorableMoments": [
-      "Unluckily put on a tribe with Ebony, who gunned her out as opposition",
-      "Sniped way too soon",
-      "GREAT interview, one of the season's 4 Locks"
-    ]
-  },
-  "cephasedet": {
-    "id": "cephasedet",
-    "name": "Cephas Edet",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "flyingdutchman"
-    ],
-    "placement": 14,
-    "stats": {},
-    "bio": "",
-    "image": "cephasedet.png",
-    "memorableMoments": [
-      "Giving everything he had in the opening challenge, then leaving to throw up before immunity was handed out",
-      "Not knowing Survivor well but being extremely competitive",
-      "Screwed by Amirah winning imminty"
-    ]
-  },
-  "lanningwelsch": {
-    "id": "lanningwelsch",
-    "name": "Lanning Welsch",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "kraken"
-    ],
-    "placement": 15,
-    "stats": {},
-    "bio": "",
-    "image": "lanningwelsch.png",
-    "memorableMoments": [
-      "Getting up after PASSING OUT on match point during the first immunity challenge",
-      "Having forever Covid and quitting during her first tribal"
-    ]
-  },
-  "avagreer": {
-    "id": "avagreer",
-    "name": "Ava Greer",
-    "seasons": [
-      4
-    ],
-    "tribes": [
-      "flyingdutchman"
-    ],
-    "placement": 16,
-    "stats": {},
-    "bio": "",
-    "image": "avagreer.png",
-    "memorableMoments": [
-      "Studied for Survivor, had a notebook!",
-      "Icon, gave it her all",
-      "Didn't know Survivor but knew Total Drama very well",
-      "Didn't click with her tribe and singled out as an early target"
-    ]
-  },
-  "elismall": {
-    "id": "elismall",
-    "name": "Eli Small",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "ares"
-    ],
-    "placement": 1,
-    "stats": {},
-    "bio": "",
-    "image": "elismall.png",
-    "memorableMoments": [
-      "Keeping Myan attached at the hip for the entire season",
-      "Staying on a pole for 10 HOURS to win final immunity",
-      "The two alternates becoming the final 2",
-      "Regaining control after a bumpy start of the merge beatifully",
-      "Stepping out of the way at a tribal he was going home at to let Mathew blow himself up"
-    ]
-  },
-  "myangonzales": {
-    "id": "myangonzales",
-    "name": "Myan Gonzales",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "ares"
-    ],
-    "placement": 2,
-    "stats": {},
-    "bio": "",
-    "image": "myangonzales.png",
-    "memorableMoments": [
-      "Iconic reactions to the rest of the players",
-      "Bringing her own lingo to the season",
-      "Getting dissed at FTC for only lasting 6 1/2 HOURS in the final immunity challenge",
-      "Knew very little about Survivor coming into it"
-    ]
-  },
-  "sapphirenunn": {
-    "id": "sapphirenunn",
-    "name": "Sapphire Nunn",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "aphrodite"
-    ],
-    "placement": 3,
-    "stats": {},
-    "bio": "",
-    "image": "sapphirenunn.png",
-    "memorableMoments": [
-      "11th hour dark hourse to win the game at the end",
-      "lost the final immunity challenge after staying on the pole for 10 HOURS"
-    ]
-  },
-  "sambizzell": {
-    "id": "sambizzell",
-    "name": "Sam Bizzell",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "athena"
-    ],
-    "placement": 4,
-    "stats": {},
-    "bio": "",
-    "image": "sambizzell.png",
-    "memorableMoments": [
-      "An iconic elimination speech at the final 4",
-      "Always, and I mean always, smiling",
-      "Being extremely Austrailian",
-      "Underrateldy strategic player, really turned on the jets and said all of the right things in the final 4",
-      "Keeping FTC interesting by voting for Myan"
-    ]
-  },
-  "anjaliguruaj": {
-    "id": "anjaliguruaj",
-    "name": "Anjali Guruaj",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "athena"
-    ],
-    "placement": 5,
-    "stats": {},
-    "bio": "",
-    "image": "anjaliguruaj.png",
-    "memorableMoments": [
-      "Delivering one of the funniest confessionals in Survivor Texas",
-      "Being seen as Sam's brain for basically the whole season",
-      "Having too much faith in Eli in the end game"
-    ]
-  },
-  "erinspiek": {
-    "id": "erinspiek",
-    "name": "Erin Spiek",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "aphrodite"
-    ],
-    "placement": 6,
-    "stats": {},
-    "bio": "",
-    "image": "erinspiek.png",
-    "memorableMoments": [
-      "One of the first true villains in Survivor Texas and she leaned into it",
-      "Gleefully controlling every elimination in the premerge",
-      "Forming her frenemies alliance with Mathew"
-    ]
-  },
-  "emmaroco": {
-    "id": "emmaroco",
-    "name": "Emma Roco",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "aphrodite"
-    ],
-    "placement": 7,
-    "stats": {},
-    "bio": "",
-    "image": "emmaroco.png",
-    "memorableMoments": [
-      "Instantly bidding 500 on the capcut edit",
-      "Seemingly the frontrunner until her she pulled a David and got too comfortable",
-      "Being most upset that she placed lower than Erin",
-      "Bringing the crew constant gifts from her ambassador programs",
-      "Inviting the cast to her going away greatwolf lodge party"
-    ]
-  },
-  "mathewnguyen": {
-    "id": "mathewnguyen",
-    "name": "Mathew Nguyen",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "athena"
-    ],
-    "placement": 8,
-    "stats": {},
-    "bio": "",
-    "image": "mathewnguyen.png",
-    "memorableMoments": [
-      "Completly self destructing at f8 tribal",
-      "Pulling off one of the most impressive moves ever in Torsten's 4-3-2",
-      "Serving resting face",
-      "Bringing the drama ALWAYS"
-    ]
-  },
-  "torstenweber": {
-    "id": "torstenweber",
-    "name": "Torsten Weber",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "ares"
-    ],
-    "placement": 9,
-    "stats": {},
-    "bio": "",
-    "image": "torstenweber.png",
-    "memorableMoments": [
-      "One of the nicest people this season",
-      "CRAZIEST vote of the season going out in a 4-3-2",
-      "Him hurting his ACL playing with production in IM kickball and having a limp as Mayor of Ponderosa",
-      "Sort of screwed by Eli winning the merge immunity"
-    ]
-  },
-  "nickmoore": {
-    "id": "nickmoore",
-    "name": "Nick Moore",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "aphrodite"
-    ],
-    "placement": 10,
-    "stats": {},
-    "bio": "",
-    "image": "nickmoore.png",
-    "memorableMoments": [
-      "Being very frustrated with his post-swap tribe during the final challenge not knowing they were throwing",
-      "His elimination shocking Erin into playing the game even harder"
-    ]
-  },
-  "gracielove": {
-    "id": "gracielove",
-    "name": "Gracie Love",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "athena"
-    ],
-    "placement": 11,
-    "stats": {},
-    "bio": "",
-    "image": "gracielove.png",
-    "memorableMoments": [
-      "SECOND per-merge idol hold to go home this season",
-      "Having too much trust in the beauty girls and not listening to Mathew",
-      "Probably the brawniest brain",
-      "Her denying the club approval form because she works in University Admin"
-    ]
-  },
-  "emmamclendon": {
-    "id": "emmamclendon",
-    "name": "Emma McLendon",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "ares"
-    ],
-    "placement": 12,
-    "stats": {},
-    "bio": "",
-    "image": "emmamclendon.png",
-    "memorableMoments": [
-      "Taken out in the swap, one of the biggest cross-tribe players in Survivor Texas",
-      "Her elimination turned Mathew against Erin",
-      "Iconic mini player"
-    ]
-  },
-  "christianwilson": {
-    "id": "christianwilson",
-    "name": "Christian Wilson",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "athena"
-    ],
-    "placement": 13,
-    "stats": {},
-    "bio": "",
-    "image": "christianwilson.png",
-    "memorableMoments": [
-      "First pre-merge idol hold in Survivor Texas to go home",
-      "Finding the idol that Mathew and Erin were looking for right in front of them",
-      "Ordering Chic-fil-a mid idol search",
-      "Telling the cast how to watch Survivor Australia in the season groupme",
-      "Biggest fan of the cast by far, would run dozens (or hundreds) of fantasy Survivor seasons"
-    ]
-  },
-  "ifeoluwole": {
-    "id": "ifeoluwole",
-    "name": "Ife Oluwole",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "aphrodite"
-    ],
-    "placement": 14,
-    "stats": {},
-    "bio": "",
-    "image": "ifeoluwole.png",
-    "memorableMoments": [
-      "One of the only cast members this season to not be a fan of Survivor",
-      "Iconic celebration during the opening immunity challenge"
-    ]
-  },
-  "mayamusallam": {
-    "id": "mayamusallam",
-    "name": "Maya Musallam",
-    "seasons": [
-      5
-    ],
-    "tribes": [
-      "ares"
-    ],
-    "placement": 15,
-    "stats": {},
-    "bio": "",
-    "image": "mayamusallam.png",
-    "memorableMoments": [
-      "Found out she was playing the day of the first shoot, hours before!",
-      "Unluckily overplayed round 1",
-      "The only Survivor Texas player that David has never met"
-    ]
+    "image": "aliciacook.png",
+    "memorableMoments": []
   },
   "allisonbedwell": {
     "id": "allisonbedwell",
@@ -1347,130 +790,25 @@
     "tribes": [
       "cavaliers"
     ],
-    "placement": 14,
+    "placement": null,
     "stats": {},
     "bio": "",
     "image": "allisonbedwell.png",
     "memorableMoments": []
   },
-  "andrewleal": {
-    "id": "andrewleal",
-    "name": "Andrew Leal",
+  "amirahbutler": {
+    "id": "amirahbutler",
+    "name": "Amirah Butler",
     "seasons": [
-      6
+      4
     ],
     "tribes": [
-      "cavaliers"
+      "flyingdutchman"
     ],
-    "placement": 6,
+    "placement": null,
     "stats": {},
     "bio": "",
-    "image": "andrewleal.png",
-    "memorableMoments": []
-  },
-  "anthonyanello": {
-    "id": "anthonyanello",
-    "name": "Anthony Anello",
-    "seasons": [
-      6
-    ],
-    "tribes": [
-      "cavaliers"
-    ],
-    "placement": 13,
-    "stats": {},
-    "bio": "",
-    "image": "anthonyanello.png",
-    "memorableMoments": []
-  },
-  "bellest.john": {
-    "id": "bellest.john",
-    "name": "Belle St. John",
-    "seasons": [
-      6
-    ],
-    "tribes": [
-      "cavaliers"
-    ],
-    "placement": 1,
-    "stats": {},
-    "bio": "",
-    "image": "bellest.john.png",
-    "memorableMoments": []
-  },
-  "leoleyva": {
-    "id": "leoleyva",
-    "name": "Leo Leyva",
-    "seasons": [
-      6
-    ],
-    "tribes": [
-      "cavaliers"
-    ],
-    "placement": 16,
-    "stats": {},
-    "bio": "",
-    "image": "leoleyva.png",
-    "memorableMoments": []
-  },
-  "niamachira": {
-    "id": "niamachira",
-    "name": "Nia Machira",
-    "seasons": [
-      6
-    ],
-    "tribes": [
-      "cavaliers"
-    ],
-    "placement": 4,
-    "stats": {},
-    "bio": "",
-    "image": "niamachira.png",
-    "memorableMoments": []
-  },
-  "noorimran": {
-    "id": "noorimran",
-    "name": "Noor Imran",
-    "seasons": [
-      6
-    ],
-    "tribes": [
-      "cavaliers"
-    ],
-    "placement": 8,
-    "stats": {},
-    "bio": "",
-    "image": "noorimran.png",
-    "memorableMoments": []
-  },
-  "skylerball": {
-    "id": "skylerball",
-    "name": "Skyler Ball",
-    "seasons": [
-      6
-    ],
-    "tribes": [
-      "cavaliers"
-    ],
-    "placement": 2,
-    "stats": {},
-    "bio": "",
-    "image": "skylerball.png",
-    "memorableMoments": []
-  },
-  "alannahbruce": {
-    "id": "alannahbruce",
-    "name": "Alannah Bruce",
-    "seasons": [
-      6
-    ],
-    "tribes": [
-      "jesters"
-    ],
-    "placement": 7,
-    "stats": {},
-    "bio": "",
-    "image": "alannahbruce.png",
+    "image": "amirahbutler.png",
     "memorableMoments": []
   },
   "andrewdarby": {
@@ -1482,10 +820,310 @@
     "tribes": [
       "jesters"
     ],
-    "placement": 15,
+    "placement": null,
     "stats": {},
     "bio": "",
     "image": "andrewdarby.png",
+    "memorableMoments": []
+  },
+  "andrewleal": {
+    "id": "andrewleal",
+    "name": "Andrew Leal",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "andrewleal.png",
+    "memorableMoments": []
+  },
+  "anjaliguruaj": {
+    "id": "anjaliguruaj",
+    "name": "Anjali Guruaj",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "anjaliguruaj.png",
+    "memorableMoments": []
+  },
+  "anthonyanello": {
+    "id": "anthonyanello",
+    "name": "Anthony Anello",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "anthonyanello.png",
+    "memorableMoments": []
+  },
+  "armandomartinez": {
+    "id": "armandomartinez",
+    "name": "Armando Martinez",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "armandomartinez.png",
+    "memorableMoments": []
+  },
+  "audreyreue": {
+    "id": "audreyreue",
+    "name": "Audrey Reue",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "audreyreue.png",
+    "memorableMoments": []
+  },
+  "avagreer": {
+    "id": "avagreer",
+    "name": "Ava Greer",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "avagreer.png",
+    "memorableMoments": []
+  },
+  "bellest.john": {
+    "id": "bellest.john",
+    "name": "Belle St. John",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "bellest.john.png",
+    "memorableMoments": []
+  },
+  "benchristie": {
+    "id": "benchristie",
+    "name": "Ben Christie",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "benchristie.png",
+    "memorableMoments": []
+  },
+  "benjaminkofron": {
+    "id": "benjaminkofron",
+    "name": "Benjamin Kofron",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "benjaminkofron.png",
+    "memorableMoments": []
+  },
+  "calebmorrow": {
+    "id": "calebmorrow",
+    "name": "Caleb Morrow",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "calebmorrow.png",
+    "memorableMoments": []
+  },
+  "caroleensaba": {
+    "id": "caroleensaba",
+    "name": "Caroleen Saba",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "caroleensaba.png",
+    "memorableMoments": []
+  },
+  "cephasedet": {
+    "id": "cephasedet",
+    "name": "Cephas Edet",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "cephasedet.png",
+    "memorableMoments": []
+  },
+  "christianwilson": {
+    "id": "christianwilson",
+    "name": "Christian Wilson",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "christianwilson.png",
+    "memorableMoments": []
+  },
+  "ebonygarlington": {
+    "id": "ebonygarlington",
+    "name": "Ebony Garlington",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "ebonygarlington.png",
+    "memorableMoments": []
+  },
+  "elismall": {
+    "id": "elismall",
+    "name": "Eli Small",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "elismall.png",
+    "memorableMoments": []
+  },
+  "emmamclendon": {
+    "id": "emmamclendon",
+    "name": "Emma McLendon",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "emmamclendon.png",
+    "memorableMoments": []
+  },
+  "emmaroco": {
+    "id": "emmaroco",
+    "name": "Emma Roco",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "emmaroco.png",
+    "memorableMoments": []
+  },
+  "erinspiek": {
+    "id": "erinspiek",
+    "name": "Erin Spiek",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "erinspiek.png",
+    "memorableMoments": []
+  },
+  "gracielove": {
+    "id": "gracielove",
+    "name": "Gracie Love",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "gracielove.png",
+    "memorableMoments": []
+  },
+  "ifeoluwole": {
+    "id": "ifeoluwole",
+    "name": "Ife Oluwole",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "ifeoluwole.png",
     "memorableMoments": []
   },
   "johnrickert": {
@@ -1497,7 +1135,7 @@
     "tribes": [
       "jesters"
     ],
-    "placement": 9,
+    "placement": null,
     "stats": {},
     "bio": "",
     "image": "johnrickert.png",
@@ -1512,10 +1150,160 @@
     "tribes": [
       "jesters"
     ],
-    "placement": 12,
+    "placement": null,
     "stats": {},
     "bio": "",
     "image": "landonchen.png",
+    "memorableMoments": []
+  },
+  "lanningwelsch": {
+    "id": "lanningwelsch",
+    "name": "Lanning Welsch",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "lanningwelsch.png",
+    "memorableMoments": []
+  },
+  "leoleyva": {
+    "id": "leoleyva",
+    "name": "Leo Leyva",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "leoleyva.png",
+    "memorableMoments": []
+  },
+  "maliawilliams": {
+    "id": "maliawilliams",
+    "name": "Malia Williams",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "maliawilliams.png",
+    "memorableMoments": []
+  },
+  "masonscivally": {
+    "id": "masonscivally",
+    "name": "Mason Scivally",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "kraken"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "masonscivally.png",
+    "memorableMoments": []
+  },
+  "mathewnguyen": {
+    "id": "mathewnguyen",
+    "name": "Mathew Nguyen",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "mathewnguyen.png",
+    "memorableMoments": []
+  },
+  "mayamusallam": {
+    "id": "mayamusallam",
+    "name": "Maya Musallam",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "mayamusallam.png",
+    "memorableMoments": []
+  },
+  "myangonzales": {
+    "id": "myangonzales",
+    "name": "Myan Gonzales",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "myangonzales.png",
+    "memorableMoments": []
+  },
+  "niamachira": {
+    "id": "niamachira",
+    "name": "Nia Machira",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "niamachira.png",
+    "memorableMoments": []
+  },
+  "nickmoore": {
+    "id": "nickmoore",
+    "name": "Nick Moore",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "nickmoore.png",
+    "memorableMoments": []
+  },
+  "noorimran": {
+    "id": "noorimran",
+    "name": "Noor Imran",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "noorimran.png",
     "memorableMoments": []
   },
   "piperbuck": {
@@ -1527,10 +1315,25 @@
     "tribes": [
       "jesters"
     ],
-    "placement": 3,
+    "placement": null,
     "stats": {},
     "bio": "",
     "image": "piperbuck.png",
+    "memorableMoments": []
+  },
+  "presleymcgurl": {
+    "id": "presleymcgurl",
+    "name": "Presley McGurl",
+    "seasons": [
+      4
+    ],
+    "tribes": [
+      "flyingdutchman"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "presleymcgurl.png",
     "memorableMoments": []
   },
   "prestonravin": {
@@ -1542,10 +1345,55 @@
     "tribes": [
       "jesters"
     ],
-    "placement": 10,
+    "placement": null,
     "stats": {},
     "bio": "",
     "image": "prestonravin.png",
+    "memorableMoments": []
+  },
+  "sambizzell": {
+    "id": "sambizzell",
+    "name": "Sam Bizzell",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "athena"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "sambizzell.png",
+    "memorableMoments": []
+  },
+  "sapphirenunn": {
+    "id": "sapphirenunn",
+    "name": "Sapphire Nunn",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "aphrodite"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "sapphirenunn.png",
+    "memorableMoments": []
+  },
+  "skylerball": {
+    "id": "skylerball",
+    "name": "Skyler Ball",
+    "seasons": [
+      6
+    ],
+    "tribes": [
+      "cavaliers"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "skylerball.png",
     "memorableMoments": []
   },
   "sofiagomez": {
@@ -1557,10 +1405,25 @@
     "tribes": [
       "jesters"
     ],
-    "placement": 11,
+    "placement": null,
     "stats": {},
     "bio": "",
     "image": "sofiagomez.png",
+    "memorableMoments": []
+  },
+  "torstenweber": {
+    "id": "torstenweber",
+    "name": "Torsten Weber",
+    "seasons": [
+      5
+    ],
+    "tribes": [
+      "ares"
+    ],
+    "placement": null,
+    "stats": {},
+    "bio": "",
+    "image": "torstenweber.png",
     "memorableMoments": []
   },
   "zoëwestbrook": {
@@ -1572,7 +1435,7 @@
     "tribes": [
       "jesters"
     ],
-    "placement": 5,
+    "placement": null,
     "stats": {},
     "bio": "",
     "image": "zoëwestbrook.png",

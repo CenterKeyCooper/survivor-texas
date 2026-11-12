@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { Player, Tribe } from '@/types/data';
 import { getTribeColor } from '@/lib/data';
+import { useSpoilers } from '@/lib/SpoilerContext';
+import { applySpoilers } from '@/lib/spoilers';
 import Card from '../common/Card'
 import styles from './PlayerCard.module.css';
 import playerStyles from '../../styles/players.module.css';
@@ -10,7 +12,9 @@ interface PlayerCardProps {
   tribes?: Record<string, Tribe>;
 }
 
-export default function PlayerCard({ player, tribes }: PlayerCardProps) {
+export default function PlayerCard({ player: basePlayer, tribes }: PlayerCardProps) {
+  const { data } = useSpoilers();
+  const player = applySpoilers(basePlayer, data);
   const getPlacementText = (placement: number) => {
     if (placement === 1) return 'Winner';
     if (placement === 2) return 'Runner-up';
@@ -18,7 +22,8 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
     return `${placement}th Place`;
   };
 
-  const getPlacementClass = (placement: number) => {
+  const getPlacementClass = (placement: number | null) => {
+    if (placement == null) return '';
     if (placement === 1) return playerStyles.winner;
     if (placement <= 3) return playerStyles.finalist;
     return playerStyles.placement;
@@ -32,7 +37,7 @@ export default function PlayerCard({ player, tribes }: PlayerCardProps) {
   const cardContent = (
     <>
       <p className={`${styles.seasonPlacement} ${getPlacementClass(player.placement)}`}>
-        Season {player.seasons.join(', ')} - {getPlacementText(player.placement)}
+        Season {player.seasons.join(', ')}{player.placement != null && ` - ${getPlacementText(player.placement)}`}
       </p>
       <p className={styles.tribes}>
         {player.tribes.map((tribe, index) => (

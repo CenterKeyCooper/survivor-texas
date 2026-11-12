@@ -7,6 +7,9 @@ import { fetchSeasons, fetchPlayers, getPlayersBySeason, fetchTribes } from '@/l
 import PlayerCard from '@/components/players/PlayerCard';
 import Notes from '@/components/common/Notes';
 import styles from './SeasonDetailPage.module.css';
+import SpoilerGate from '@/components/common/SpoilerGate';
+import { useSpoilers } from '@/lib/SpoilerContext';
+import { applySpoilers, isLockedSeason, sortByPlacement } from '@/lib/spoilers';
 import SeasonHero from '@/components/seasons/SeasonHero';
 
 interface SeasonDetailPageProps {
@@ -15,9 +18,11 @@ interface SeasonDetailPageProps {
   tribes: Record<string, Tribe>;
 }
 
-export default function SeasonDetailPage({ season, players, tribes }: SeasonDetailPageProps) {
-  const finalists = players.filter(player => player.placement <= 3).sort((a, b) => a.placement - b.placement);
-  const otherPlayers = players.filter(player => player.placement > 3).sort((a, b) => a.placement - b.placement);
+export default function SeasonDetailPage({ season, players: basePlayers, tribes }: SeasonDetailPageProps) {
+  const { data } = useSpoilers();
+  const players = sortByPlacement(basePlayers.map(p => applySpoilers(p, data)));
+  const finalists = players.filter(player => player.placement != null && player.placement <= 3);
+  const otherPlayers = players.filter(player => player.placement == null || player.placement > 3);
   const isVerticalEpisodes = season.seasonNumber <= 2;
 
   return (
@@ -37,6 +42,8 @@ export default function SeasonDetailPage({ season, players, tribes }: SeasonDeta
           <p>{season.description}</p>
         </div>
       </section>
+
+      {isLockedSeason(season.seasonNumber) && <SpoilerGate />}
 
       {/* Finalists Section */}
       {finalists.length > 0 && (

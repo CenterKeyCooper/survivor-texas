@@ -12,14 +12,23 @@
         "episodesPlaylistId": "PLM6vF8NnFMfJBhn-IK32gkvDv2M5c4B0J",
         "images": [
             "brazos_c4.jpg",
-            "first_tribal.jpg", 
+            "first_tribal.jpg",
             "rio_c4.jpg"
         ],
         "players": [
-            "ameliabarnard", "marlacantu", "julianajohnson", "miagarza", "mayaadams",
-            "samanthadelaunay", "makenzielong", "kyliejoharris", "grantnorsworthy", "davidproctor",
-            "tyreelewis", "tylerearwood"
-        ]        
+            "ameliabarnard",
+            "marlacantu",
+            "julianajohnson",
+            "miagarza",
+            "mayaadams",
+            "samanthadelaunay",
+            "makenzielong",
+            "kyliejoharris",
+            "grantnorsworthy",
+            "davidproctor",
+            "tyreelewis",
+            "tylerearwood"
+        ]
     },
     {
         "seasonNumber": 2,
@@ -36,9 +45,18 @@
             "t1.jpg"
         ],
         "players": [
-            "cooperbrown", "orenediri", "chinonsoobiefule", "abhinavraotalluri", "danielwolfe", 
-            "justinokougbodu", "skysulaiman", "diyabhattacharya", "ishachhabra", "analadaniuski", 
-            "maryancamacho", "katarinacuellar"
+            "cooperbrown",
+            "orenediri",
+            "chinonsoobiefule",
+            "abhinavraotalluri",
+            "danielwolfe",
+            "justinokougbodu",
+            "skysulaiman",
+            "diyabhattacharya",
+            "ishachhabra",
+            "analadaniuski",
+            "maryancamacho",
+            "katarinacuellar"
         ]
     },
     {
@@ -55,9 +73,20 @@
             "pp_maze.JPG"
         ],
         "players": [
-            "trinityhawkins", "sarahsheriff", "alexiscrowl", "eunicebodunrinde", "katherinenix",
-            "krystalcortez", "jeffreyramirez", "catalinarodriguezkretz", "saylorblack", "royroyall",
-            "andrespineda", "octaviustyler", "michaelizzard", "jacksonluikens"
+            "trinityhawkins",
+            "sarahsheriff",
+            "alexiscrowl",
+            "eunicebodunrinde",
+            "katherinenix",
+            "krystalcortez",
+            "jeffreyramirez",
+            "catalinarodriguezkretz",
+            "saylorblack",
+            "royroyall",
+            "andrespineda",
+            "octaviustyler",
+            "michaelizzard",
+            "jacksonluikens"
         ]
     },
     {
@@ -66,7 +95,7 @@
         "location": "UT Austin Campus",
         "semesterFilmed": "Fall 2024",
         "description": "The best of the best return for the most competitive season yet.",
-        "winner": "jordanlee",
+        "winner": "",
         "logo": "s4_logo.png",
         "banner": "c2.jpg",
         "cover": "c2.jpg",
@@ -74,9 +103,22 @@
             "c2.jpg"
         ],
         "players": [
-            "benchristie", "alemhadzic", "cephasedet", "benjaminkofron", "presleymcgurl",
-            "masonscivally", "armandomartinez", "calebmorrow", "caroleensaba", "ebonygarlington",
-            "audreyreue", "lanningwelsch", "avagreer", "maliawilliams", "amirahbutler", "aliciacook"
+            "alemhadzic",
+            "aliciacook",
+            "amirahbutler",
+            "armandomartinez",
+            "audreyreue",
+            "avagreer",
+            "benchristie",
+            "benjaminkofron",
+            "calebmorrow",
+            "caroleensaba",
+            "cephasedet",
+            "ebonygarlington",
+            "lanningwelsch",
+            "maliawilliams",
+            "masonscivally",
+            "presleymcgurl"
         ]
     },
     {
@@ -85,7 +127,7 @@
         "location": "UT Austin Campus",
         "semesterFilmed": "Spring 2025",
         "description": "The first three tribe season and the most blindsides in Survivor Texas history. Watch to see which of Brain, Brawn, or Beauty will emerge victorious",
-        "winner": "elismall",
+        "winner": "",
         "logo": "s5_logo.png",
         "banner": "c2.jpg",
         "cover": "sam+mathew.JPG",
@@ -97,9 +139,21 @@
             "sam+mathew.JPG"
         ],
         "players": [
-            "mathewnguyen", "gracielove", "ifeoluwaoluwole", "sapphirenunn", "elismall",
-            "myangonzales", "christianwilson", "anjaligururaj", "nickmoore", "erinspiek",
-            "torstenweber", "emmamclendon", "sambizzell", "emmaroco", "mayamusallam"
+            "anjaligururaj",
+            "christianwilson",
+            "elismall",
+            "emmamclendon",
+            "emmaroco",
+            "erinspiek",
+            "gracielove",
+            "ifeoluwaoluwole",
+            "mathewnguyen",
+            "mayamusallam",
+            "myangonzales",
+            "nickmoore",
+            "sambizzell",
+            "sapphirenunn",
+            "torstenweber"
         ]
     }
 ]

@@ -16,7 +16,7 @@ export interface CrewMember {
     name: string;
     seasons: number[];
     tribes: string[];
-    placement: number;
+    placement: number | null; // null = hidden until spoilers are unlocked
     stats: Record<string, unknown>;
     bio: string;
     image: string;

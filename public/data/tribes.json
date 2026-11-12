@@ -90,14 +90,14 @@
     "name": "Flying Dutchman",
     "color": "#EB3F5F",
     "members": [
-      "presleymcgurl",
+      "amirahbutler",
       "armandomartinez",
+      "audreyreue",
+      "avagreer",
       "benchristie",
       "caroleensaba",
-      "audreyreue",
-      "amirahbutler",
       "cephasedet",
-      "avagreer"
+      "presleymcgurl"
     ],
     "stats": {}
   },
@@ -106,14 +106,14 @@
     "name": "Kraken",
     "color": "#B24CED",
     "members": [
-      "masonscivally",
-      "aliciacook",
-      "calebmorrow",
-      "benjaminkofron",
-      "ebonygarlington",
       "alemhadzic",
+      "aliciacook",
+      "benjaminkofron",
+      "calebmorrow",
+      "ebonygarlington",
+      "lanningwelsch",
       "maliawilliams",
-      "lanningwelsch"
+      "masonscivally"
     ],
     "stats": {}
   },
@@ -123,10 +123,10 @@
     "color": "#EDE7E1",
     "members": [
       "elismall",
-      "myangonzales",
-      "torstenweber",
       "emmamclendon",
-      "mayamusallam"
+      "mayamusallam",
+      "myangonzales",
+      "torstenweber"
     ],
     "stats": {}
   },
@@ -135,11 +135,11 @@
     "name": "Aphrodite",
     "color": "#EAC655",
     "members": [
-      "sapphirenunn",
-      "erinspiek",
       "emmaroco",
+      "erinspiek",
+      "ifeoluwole",
       "nickmoore",
-      "ifeoluwole"
+      "sapphirenunn"
     ],
     "stats": {}
   },
@@ -148,11 +148,11 @@
     "name": "Athena",
     "color": "#687D5D",
     "members": [
-      "sambizzell",
       "anjaliguruaj",
-      "mathewnguyen",
+      "christianwilson",
       "gracielove",
-      "christianwilson"
+      "mathewnguyen",
+      "sambizzell"
     ],
     "stats": {}
   },

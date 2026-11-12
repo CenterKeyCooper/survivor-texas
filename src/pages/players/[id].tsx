@@ -3,6 +3,9 @@ import { useRouter } from 'next/router';
 import { Player, Tribe } from '@/types/data';
 import { fetchPlayers, fetchTribes, getTribeColor } from '@/lib/data';
 import { useMediaQuery } from 'react-responsive';
+import SpoilerGate from '@/components/common/SpoilerGate';
+import { useSpoilers } from '@/lib/SpoilerContext';
+import { applySpoilers, isLockedPlayer } from '@/lib/spoilers';
 import Notes from '@/components/common/Notes';
 import styles from './PlayerDetailPage.module.css';
 import playerStyles from '../../styles/players.module.css';
@@ -10,7 +13,9 @@ import playerStyles from '../../styles/players.module.css';
 export default function PlayerDetailPage() {
   const router = useRouter();
   const { id } = router.query;
-  const [player, setPlayer] = useState<Player | null>(null);
+  const { data: spoilerData } = useSpoilers();
+  const [basePlayer, setPlayer] = useState<Player | null>(null);
+  const player = basePlayer ? applySpoilers(basePlayer, spoilerData) : null;
   const [tribes, setTribes] = useState<Record<string, Tribe>>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -49,7 +54,8 @@ export default function PlayerDetailPage() {
     return `${placement}th Place`;
   };
 
-  const getPlacementClass = (placement: number) => {
+  const getPlacementClass = (placement: number | null) => {
+    if (placement == null) return '';
     if (placement === 1) return playerStyles.winner;
     if (placement <= 3) return playerStyles.finalist;
     return playerStyles.placement;
@@ -82,9 +88,11 @@ export default function PlayerDetailPage() {
           <div className="vertical-flex">
             <div>
               <h1 style={{ color: getPlayerTribeColor() }}>{player.name}</h1>
-              <p className={`${getPlacementClass(player.placement)}`}>
-                {getPlacementText(player.placement)}
-              </p>
+              {player.placement != null && (
+                <p className={`${getPlacementClass(player.placement)}`}>
+                  {getPlacementText(player.placement)}
+                </p>
+              )}
               <div className={`horizontal-flex ${styles.details}`}>
                 <p><strong>Season:</strong> {player.seasons.join(', ')}</p>
                 <p><strong>Tribes:</strong> {player.tribes.map((tribe, index) => (
@@ -107,9 +115,11 @@ export default function PlayerDetailPage() {
           />
               <h1 style={{ color: getPlayerTribeColor() }}>{player.name}</h1>
               <div className={`horizontal-flex ${styles.details}`}>
-              <p className={`${getPlacementClass(player.placement)}`}>
-                {getPlacementText(player.placement)}
-              </p>
+              {player.placement != null && (
+                <p className={`${getPlacementClass(player.placement)}`}>
+                  {getPlacementText(player.placement)}
+                </p>
+              )}
                 <p><strong>Season:</strong> {player.seasons.join(', ')}</p>
                 <p><strong>Tribes:</strong> {player.tribes.map((tribe, index) => (
                   <span key={tribe} style={{ color: getTribeNameColor(tribe) }}>
@@ -124,6 +134,8 @@ export default function PlayerDetailPage() {
               )}
         </div>}
       </div>
+
+      {isLockedPlayer(player) && <SpoilerGate />}
 
       {player.memorableMoments.length > 0 && (
         <div className={`sectionWithBorder ${styles.momentsSection}`}>
