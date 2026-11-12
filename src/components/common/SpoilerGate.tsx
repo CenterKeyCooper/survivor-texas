@@ -30,16 +30,16 @@ export default function SpoilerGate() {
 
   return (
     <form className={styles.gate} onSubmit={submit}>
-      <span>Placements and boot order for unreleased seasons are hidden.</span>
+      <span>Spoilers hidden</span>
       <input
         type="password"
         value={password}
         onChange={e => setPassword(e.target.value)}
-        placeholder="Spoiler password"
+        placeholder="password"
         className={styles.input}
         aria-label="Spoiler password"
       />
-      <button type="submit" className="small-btn" disabled={busy || !password}>Unlock</button>
+      <button type="submit" className={styles.link} disabled={busy || !password}>Unlock</button>
       {error && <span className={styles.error}>Incorrect password</span>}
     </form>
   );
