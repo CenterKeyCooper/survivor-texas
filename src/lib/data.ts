@@ -114,11 +114,11 @@ export function getWinners(players: Record<string, Player>): Player[] {
 }
 
 export function getFinalists(players: Record<string, Player>): Player[] {
-  return Object.values(players).filter(player => player.placement <= 3);
+  return Object.values(players).filter(player => player.placement != null && player.placement <= 3);
 }
 
 export function getPlayersSortedByPlacement(players: Record<string, Player>): Player[] {
-  return Object.values(players).sort((a, b) => a.placement - b.placement);
+  return Object.values(players).sort((a, b) => (a.placement ?? Number.MAX_SAFE_INTEGER) - (b.placement ?? Number.MAX_SAFE_INTEGER));
 }
 
 export async function fetchTribes(): Promise<Record<string, Tribe>> {
